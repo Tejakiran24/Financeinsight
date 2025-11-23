@@ -2,3 +2,5 @@ data/raw/
 data/clean/*.csv
 *.log
 __pycache__/
+echo "data/raw/" >> .gitignore
+echo "data/clean/" >> .gitignore
