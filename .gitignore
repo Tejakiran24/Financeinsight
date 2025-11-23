@@ -1,0 +1,4 @@
+data/raw/
+data/clean/*.csv
+*.log
+__pycache__/
