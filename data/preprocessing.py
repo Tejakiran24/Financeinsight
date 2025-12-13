@@ -1,35 +1,64 @@
 import pandas as pd
 import re
 import spacy
-import ast
 
+# Load SpaCy English model (make sure installed)
 nlp = spacy.load("en_core_web_sm")
 
-# Load merged dataset
-data = pd.read_csv(r"D:\Financeinsight\data\clean\merged.csv")
+# Load your dataset
+df = pd.read_csv(r"D:\Financeinsight\data\clean\NER_with_sentences.csv")
 
-# Convert tokens (string list) into sentence
-def tokens_to_text(token_string):
-    try:
-        tokens = ast.literal_eval(token_string)
-        return " ".join(tokens)
-    except:
-        return None
-
-data["text"] = data["tokens"].apply(tokens_to_text)
-
-# Preprocess text
-def preprocess(text):
+# -----------------------------
+# 1️⃣ REMOVE URLs + SEC LINKS
+# -----------------------------
+def remove_urls(text):
     if pd.isna(text):
         return ""
-    text = text.replace("\n", " ")
-    text = re.sub(r'[\$,€₹]', ' CUR ', text)
-    text = re.sub(r'[^A-Za-z0-9\s\.\,\%]', ' ', text)
-    doc = nlp(text)
-    return " ".join([token.lemma_.lower() 
-                     for token in doc if not token.is_stop])
+    return re.sub(r'http\S+|www\S+|sec\.gov\S+', '', text)
 
-data["clean_text"] = data["text"].apply(preprocess)
 
-data.to_csv(r"D:\Financeinsight\data\clean\final_clean.csv", index=False)
-print("Preprocessing Completed Successfully!")
+# -----------------------------
+# 2️⃣ REMOVE SPECIAL SYMBOLS
+# (keep only letters, numbers, spaces, ., ,)
+# -----------------------------
+def remove_special(text):
+    text = re.sub(r"[^A-Za-z0-9\s.,]", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+# -----------------------------
+# 3️⃣ FINAL CLEANING PIPELINE
+# -----------------------------
+def clean_text(text):
+    text = text.lower()
+    text = remove_urls(text)
+    text = remove_special(text)
+    return text
+
+
+df["clean_text"] = df["text_sentence"].apply(clean_text)
+
+
+# -----------------------------
+# 4️⃣ ADD PARTS OF SPEECH (POS TAGS)
+# Example: "The company reported earnings" → 
+# "DET NOUN VERB NOUN"
+# -----------------------------
+def get_pos_tags(sentence):
+    if pd.isna(sentence):
+        return ""
+    doc = nlp(sentence)
+    return " ".join([token.pos_ for token in doc])
+
+
+df["pos_tags"] = df["clean_text"].apply(get_pos_tags)
+
+
+# -----------------------------
+# 5️⃣ SAVE FINAL CLEAN DATASET
+# -----------------------------
+df.to_csv(r"D:\Financeinsight\data\clean\NER_preprocessed_final.csv", index=False)
+
+print("Preprocessing completed!")
+print("Final dataset saved.")

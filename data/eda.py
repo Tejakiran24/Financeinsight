@@ -1,51 +1,128 @@
+import json
 import pandas as pd
 import matplotlib.pyplot as plt
-from wordcloud import WordCloud
 from collections import Counter
-import seaborn as sns
-import os
+from wordcloud import WordCloud
 
-# Create output directory if not exists
-os.makedirs(r"D:\Financeinsight\results\eda", exist_ok=True)
+# ---------------------------------
+# STEP 1: Load JSON file
+# ---------------------------------
+FILE_PATH = r"D:\Financeinsight\data\clean\labelstudio_cleaned.json"
 
-# Load cleaned dataset
-data = pd.read_csv(r"D:\Financeinsight\data\clean\final_clean.csv")
+with open(FILE_PATH, "r", encoding="utf-8") as f:
+    data = json.load(f)
 
-# =======================
-# 1️⃣ WORD CLOUD
-# =======================
-all_text = " ".join(data["clean_text"].dropna())
-wc = WordCloud(width=1200, height=600, background_color="white").generate(all_text)
-plt.figure(figsize=(14, 7))
-plt.imshow(wc, interpolation="bilinear")
+print("Total Records:", len(data))
+
+
+# ---------------------------------
+# STEP 2: Extract text and entities
+# ---------------------------------
+texts = []
+entity_labels = []
+entity_values = []
+entities_per_text = []
+
+for record in data:
+    text = record.get("data", {}).get("text", "")
+    texts.append(text)
+
+    count = 0
+    annotations = record.get("annotations", [])
+    predictions = record.get("predictions", [])
+    source = annotations if annotations else predictions
+
+    for ann in source:
+        for res in ann.get("result", []):
+            labels = res.get("value", {}).get("labels", [])
+            value = res.get("value", {}).get("text", "")
+
+            if labels:
+                entity_labels.append(labels[0])
+                entity_values.append(value)
+                count += 1
+
+    entities_per_text.append(count)
+
+
+# ---------------------------------
+# STEP 3: Create DataFrame
+# ---------------------------------
+df = pd.DataFrame({
+    "text": texts,
+    "text_length": [len(t) for t in texts],
+    "entity_count": entities_per_text
+})
+
+print("\nSample Data:")
+print(df.head())
+
+
+# ---------------------------------
+# STEP 4: Text Length Statistics
+# ---------------------------------
+print("\nText Length Statistics:")
+print(df["text_length"].describe())
+
+
+# ---------------------------------
+# STEP 5: Entity Distribution
+# ---------------------------------
+entity_counts = Counter(entity_labels)
+
+print("\nEntity Distribution:")
+for entity, count in entity_counts.items():
+    print(f"{entity}: {count}")
+
+
+# ---------------------------------
+# STEP 6: Bar Plot – Entity Types
+# ---------------------------------
+plt.figure()
+plt.bar(entity_counts.keys(), entity_counts.values())
+plt.xlabel("Entity Type")
+plt.ylabel("Frequency")
+plt.title("Distribution of Financial Entity Types")
+plt.show()
+
+
+# ---------------------------------
+# STEP 7: Word Cloud – Financial Text
+# ---------------------------------
+all_text = " ".join(texts)
+
+wordcloud = WordCloud(
+    width=900,
+    height=450,
+    background_color="white"
+).generate(all_text)
+
+plt.figure(figsize=(10, 5))
+plt.imshow(wordcloud)
 plt.axis("off")
 plt.title("Word Cloud of Financial Text")
-plt.savefig(r"D:\Financeinsight\results\eda\wordcloud.png")
-plt.close()
+plt.show()
 
-# =======================
-# 2️⃣ TOP WORD FREQUENCY BAR CHART
-# =======================
-words = all_text.split()
-counts = Counter(words).most_common(20)
-freq_df = pd.DataFrame(counts, columns=["word", "count"])
-plt.figure(figsize=(10, 8))
-sns.barplot(x="count", y="word", data=freq_df)
-plt.title("Top 20 Most Frequent Words")
-plt.tight_layout()
-plt.savefig(r"D:\Financeinsight\results\eda\word_frequency.png")
-plt.close()
 
-# =======================
-# 3️⃣ SENTENCE LENGTH DISTRIBUTION
-# =======================
-data['text_length'] = data["clean_text"].apply(lambda x: len(str(x).split()))
-plt.figure(figsize=(12, 6))
-sns.histplot(data['text_length'], bins=40, kde=True)
-plt.title("Sentence Length Distribution")
-plt.xlabel("Number of Words")
-plt.ylabel("Frequency")
-plt.savefig(r"D:\Financeinsight\results\eda\sentence_length.png")
-plt.close()
+# ---------------------------------
+# STEP 8: Scatter Plot – Text Length vs Entity Count
+# ---------------------------------
+plt.figure()
+plt.scatter(df["text_length"], df["entity_count"])
+plt.xlabel("Text Length")
+plt.ylabel("Number of Entities")
+plt.title("Text Length vs Entity Count")
+plt.show()
 
-print("EDA Completed Successfully! All images saved in results/eda/")
+
+# ---------------------------------
+# STEP 9: Class Imbalance Table
+# ---------------------------------
+entity_df = pd.DataFrame(entity_counts.items(), columns=["Entity", "Count"])
+entity_df["Percentage"] = (entity_df["Count"] / entity_df["Count"].sum()) * 100
+
+print("\nEntity Distribution with Percentage:")
+print(entity_df)
+
+
+print("\nEDA COMPLETED SUCCESSFULLY ✅")
