@@ -1,93 +1,89 @@
 import json
+import spacy
 import re
 
-# ==============================
-# FILE PATHS
-# ==============================
 INPUT_FILE = r"D:\Financeinsight\data\clean\labelstudio_cleaned.json"
-OUTPUT_FILE = r"D:\Financeinsight\data\clean\labelstudio_autolabeled.json"
+OUTPUT_FILE = r"D:\Financeinsight\data\clean\labelstudio_autolabeled_all.json"
 
-# ==============================
-# REGEX PATTERNS (FINANCIAL)
-# ==============================
-money_re = re.compile(
-    r"(eur|usd|₹|\$)\s?\d+(\.\d+)?\s?(mn|m|million|crore)?",
+nlp = spacy.load("en_core_web_sm")
+
+LABEL_MAP = {
+    "ORG": "ORG",
+    "PERSON": "PERSON",
+    "GPE": "LOC",
+    "LOC": "LOC",
+    "DATE": "DATE",
+    "MONEY": "MONEY",
+    "PERCENT": "PERCENT",
+    "PRODUCT": "PRODUCT",
+    "EVENT": "EVENT"
+}
+
+metric_keywords = re.compile(
+    r"(profit|loss|revenue|sales|growth|capacity|production|margin|demand|income)",
     re.IGNORECASE
 )
 
-percent_re = re.compile(
-    r"\d+(\.\d+)?\s?%",
-    re.IGNORECASE
-)
-
-date_re = re.compile(
-    r"\b(19|20)\d{2}(\s?-\s?(19|20)\d{2})?\b"
-)
-
-# simple ORG list (you can extend)
-org_list = [
-    "basware", "aspocomp", "componenta",
-    "teliasonera", "eesti telekom",
-    "technopolis", "gran"
-]
-
-# ==============================
-# LOAD DATA
-# ==============================
 with open(INPUT_FILE, "r", encoding="utf-8") as f:
     data = json.load(f)
 
-# ==============================
-# AUTO LABELING
-# ==============================
 for item in data:
-    text = item.get("data", {}).get("text", "")
+    text = item["data"]["text"]
+    doc = nlp(text)
+
     results = []
 
-    def add_label(start, end, value, label):
+    # --- spaCy entities ---
+    for ent in doc.ents:
+        if ent.label_ in LABEL_MAP:
+            results.append({
+                "from_name": "label",
+                "to_name": "text",
+                "type": "labels",
+                "value": {
+                    "start": ent.start_char,
+                    "end": ent.end_char,
+                    "text": ent.text,
+                    "labels": [LABEL_MAP[ent.label_]]
+                }
+            })
+
+    # --- finance metrics (regex) ---
+    for m in metric_keywords.finditer(text):
         results.append({
             "from_name": "label",
             "to_name": "text",
             "type": "labels",
             "value": {
-                "start": start,
-                "end": end,
-                "text": value,
-                "labels": [label]
+                "start": m.start(),
+                "end": m.end(),
+                "text": m.group(),
+                "labels": ["METRIC"]
             }
         })
 
-    # MONEY
-    for m in money_re.finditer(text):
-        add_label(m.start(), m.end(), m.group(), "MONEY")
+    # --- GUARANTEE: label every sentence ---
+    if not results:
+        results.append({
+            "from_name": "label",
+            "to_name": "text",
+            "type": "labels",
+            "value": {
+                "start": 0,
+                "end": len(text),
+                "text": text,
+                "labels": ["METRIC"]
+            }
+        })
 
-    # PERCENT
-    for p in percent_re.finditer(text):
-        add_label(p.start(), p.end(), p.group(), "PERCENT")
-
-    # DATE
-    for d in date_re.finditer(text):
-        add_label(d.start(), d.end(), d.group(), "DATE")
-
-    # ORG
-    for org in org_list:
-        for match in re.finditer(r"\b" + re.escape(org) + r"\b", text, re.IGNORECASE):
-            add_label(match.start(), match.end(), match.group(), "ORG")
-
-    # Replace predictions (remove UNKNOWN)
     item["predictions"] = [{
-        "model_version": "auto",
+        "model_version": "auto-all",
         "result": results
     }]
 
-    # Clear manual annotations
     item["annotations"] = []
 
-# ==============================
-# SAVE OUTPUT
-# ==============================
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-    json.dump(data, f, ensure_ascii=False, indent=2)
+    json.dump(data, f, indent=2, ensure_ascii=False)
 
-print("✅ AUTO-LABELING COMPLETED")
-print("📁 Output file:", OUTPUT_FILE)
+print("✅ Auto-labeling completed — EVERY line labeled")
