@@ -10,8 +10,8 @@ from seqeval.metrics import precision_score, recall_score, f1_score, classificat
 
 
 # ===== PATHS =====
-TRAIN_PATH = r"C:\Users\Admin\OneDrive\Desktop\project\clean\prepossedfiles\trainf2.txt"
-TEST_PATH  = r"C:\Users\Admin\OneDrive\Desktop\project\clean\prepossedfiles\testf2.txt"
+TRAIN_PATH = r"D:\Financeinsight\new\trainf2.txt"
+TEST_PATH  = r"D:\Financeinsight\new\testf2.txt"
 MODEL_NAME = "ProsusAI/finbert"
 OUTPUT_DIR = "./finbert_ner_model"
 

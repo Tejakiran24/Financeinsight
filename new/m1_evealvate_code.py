@@ -9,10 +9,11 @@ from seqeval.metrics import classification_report
 
 
 # ================= PATHS =================
-TEST_PATH = r"C:\Users\Admin\OneDrive\Desktop\project\clean\prepossedfiles\testf2.txt"
+TEST_PATH = r"D:\Financeinsight\new\testf2.txt"
 #MODEL_DIR = "./finbert_ner_model" 
      # trained model folder
-MODEL_DIR = "./finbert_ner_model/checkpoint-675"
+MODEL_DIR = r"D:\Financeinsight\new\finbert_ner_model\checkpoint-675"
+
 
 BASE_MODEL = "ProsusAI/finbert"
 

@@ -2,8 +2,8 @@ from transformers import AutoTokenizer
 from collections import defaultdict
 
 # ===== PATHS =====
-TRAIN_PATH = r"C:\Users\Admin\OneDrive\Desktop\project\clean\prepossedfiles\trainf2.txt"
-TEST_PATH  = r"C:\Users\Admin\OneDrive\Desktop\project\clean\prepossedfiles\testf2.txt"
+TRAIN_PATH = r"D:\Financeinsight\new\trainf2.txt"
+TEST_PATH  = r"D:\Financeinsight\new\testf2.txt"
 
 MODEL_NAME = "ProsusAI/finbert"
 #C:\Users\Admin\OneDrive\Desktop\project\clean\prepossedfiles\trainf2.txt
