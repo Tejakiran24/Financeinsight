@@ -1,0 +1,900 @@
+{
+    "MD&A": [
+        {
+            "metric": "[kesko agro eesti] \u2192 ORG  [sales] \u2192 METRIC  [2007] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[35 %] \u2192 PERCENT  [share] \u2192 PRODUCT  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profitable] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [2009] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[revenues] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [2005] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[peugeot] \u2192 ORG  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[loss] \u2192 METRIC  [eur 32] \u2192 MONEY",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[revenue] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profit] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [profit] \u2192 METRIC  [2006] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[eps] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [2010] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profitable] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[steps] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[2008] \u2192 DATE  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[teliasonera] \u2192 ORG  [ebitda] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profitable] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [Sweden] \u2192 LOC  [Russia] \u2192 LOC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[Finland] \u2192 LOC  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[revenue] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[2010] \u2192 DATE  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[eps] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profit] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[earnings] \u2192 EVENT  [income] \u2192 METRIC  [shareholding] \u2192 PRODUCT  [wartsila] \u2192 ORG",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[revenue] \u2192 METRIC  [earnings] \u2192 EVENT  [Finland] \u2192 LOC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profit] \u2192 METRIC  [2005] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profitability] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[kesko] \u2192 ORG  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [2005] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profit] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [Sweden] \u2192 LOC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profit] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [Finland] \u2192 LOC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profitability] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [acquisition] \u2192 EVENT",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[Helsinki] \u2192 LOC  [profit] \u2192 METRIC  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[share] \u2192 PRODUCT  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[revenue] \u2192 METRIC  [$ 743 million] \u2192 MONEY",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[Helsinki] \u2192 LOC  [profit] \u2192 METRIC  [earnings] \u2192 EVENT  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profit] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [India] \u2192 LOC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profit] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[share] \u2192 PRODUCT  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[nokia] \u2192 ORG  [profit] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [2006] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [share] \u2192 PRODUCT  [Finland] \u2192 LOC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[Helsinki] \u2192 LOC  [profit] \u2192 METRIC  [dec] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[rautakesko] \u2192 ORG  [Russia] \u2192 LOC  [2005] \u2192 DATE  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [eur 60 million] \u2192 MONEY",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[Helsinki] \u2192 LOC  [kesko] \u2192 ORG  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profit] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[coq] \u2192 ORG  [sales] \u2192 METRIC  [2004] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[losses] \u2192 METRIC  [2010] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[revenue] \u2192 METRIC  [$ 964 million] \u2192 MONEY",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [Russia] \u2192 LOC  [Ukraine] \u2192 LOC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profitability] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profit] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profit] \u2192 METRIC  [$ 65 million] \u2192 MONEY  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [Finland] \u2192 LOC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[nordea group] \u2192 ORG  [profit] \u2192 METRIC  [2010] \u2192 DATE  [revenue] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[2008] \u2192 DATE  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[seppala] \u2192 ORG  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [share] \u2192 PRODUCT",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [2008] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[2007] \u2192 DATE  [revenue] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [may] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [2006] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [share] \u2192 PRODUCT  [2010] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [2004] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[kesko] \u2192 ORG  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[Finland] \u2192 LOC  [2007] \u2192 DATE  [sales] \u2192 METRIC  [loss] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[eps] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[marimekko group] \u2192 ORG  [sales] \u2192 METRIC  [10 %] \u2192 PERCENT",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profit] \u2192 METRIC  [10 %] \u2192 PERCENT",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[50 %] \u2192 PERCENT  [sales] \u2192 METRIC  [Finland] \u2192 LOC  [profitability] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profit] \u2192 METRIC  [dec] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [eur42m] \u2192 MONEY",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[profitability] \u2192 METRIC  [earnings] \u2192 EVENT  [2007] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [Russia] \u2192 LOC  [stockmann] \u2192 PRODUCT",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[aspo] \u2192 ORG  [sales] \u2192 METRIC  [kaukomarkkinat] \u2192 ORG",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [2005] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[stora] \u2192 ORG  [profit] \u2192 METRIC  [eur 197mn] \u2192 MONEY",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [40 %] \u2192 PERCENT",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[1994] \u2192 DATE  [revenue] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[Finland] \u2192 LOC  [outokumpu] \u2192 ORG  [profit] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[kesko group] \u2192 ORG  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[revenues] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[income] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [2004] \u2192 DATE",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[2010] \u2192 DATE  [sales] \u2192 METRIC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[acquisition] \u2192 EVENT  [sales] \u2192 METRIC  [Russian] \u2192 LOC",
+            "type": "qualitative_insight"
+        },
+        {
+            "metric": "[sales] \u2192 METRIC  [$ 44million] \u2192 MONEY  [kemira] \u2192 ORG  [jan.] \u2192 DATE",
+            "type": "qualitative_insight"
+        }
+    ],
+    "Financial_Statements": [
+        "[ahlstrom corporation] \u2192 ORG  [stock] \u2192 PRODUCT  [13.02.2008] \u2192 DATE  [ahlstrom] \u2192 ORG  [acquisition] \u2192 EVENT",
+        "[dividend] \u2192 EVENT  [2010] \u2192 DATE  [shareholders] \u2192 PRODUCT  [2010] \u2192 DATE",
+        "[revenues] \u2192 METRIC  [3.4 %] \u2192 PERCENT  [0.4 %] \u2192 PERCENT",
+        "[apr] \u2192 DATE  [2009] \u2192 DATE  [loss] \u2192 METRIC  [eur 189] \u2192 MONEY  [usd 245] \u2192 MONEY  [2009] \u2192 DATE  [eur 10] \u2192 MONEY  [America] \u2192 LOC",
+        "[earnings] \u2192 EVENT  [2009] \u2192 DATE  [2008] \u2192 DATE",
+        "[earnings] \u2192 EVENT  [share] \u2192 PRODUCT  [eps] \u2192 METRIC  [eur 0.56] \u2192 MONEY  [eur 0.38] \u2192 MONEY",
+        "[65.4 %] \u2192 PERCENT  [sales] \u2192 METRIC",
+        "[huhtamaki oyj] \u2192 ORG  [stock] \u2192 PRODUCT  [16.12.2008] \u2192 DATE  [Finland] \u2192 LOC",
+        "[may 2009] \u2192 DATE  [biohit oyj] \u2192 ORG  [may 2009] \u2192 DATE  [loss] \u2192 METRIC  [eur0] \u2192 MONEY  [usd0] \u2192 MONEY  [2009] \u2192 DATE  [eur0] \u2192 MONEY  [2008] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 83.0 mn] \u2192 MONEY  [eur 23.5 mn] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur36m] \u2192 MONEY  [eur27m] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [sales] \u2192 METRIC  [eur21] \u2192 MONEY  [eur196] \u2192 MONEY  [2005] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 0.6 mn] \u2192 MONEY  [loss] \u2192 METRIC  [eur 19mn] \u2192 MONEY",
+        "[2010] \u2192 DATE  [eur 9.6 mn] \u2192 MONEY  [eur 0.5 mn] \u2192 MONEY  [2009] \u2192 DATE",
+        "[plc] \u2192 ORG  [Helsinki] \u2192 LOC  [eur150m] \u2192 MONEY  [eur50m] \u2192 MONEY",
+        "[91.2 %] \u2192 PERCENT  [88.8 %] \u2192 PERCENT  [2006] \u2192 DATE",
+        "[sales] \u2192 METRIC  [12 %] \u2192 PERCENT  [eur 159.5 million] \u2192 MONEY  [6 %] \u2192 PERCENT",
+        "[profit] \u2192 METRIC  [sales] \u2192 METRIC  [eur15] \u2192 MONEY  [eur131] \u2192 MONEY  [2005] \u2192 DATE",
+        "[eur2] \u2192 MONEY  [2008] \u2192 DATE",
+        "[sales] \u2192 METRIC  [$ 14.8] \u2192 MONEY  [2005] \u2192 DATE",
+        "[2011] \u2192 DATE  [marimekko oyj] \u2192 ORG  [profit] \u2192 METRIC  [eur8] \u2192 MONEY  [2010] \u2192 DATE  [eur6] \u2192 MONEY  [2009] \u2192 DATE",
+        "[dividend] \u2192 EVENT  [2008] \u2192 DATE  [shareholders] \u2192 PRODUCT  [2008] \u2192 DATE",
+        "[jun] \u2192 DATE  [2009] \u2192 DATE  [eur 900 million] \u2192 MONEY  [usd 1.3 bn] \u2192 MONEY",
+        "[2008] \u2192 DATE  [sales] \u2192 METRIC  [eur 9.3 million] \u2192 MONEY  [usd 13.1] \u2192 MONEY",
+        "[share] \u2192 PRODUCT  [eur0] \u2192 MONEY  [2013] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 825mn] \u2192 MONEY  [eur 763mn] \u2192 MONEY  [2004] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 37] \u2192 MONEY  [eur 37.2 mn] \u2192 MONEY  [2006] \u2192 DATE",
+        "[revenue] \u2192 METRIC  [3.2 %] \u2192 PERCENT  [12.2 %] \u2192 PERCENT",
+        "[profit] \u2192 METRIC  [42.5 %] \u2192 PERCENT  [2004] \u2192 DATE",
+        "[plc] \u2192 ORG  [profit] \u2192 METRIC  [$ 1.7] \u2192 MONEY  [2006] \u2192 DATE  [$ 1.5 mln] \u2192 MONEY  [2005.] \u2192 DATE",
+        "[profit] \u2192 METRIC  [$ 12.4] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [Finland] \u2192 LOC  [3.9 %] \u2192 PERCENT  [0.7 %] \u2192 PERCENT",
+        "[pohjola] \u2192 ORG  [plc] \u2192 ORG  [eur 40 million] \u2192 MONEY  [usd 51.2] \u2192 MONEY  [bond] \u2192 PRODUCT  [2010] \u2192 DATE  [2010] \u2192 DATE  [2010] \u2192 DATE",
+        "[altia] \u2192 ORG  [profit] \u2192 METRIC  [eur 47 million] \u2192 MONEY  [eur 6.6 million] \u2192 MONEY",
+        "[Russia] \u2192 LOC  [70 %] \u2192 PERCENT  [sales] \u2192 METRIC  [20 %] \u2192 PERCENT",
+        "[profit] \u2192 METRIC  [sales] \u2192 METRIC  [26.6 %] \u2192 PERCENT  [3.4 %] \u2192 PERCENT  [2006] \u2192 DATE",
+        "[2011] \u2192 DATE  [profit] \u2192 METRIC  [eur2] \u2192 MONEY  [2010] \u2192 DATE  [eur995] \u2192 MONEY  [2009] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 3.11 mn] \u2192 MONEY  [eur 1.22 mn] \u2192 MONEY  [2009] \u2192 DATE",
+        "[shares] \u2192 PRODUCT  [1.2 %] \u2192 PERCENT  [2 %] \u2192 PERCENT  [1.7 %] \u2192 PERCENT",
+        "[2010] \u2192 DATE  [profit] \u2192 METRIC  [eur41m] \u2192 MONEY  [eur30m] \u2192 MONEY  [2009] \u2192 DATE",
+        "[nov] \u2192 DATE  [2008] \u2192 DATE  [loss] \u2192 METRIC  [eur 2 million] \u2192 MONEY  [usd 2.5] \u2192 MONEY  [2008] \u2192 DATE  [eur 57] \u2192 MONEY  [2007] \u2192 DATE  [$ 6.9] \u2192 MONEY  [$ 83.7 mln] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [7.0 %] \u2192 PERCENT  [eur 30.8 mn] \u2192 MONEY",
+        "[atria] \u2192 ORG  [eesti] \u2192 ORG  [eur 9.59 mn] \u2192 MONEY  [usd 14.19 mn] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [sales] \u2192 METRIC  [eur0] \u2192 MONEY  [eur13] \u2192 MONEY  [2005] \u2192 DATE",
+        "[eps] \u2192 METRIC  [eur0] \u2192 MONEY  [eur0] \u2192 MONEY  [2008] \u2192 DATE  [sales] \u2192 METRIC  [eur15] \u2192 MONEY  [2.8 %] \u2192 PERCENT  [eur14] \u2192 MONEY  [2008] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 9.8 mn] \u2192 MONEY  [eur 6.0 mn] \u2192 MONEY  [2004] \u2192 DATE",
+        "[sales] \u2192 METRIC  [eur 41.8 mn] \u2192 MONEY  [2007] \u2192 DATE  [2008] \u2192 DATE  [11.2 %] \u2192 PERCENT",
+        "[2010] \u2192 DATE  [sales] \u2192 METRIC  [2 %] \u2192 PERCENT  [eur5] \u2192 MONEY  [2010] \u2192 DATE  [Finland] \u2192 LOC",
+        "[eur 2] \u2192 MONEY  [eur 2] \u2192 MONEY  [2006] \u2192 DATE",
+        "[19.6 %] \u2192 PERCENT",
+        "[2005] \u2192 DATE  [sales] \u2192 METRIC  [eur 2.3 billion] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [11.2 %] \u2192 PERCENT  [11.7 %] \u2192 PERCENT",
+        "[profit] \u2192 METRIC  [eur 21.9 million] \u2192 MONEY  [eur 3.1 million] \u2192 MONEY",
+        "[may] \u2192 DATE  [2006] \u2192 DATE  [share] \u2192 PRODUCT  [eur 10.22] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [145.1 %] \u2192 PERCENT  [eur 8.3 mn] \u2192 MONEY  [eur 3.4 mn] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [2009] \u2192 DATE  [2010] \u2192 DATE",
+        "[2009] \u2192 DATE  [eur121m] \u2192 MONEY  [eur97m] \u2192 MONEY",
+        "[1964] \u2192 DATE  [2007] \u2192 DATE",
+        "[income] \u2192 METRIC  [eur 6.8 mn] \u2192 MONEY  [eur 3.2 mn] \u2192 MONEY  [eur 5.2 mn] \u2192 MONEY  [eur 1.5 mn] \u2192 MONEY  [2009] \u2192 DATE",
+        "[2008] \u2192 DATE  [sales] \u2192 METRIC  [2 %] \u2192 PERCENT  [eur 1] \u2192 MONEY  [eur 1] \u2192 MONEY  [2007] \u2192 DATE",
+        "[eur 1.2 mn] \u2192 MONEY",
+        "[eur 52.7 mn] \u2192 MONEY  [eur 15.6 mn] \u2192 MONEY  [2007] \u2192 DATE",
+        "[stock] \u2192 PRODUCT  [1.8 %] \u2192 PERCENT",
+        "[software] \u2192 PRODUCT  [Finland] \u2192 LOC  [eur 1.7 million] \u2192 MONEY  [usd 2m] \u2192 MONEY  [2010] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 21.1 mn] \u2192 MONEY  [eur 18.6 mn] \u2192 MONEY  [2007] \u2192 DATE  [9.7 %] \u2192 PERCENT  [sales] \u2192 METRIC",
+        "[eur1 usd1] \u2192 MONEY  [sales] \u2192 METRIC  [18.5 %] \u2192 PERCENT  [eur167] \u2192 MONEY",
+        "[eur 25.8 million] \u2192 MONEY",
+        "[2010] \u2192 DATE  [profit] \u2192 METRIC  [eur 3.1 million] \u2192 MONEY  [eur 2.5 million] \u2192 MONEY  [2009] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 26.7 mn] \u2192 MONEY  [eur 14.9 mn] \u2192 MONEY  [2006] \u2192 DATE",
+        "[nov] \u2192 DATE  [2008] \u2192 DATE  [profit] \u2192 METRIC  [eur 18 million] \u2192 MONEY  [usd 23.1] \u2192 MONEY  [2008] \u2192 DATE  [eur 1] \u2192 MONEY  [oct] \u2192 DATE  [2008] \u2192 DATE  [konecranes oyj] \u2192 ORG  [eur 116.6 million] \u2192 MONEY  [usd 149.1] \u2192 MONEY  [2008] \u2192 DATE  [eur 73.6 million] \u2192 MONEY  [sales] \u2192 METRIC  [10 %] \u2192 PERCENT  [2008] \u2192 DATE",
+        "[2010] \u2192 DATE  [outotec oyj hel ote1v] \u2192 ORG  [loss] \u2192 METRIC  [eur7] \u2192 MONEY  [2010] \u2192 DATE  [profit] \u2192 METRIC  [eur12] \u2192 MONEY",
+        "[share] \u2192 PRODUCT  [$ 24.7] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 20.3 mn] \u2192 MONEY  [eur 11.4 mn] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur3] \u2192 MONEY  [sales] \u2192 METRIC  [eur61] \u2192 MONEY  [2007] \u2192 DATE",
+        "[sales] \u2192 METRIC  [7 %] \u2192 PERCENT  [4 %] \u2192 PERCENT",
+        "[affecto oyj] \u2192 ORG  [loss] \u2192 METRIC  [eur 115] \u2192 MONEY  [usd 152] \u2192 MONEY  [2010] \u2192 DATE  [profit] \u2192 METRIC  [eur 845] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 4.0 mn] \u2192 MONEY  [eur 4.9 mn] \u2192 MONEY",
+        "[eur 0.7 million] \u2192 MONEY",
+        "[eur 2.5 mn] \u2192 MONEY",
+        "[eur 2] \u2192 MONEY  [2004] \u2192 DATE",
+        "[eur 12 million] \u2192 MONEY  [2008] \u2192 DATE",
+        "[loss] \u2192 METRIC  [share] \u2192 PRODUCT  [eur 0.27] \u2192 MONEY  [eur 0.86] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [sales] \u2192 METRIC  [eur4] \u2192 MONEY  [eur26] \u2192 MONEY  [2004] \u2192 DATE",
+        "[eur 2.83 bn] \u2192 MONEY  [usd 3.81 bn] \u2192 MONEY",
+        "[2009] \u2192 DATE  [income] \u2192 METRIC  [eur 112.4 mn] \u2192 MONEY  [eur 74.3 mn] \u2192 MONEY  [2008] \u2192 DATE",
+        "[2010] \u2192 DATE  [loss] \u2192 METRIC  [eur 415] \u2192 MONEY  [eur 7.4 million] \u2192 MONEY  [2009] \u2192 DATE",
+        "[2011] \u2192 DATE  [sanoma oyj] \u2192 ORG  [2010] \u2192 DATE  [profit] \u2192 METRIC  [eur297] \u2192 MONEY  [eur107] \u2192 MONEY  [2009] \u2192 DATE",
+        "[0.5 %] \u2192 PERCENT  [2.3 %] \u2192 PERCENT",
+        "[profit] \u2192 METRIC  [eur 31.6 mn] \u2192 MONEY  [eur 50.0 mn] \u2192 MONEY",
+        "[2009] \u2192 DATE  [80 %] \u2192 PERCENT",
+        "[profit] \u2192 METRIC  [eur 24.5 mn] \u2192 MONEY  [eur 23.0 mn] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [9.7 %] \u2192 PERCENT  [eur 63.1 mn] \u2192 MONEY  [eur 57.5 mn] \u2192 MONEY  [2006] \u2192 DATE  [16.4 %] \u2192 PERCENT  [eur 41.2 mn] \u2192 MONEY  [eur 35.4 mn] \u2192 MONEY  [2006] \u2192 DATE",
+        "[income] \u2192 METRIC  [25.7 %] \u2192 PERCENT  [eur 16.1 mn] \u2192 MONEY  [eur 12.8 mn] \u2192 MONEY  [2004] \u2192 DATE",
+        "[2008] \u2192 DATE  [2010] \u2192 DATE",
+        "[profit] \u2192 METRIC  [sales] \u2192 METRIC  [eur13] \u2192 MONEY  [eur143] \u2192 MONEY  [2007] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 139.7 mn] \u2192 MONEY  [23 %] \u2192 PERCENT  [eur 113.8 mn] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [27 %] \u2192 PERCENT  [eur 579.8 mn] \u2192 MONEY  [eur 457.2 mn] \u2192 MONEY  [2006] \u2192 DATE",
+        "[eur21m] \u2192 MONEY  [eur17m] \u2192 MONEY",
+        "[cargotec oyj] \u2192 ORG  [eur 13 million] \u2192 MONEY  [usd 16.6] \u2192 MONEY  [shipowner] \u2192 EVENT",
+        "[Petersburg] \u2192 LOC  [Russia] \u2192 LOC  [2010] \u2192 DATE  [stockmann] \u2192 PRODUCT  [2011] \u2192 DATE",
+        "[oyj ruukki] \u2192 ORG  [2008] \u2192 DATE  [$ 14.1] \u2192 MONEY  [Gothenburg] \u2192 LOC  [Sweden] \u2192 LOC",
+        "[profit] \u2192 METRIC  [eur 151.0 mn] \u2192 MONEY  [eur 143.7 mn] \u2192 MONEY  [2007] \u2192 DATE",
+        "[konecranes oyj] \u2192 ORG  [2008] \u2192 DATE  [profit] \u2192 METRIC  [$ 111.1] \u2192 MONEY  [2008] \u2192 DATE  [$ 89.1 mln] \u2192 MONEY  [2007.] \u2192 DATE",
+        "[sales] \u2192 METRIC  [8 %] \u2192 PERCENT  [eur64] \u2192 MONEY  [acquisitions] \u2192 EVENT  [2008] \u2192 DATE  [eur10] \u2192 MONEY",
+        "[software] \u2192 PRODUCT  [oyj] \u2192 ORG  [2006] \u2192 DATE  [$ 3.3] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [59.8 %] \u2192 PERCENT  [eur 1] \u2192 MONEY",
+        "[revenues] \u2192 METRIC  [eur 1.3 mn] \u2192 MONEY  [2009] \u2192 DATE  [eur 0.3 mn] \u2192 MONEY  [loss] \u2192 METRIC  [2008] \u2192 DATE",
+        "[$ 2.2] \u2192 MONEY  [2007] \u2192 DATE  [$ 534.3 mln] \u2192 MONEY",
+        "[30.65 %] \u2192 PERCENT  [shares] \u2192 PRODUCT  [31.12 %] \u2192 PERCENT",
+        "[stock] \u2192 PRODUCT  [28.02.2008] \u2192 DATE  [aspo plc] \u2192 ORG  [aspo] \u2192 ORG  [share] \u2192 PRODUCT  [kesko] \u2192 ORG",
+        "[profit] \u2192 METRIC  [eur 11.4 mn] \u2192 MONEY  [eur 7.5 mn] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [43.2 %] \u2192 PERCENT  [eur 6 million] \u2192 MONEY",
+        "[2010] \u2192 DATE  [2010] \u2192 DATE",
+        "[ict plc] \u2192 ORG  [shares] \u2192 PRODUCT  [eur 2] \u2192 MONEY  [2010] \u2192 DATE",
+        "[oyj] \u2192 ORG  [loss] \u2192 METRIC  [$ 4.2] \u2192 MONEY  [2006 -] \u2192 DATE  [2007] \u2192 DATE  [2007] \u2192 DATE  [$ 1.2 mln] \u2192 MONEY  [2005 - 06] \u2192 DATE",
+        "[okmetic oyj] \u2192 ORG  [Helsinki] \u2192 LOC  [profit] \u2192 METRIC  [eur7] \u2192 MONEY  [2008] \u2192 DATE  [eur6] \u2192 MONEY  [2007] \u2192 DATE",
+        "[vaisala oyj] \u2192 ORG  [stock] \u2192 PRODUCT  [26.03.2010] \u2192 DATE  [vaisala oyj] \u2192 ORG  [2010] \u2192 DATE  [2009] \u2192 DATE",
+        "[sales] \u2192 METRIC  [eur 190mn] \u2192 MONEY  [2009] \u2192 DATE  [eur 180mn] \u2192 MONEY  [2008] \u2192 DATE",
+        "[feb] \u2192 DATE  [2010] \u2192 DATE  [loss] \u2192 METRIC  [eur 81.5 million] \u2192 MONEY  [usd 11.8] \u2192 MONEY  [2009] \u2192 DATE  [profit] \u2192 METRIC  [eur 29.3 million] \u2192 MONEY  [2008] \u2192 DATE",
+        "[Helsinki] \u2192 LOC  [eps] \u2192 METRIC  [eur1] \u2192 MONEY  [2009] \u2192 DATE  [eur1] \u2192 MONEY  [2008] \u2192 DATE",
+        "[2011] \u2192 DATE  [2015] \u2192 DATE",
+        "[eur 30 million] \u2192 MONEY  [usd 38.7] \u2192 MONEY",
+        "[earnings] \u2192 EVENT  [share] \u2192 PRODUCT  [eps] \u2192 METRIC  [eur0] \u2192 MONEY  [loss] \u2192 METRIC  [eur0] \u2192 MONEY",
+        "[2010] \u2192 DATE  [eur23] \u2192 MONEY  [stock] \u2192 PRODUCT",
+        "[stock] \u2192 PRODUCT  [0.9 %] \u2192 PERCENT  [losses] \u2192 METRIC",
+        "[jul] \u2192 DATE  [2009] \u2192 DATE  [Finland] \u2192 LOC  [ruukki] \u2192 ORG  [loss] \u2192 METRIC  [eur 184 million] \u2192 MONEY  [usd 259.7] \u2192 MONEY  [2009] \u2192 DATE  [profit] \u2192 METRIC  [eur 2] \u2192 MONEY  [eur 56.5 mn] \u2192 MONEY  [eur 232.9 mn] \u2192 MONEY",
+        "[earnings] \u2192 EVENT  [share] \u2192 PRODUCT  [eps] \u2192 METRIC  [eur 1.05] \u2192 MONEY  [eur 0.64] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [eur 645.3 mn] \u2192 MONEY  [eur 563.6 mn] \u2192 MONEY",
+        "[Sweden] \u2192 LOC  [sales] \u2192 METRIC  [1 %] \u2192 PERCENT  [11 %] \u2192 PERCENT",
+        "[Finland] \u2192 LOC  [sales] \u2192 METRIC  [eur 80mn] \u2192 MONEY  [eur 100mn] \u2192 MONEY",
+        "[2010] \u2192 DATE  [loss] \u2192 METRIC  [eur7m] \u2192 MONEY  [2010] \u2192 DATE  [eur23] \u2192 MONEY  [2009] \u2192 DATE",
+        "[2006] \u2192 DATE  [2009] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 9.2 mn] \u2192 MONEY  [eur 6.8 mn] \u2192 MONEY  [2007] \u2192 DATE",
+        "[componenta oyj] \u2192 ORG  [profit] \u2192 METRIC  [$ 35.9] \u2192 MONEY  [2007] \u2192 DATE  [$ 7.3 mln] \u2192 MONEY  [2006.] \u2192 DATE",
+        "[44 0 20 7162] \u2192 DATE  [Usa] \u2192 LOC",
+        "[loss] \u2192 METRIC  [eur 6.7 million] \u2192 MONEY  [profit] \u2192 METRIC  [eur 58.9 million] \u2192 MONEY",
+        "[earnings] \u2192 EVENT  [share] \u2192 PRODUCT  [eps] \u2192 METRIC  [eur 0.52] \u2192 MONEY  [eur 0.09] \u2192 MONEY",
+        "[dividend] \u2192 EVENT  [eur 0.10] \u2192 MONEY  [share] \u2192 PRODUCT  [eur 7] \u2192 MONEY",
+        "[eur 7.2 mn] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 11.07 mn] \u2192 MONEY  [eur 8.65 mn] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [16 %] \u2192 PERCENT  [eur74] \u2192 MONEY  [profit] \u2192 METRIC  [eur0] \u2192 MONEY  [loss] \u2192 METRIC  [eur0] \u2192 MONEY",
+        "[Finland] \u2192 LOC  [revenue] \u2192 METRIC  [2.4 %] \u2192 PERCENT  [eur6] \u2192 MONEY  [sales] \u2192 METRIC  [6.2 %] \u2192 PERCENT  [eur3] \u2192 MONEY",
+        "[share] \u2192 PRODUCT  [eur 1] \u2192 MONEY  [2008] \u2192 DATE",
+        "[lemminkainen] \u2192 ORG  [lemminkainen sverige] \u2192 ORG  [2011] \u2192 DATE  [2013] \u2192 DATE",
+        "[panostaja oyj] \u2192 ORG  [profit] \u2192 METRIC  [$ 11.4] \u2192 MONEY  [2005 -] \u2192 DATE  [2006] \u2192 DATE  [$ 3.7 mln] \u2192 MONEY  [2004 - 05] \u2192 DATE",
+        "[$ 2.6] \u2192 MONEY  [shares] \u2192 PRODUCT",
+        "[hkscan group] \u2192 ORG  [revenues] \u2192 METRIC  [eur 3.5 mn] \u2192 MONEY  [eur 160.4 mn] \u2192 MONEY  [2010] \u2192 DATE  [eur 156.9 mn] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [eur 145.8 mn] \u2192 MONEY  [eur 138.4 mn] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [42 %] \u2192 PERCENT  [eur 432mn] \u2192 MONEY  [32 %] \u2192 PERCENT  [2009] \u2192 DATE",
+        "[kesko] \u2192 ORG  [share] \u2192 PRODUCT  [$ 15.5] \u2192 MONEY  [$ 6.2 mln] \u2192 MONEY  [2008.] \u2192 DATE",
+        "[2007] \u2192 DATE  [2008] \u2192 DATE",
+        "[0.6 %] \u2192 PERCENT  [0.2 %] \u2192 PERCENT",
+        "[1.0 %] \u2192 PERCENT  [Sweden] \u2192 LOC",
+        "[income] \u2192 METRIC  [4.5 %] \u2192 PERCENT  [eur 31.4 mn] \u2192 MONEY  [eur 30.0 mn] \u2192 MONEY  [2004] \u2192 DATE",
+        "[Finland] \u2192 LOC  [revenue] \u2192 METRIC  [19.06.2007] \u2192 DATE",
+        "[sales] \u2192 METRIC  [2010] \u2192 DATE  [2009] \u2192 DATE  [eur 141.7 million] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [sales] \u2192 METRIC  [eur16] \u2192 MONEY  [eur139m] \u2192 MONEY  [2006] \u2192 DATE",
+        "[sales] \u2192 METRIC  [eur 51.3 mn] \u2192 MONEY  [2010] \u2192 DATE  [eur 37.5 mn] \u2192 MONEY  [2009] \u2192 DATE",
+        "[profit] \u2192 METRIC  [sales] \u2192 METRIC  [eur18] \u2192 MONEY  [eur127] \u2192 MONEY  [2006] \u2192 DATE",
+        "[eur 50 million] \u2192 MONEY  [eur 80 million] \u2192 MONEY",
+        "[usd5] \u2192 MONEY  [Russia] \u2192 LOC  [2005] \u2192 DATE",
+        "[loss] \u2192 METRIC  [$ 2.0] \u2192 MONEY  [2006] \u2192 DATE  [$ 2.7 mln] \u2192 MONEY  [2005.] \u2192 DATE",
+        "[sales] \u2192 METRIC  [$ 585us] \u2192 MONEY  [2006] \u2192 DATE",
+        "[Sweden] \u2192 LOC  [profit] \u2192 METRIC  [eur 3.4 mn] \u2192 MONEY  [30.8 %] \u2192 PERCENT  [2005] \u2192 DATE",
+        "[feb] \u2192 DATE  [2010] \u2192 DATE  [Finland] \u2192 LOC  [loss] \u2192 METRIC  [eur 46 million] \u2192 MONEY  [usd 64.5] \u2192 MONEY  [2009] \u2192 DATE  [eur 14.5 mn] \u2192 MONEY  [eur 20mn] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur17] \u2192 MONEY  [eur1149] \u2192 MONEY  [2007] \u2192 DATE",
+        "[2006] \u2192 DATE  [2007] \u2192 DATE",
+        "[eur 1.0] \u2192 MONEY  [usd 1.397] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [11.4 %] \u2192 PERCENT  [2005] \u2192 DATE  [sales] \u2192 METRIC  [13.8 %] \u2192 PERCENT",
+        "[2010] \u2192 DATE  [talvivaara] \u2192 ORG  [loss] \u2192 METRIC  [eur 8.3 million] \u2192 MONEY  [eur 21.9 million] \u2192 MONEY  [2009] \u2192 DATE",
+        "[stockmann] \u2192 PRODUCT  [profit] \u2192 METRIC  [$ 56.8] \u2192 MONEY  [2007] \u2192 DATE  [$ 53.4 mln] \u2192 MONEY  [2006.] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur0] \u2192 MONEY  [eur29] \u2192 MONEY",
+        "[revenue] \u2192 METRIC  [5.4 %] \u2192 PERCENT  [eur 21.46 mn] \u2192 MONEY  [2.4 %] \u2192 PERCENT",
+        "[revenue] \u2192 METRIC  [27.6 %] \u2192 PERCENT  [eur61m] \u2192 MONEY",
+        "[$ 1.5 billion] \u2192 MONEY  [share] \u2192 PRODUCT  [2008] \u2192 DATE",
+        "[4 %] \u2192 PERCENT  [2008] \u2192 DATE",
+        "[eur 146mn] \u2192 MONEY  [loss] \u2192 METRIC  [eur 267mn] \u2192 MONEY  [2009] \u2192 DATE",
+        "[software] \u2192 PRODUCT  [profit] \u2192 METRIC  [$ 4.6] \u2192 MONEY  [2006] \u2192 DATE  [$ 3.0 mln] \u2192 MONEY  [2005.] \u2192 DATE",
+        "[earnings] \u2192 EVENT  [share] \u2192 PRODUCT  [eps] \u2192 METRIC  [eur 0.29] \u2192 MONEY  [eur 0.05] \u2192 MONEY",
+        "[Finland] \u2192 LOC  [sales] \u2192 METRIC  [eur 134 million] \u2192 MONEY  [2009] \u2192 DATE",
+        "[sales] \u2192 METRIC  [eur 5.7 bn] \u2192 MONEY  [45 %] \u2192 PERCENT  [2005] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 15.86 mn] \u2192 MONEY  [eur 4.14 mn] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [sales] \u2192 METRIC  [eur0] \u2192 MONEY  [eur3] \u2192 MONEY  [2005] \u2192 DATE",
+        "[profit] \u2192 METRIC  [share] \u2192 PRODUCT  [eur 1.03] \u2192 MONEY  [eur 0.87] \u2192 MONEY",
+        "[2007] \u2192 DATE  [sales] \u2192 METRIC  [eur 505.4 mn] \u2192 MONEY  [eur 473.5 mn] \u2192 MONEY  [2006] \u2192 DATE",
+        "[sales] \u2192 METRIC  [2008] \u2192 DATE  [28 %] \u2192 PERCENT  [2007] \u2192 DATE",
+        "[2009] \u2192 DATE  [profit] \u2192 METRIC  [33.8 %] \u2192 PERCENT  [eur33m] \u2192 MONEY",
+        "[outotec] \u2192 ORG  [profit] \u2192 METRIC  [2007] \u2192 DATE  [$ 23.1] \u2192 MONEY  [$ 6.3 mln] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 5mn] \u2192 MONEY  [eur 2.8 mn] \u2192 MONEY  [2008] \u2192 DATE",
+        "[sales] \u2192 METRIC  [$ 4.5] \u2192 MONEY  [earnings] \u2192 EVENT  [2007] \u2192 DATE",
+        "[2011] \u2192 DATE  [2012] \u2192 DATE",
+        "[2008] \u2192 DATE  [2008] \u2192 DATE",
+        "[Finland] \u2192 LOC  [revenues] \u2192 METRIC  [2007] \u2192 DATE  [2008] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 3.2 mn] \u2192 MONEY  [eur 1.0 mn] \u2192 MONEY  [2008] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 1.5 mn] \u2192 MONEY  [eur 1.3 mn] \u2192 MONEY  [eur 1.3 mn] \u2192 MONEY  [eur 1.0 mn] \u2192 MONEY  [2006] \u2192 DATE",
+        "[income] \u2192 METRIC  [eur 39.3 mn] \u2192 MONEY  [eur 32.7 mn] \u2192 MONEY",
+        "[Finland] \u2192 LOC  [2 %] \u2192 PERCENT  [2010] \u2192 DATE  [2011] \u2192 DATE",
+        "[sales] \u2192 METRIC  [50 %] \u2192 PERCENT  [eur647m] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 5.5 mn] \u2192 MONEY",
+        "[alfa group] \u2192 ORG  [43.9 %] \u2192 PERCENT  [stock] \u2192 PRODUCT  [35.4 %] \u2192 PERCENT  [20.7 %] \u2192 PERCENT",
+        "[profit] \u2192 METRIC  [eur 70.0 mn] \u2192 MONEY  [2010] \u2192 DATE  [eur 54.9 mn] \u2192 MONEY  [2009] \u2192 DATE",
+        "[sales] \u2192 METRIC  [2009] \u2192 DATE  [profit] \u2192 METRIC  [2009] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 854mn] \u2192 MONEY  [eur 730mn] \u2192 MONEY  [2004] \u2192 DATE",
+        "[$ 30.3] \u2192 MONEY  [2007] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 14.0 mn] \u2192 MONEY  [eur 4.9 mn] \u2192 MONEY  [2005] \u2192 DATE",
+        "[eur5] \u2192 MONEY  [2006] \u2192 DATE",
+        "[London] \u2192 LOC  [shares] \u2192 PRODUCT  [1.7 %] \u2192 PERCENT",
+        "[2010] \u2192 DATE  [30 %] \u2192 PERCENT  [10 %] \u2192 PERCENT",
+        "[profit] \u2192 METRIC  [eur2] \u2192 MONEY  [eur1] \u2192 MONEY",
+        "[loss] \u2192 METRIC  [eur 17mn] \u2192 MONEY  [eur 10.8 mn] \u2192 MONEY  [2005] \u2192 DATE",
+        "[eur 130 million] \u2192 MONEY  [2008] \u2192 DATE",
+        "[stocks] \u2192 PRODUCT  [1.29 %] \u2192 PERCENT",
+        "[profit] \u2192 METRIC  [eur 39.4 mn] \u2192 MONEY  [eur 33.9 mn] \u2192 MONEY  [2006] \u2192 DATE",
+        "[sales] \u2192 METRIC  [eur 44.1 mn] \u2192 MONEY  [2010] \u2192 DATE  [eur 43.3 mn] \u2192 MONEY  [2009] \u2192 DATE",
+        "[$ 2.182] \u2192 MONEY  [2005] \u2192 DATE  [may] \u2192 DATE  [2006] \u2192 DATE",
+        "[componenta oyj] \u2192 ORG  [profit] \u2192 METRIC  [$ 4.5] \u2192 MONEY  [2006] \u2192 DATE  [$ 2.8 mln] \u2192 MONEY  [2005.] \u2192 DATE",
+        "[eur2] \u2192 MONEY  [2009] \u2192 DATE  [software] \u2192 PRODUCT  [loss] \u2192 METRIC  [eur2] \u2192 MONEY  [2009] \u2192 DATE  [eur35] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [1.7 %] \u2192 PERCENT",
+        "[eur20] \u2192 MONEY  [12.2 %] \u2192 PERCENT  [sales] \u2192 METRIC  [acquisitions] \u2192 EVENT  [2009] \u2192 DATE",
+        "[2010] \u2192 DATE  [vaisala oyj hel vaias] \u2192 ORG  [loss] \u2192 METRIC  [eur4] \u2192 MONEY  [2010] \u2192 DATE  [eur2] \u2192 MONEY",
+        "[eur 43] \u2192 MONEY  [sales] \u2192 METRIC  [2006] \u2192 DATE",
+        "[earnings] \u2192 EVENT  [share] \u2192 PRODUCT  [eps] \u2192 METRIC  [2007] \u2192 DATE  [eur0] \u2192 MONEY  [eur0] \u2192 MONEY",
+        "[2010] \u2192 DATE  [loss] \u2192 METRIC  [eur 123] \u2192 MONEY  [eur 1.5 million] \u2192 MONEY  [2009] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 20.5 mn] \u2192 MONEY  [2005] \u2192 DATE  [eur 9.3 mn] \u2192 MONEY  [2004] \u2192 DATE  [sales] \u2192 METRIC  [eur 103.3 mn] \u2192 MONEY  [eur 96.4 mn] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [3.6 %] \u2192 PERCENT  [2009] \u2192 DATE  [eur 162.8 mn] \u2192 MONEY  [eur 168.8 mn] \u2192 MONEY  [2008] \u2192 DATE",
+        "[$ 1.98] \u2192 MONEY",
+        "[7 %] \u2192 PERCENT  [9 %] \u2192 PERCENT",
+        "[sales] \u2192 METRIC  [2010] \u2192 DATE  [eur67] \u2192 MONEY  [9.7 %] \u2192 PERCENT  [2009] \u2192 DATE  [eur61] \u2192 MONEY",
+        "[Helsinki] \u2192 LOC  [Finland] \u2192 LOC  [Tallinn] \u2192 LOC  [Estonia] \u2192 LOC  [36 %] \u2192 PERCENT  [Sweden] \u2192 LOC  [9 %] \u2192 PERCENT",
+        "[feb] \u2192 DATE  [2009] \u2192 DATE  [software] \u2192 PRODUCT  [profit] \u2192 METRIC  [eur 3.5 million] \u2192 MONEY  [usd 4.5] \u2192 MONEY  [2008] \u2192 DATE  [eur 3.1 million] \u2192 MONEY  [2007] \u2192 DATE",
+        "[2006] \u2192 DATE  [2006] \u2192 DATE",
+        "[kone oyj] \u2192 ORG  [2007] \u2192 DATE  [$ 21.2] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [2008] \u2192 DATE  [10 %] \u2192 PERCENT  [2007] \u2192 DATE",
+        "[revenue] \u2192 METRIC  [$ 13.2] \u2192 MONEY  [Indian] \u2192 LOC  [2007] \u2192 DATE",
+        "[sales] \u2192 METRIC  [eur 93.6 mn] \u2192 MONEY  [eur 93.2 mn] \u2192 MONEY  [2005] \u2192 DATE",
+        "[2010] \u2192 DATE  [2011] \u2192 DATE",
+        "[eps] \u2192 METRIC  [2007] \u2192 DATE  [2008] \u2192 DATE",
+        "[1.4 %] \u2192 PERCENT  [5.1 %] \u2192 PERCENT",
+        "[dec] \u2192 DATE  [2008] \u2192 DATE  [eur 28 million] \u2192 MONEY  [usd 36.8] \u2192 MONEY  [metsamasina] \u2192 ORG  [share] \u2192 PRODUCT  [27 %] \u2192 PERCENT",
+        "[okmetic oyj] \u2192 ORG  [2007] \u2192 DATE  [Finland] \u2192 LOC  [plc] \u2192 ORG  [nordea] \u2192 ORG  [$ 26.9] \u2192 MONEY",
+        "[2010] \u2192 DATE  [eur 67.1 million] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [8 %] \u2192 PERCENT  [eur 155.2 mn] \u2192 MONEY  [profit] \u2192 METRIC  [eur 31.1 mn] \u2192 MONEY  [eur 17.1 mn] \u2192 MONEY  [2004] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 17.8 mn] \u2192 MONEY  [eur 14.9 mn] \u2192 MONEY  [2005] \u2192 DATE",
+        "[$ 35 million] \u2192 MONEY  [$ 10 million as] \u2192 MONEY  [$ 20 million worth] \u2192 MONEY  [shares to] \u2192 PRODUCT",
+        "[profit] \u2192 METRIC  [eur 152.3 mn] \u2192 MONEY  [2010] \u2192 DATE  [eur 32.7 mn] \u2192 MONEY  [2009] \u2192 DATE",
+        "[eur928] \u2192 MONEY  [q1 2010] \u2192 DATE  [may 2010] \u2192 DATE  [marimekko oyj hel] \u2192 ORG  [profit] \u2192 METRIC  [eur928] \u2192 MONEY  [2010] \u2192 DATE  [eur13] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 397.4 mn] \u2192 MONEY  [eur 164.7 mn] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [14 %] \u2192 PERCENT  [2008] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 0.6 mn] \u2192 MONEY  [eur 0.4 mn] \u2192 MONEY  [2005] \u2192 DATE",
+        "[2006] \u2192 DATE  [eur50m] \u2192 MONEY  [1998] \u2192 DATE  [2006] \u2192 DATE  [eur50m] \u2192 MONEY",
+        "[$ 1.14] \u2192 MONEY  [2006] \u2192 DATE",
+        "[profit] \u2192 METRIC  [16.7 %] \u2192 PERCENT  [eur 7.7 mn] \u2192 MONEY",
+        "[earnings] \u2192 EVENT  [share] \u2192 PRODUCT  [eps] \u2192 METRIC  [eur 0.11] \u2192 MONEY  [eur 0.03] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 36 million] \u2192 MONEY  [eur 27 million] \u2192 MONEY",
+        "[eur12m] \u2192 MONEY  [2007] \u2192 DATE",
+        "[outotec oyj] \u2192 ORG  [profit] \u2192 METRIC  [$ 72.5] \u2192 MONEY  [2007] \u2192 DATE  [$ 28.9 mln] \u2192 MONEY  [2006.] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 13.5 mn] \u2192 MONEY  [eur 9.7 mn] \u2192 MONEY  [2006] \u2192 DATE",
+        "[sales] \u2192 METRIC  [2010] \u2192 DATE  [2009] \u2192 DATE",
+        "[20 %] \u2192 PERCENT  [sales] \u2192 METRIC  [2010] \u2192 DATE",
+        "[sales] \u2192 METRIC  [2006] \u2192 DATE  [25 %] \u2192 PERCENT  [35 %] \u2192 PERCENT",
+        "[software] \u2192 PRODUCT  [stonesoft oyj] \u2192 ORG  [2008] \u2192 DATE  [sales] \u2192 METRIC  [$ 5.3] \u2192 MONEY  [2007] \u2192 DATE",
+        "[eur 2 million] \u2192 MONEY  [usd 2.7] \u2192 MONEY  [2010] \u2192 DATE",
+        "[sales] \u2192 METRIC  [eur 10.6 mn] \u2192 MONEY  [eur 10.1 mn] \u2192 MONEY",
+        "[aktia] \u2192 ORG  [profit] \u2192 METRIC  [eur 44.4 mn] \u2192 MONEY  [2009] \u2192 DATE  [eur 37.3 mn] \u2192 MONEY  [2008] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 103.4 mn] \u2192 MONEY  [eur 23.2] \u2192 MONEY  [2006] \u2192 DATE",
+        "[earnings] \u2192 EVENT  [share] \u2192 PRODUCT  [2010] \u2192 DATE  [eur0] \u2192 MONEY  [20 %] \u2192 PERCENT  [eur0] \u2192 MONEY",
+        "[2008] \u2192 DATE  [30 01 2009] \u2192 DATE",
+        "[profitability] \u2192 METRIC  [13.6 %] \u2192 PERCENT  [14.3 %] \u2192 PERCENT  [q2 2009] \u2192 DATE",
+        "[63 %] \u2192 PERCENT  [q1 2010] \u2192 DATE  [Comparison] \u2192 LOC  [q1 2009] \u2192 DATE",
+        "[share] \u2192 PRODUCT  [eur 300] \u2192 MONEY  [may] \u2192 DATE  [2008] \u2192 DATE",
+        "[amer] \u2192 ORG  [sports oyj hel ameas] \u2192 ORG  [loss] \u2192 METRIC  [eur 16.9 million] \u2192 MONEY  [usd 22.3] \u2192 MONEY  [second quarter] \u2192 DATE  [2010] \u2192 DATE  [eur 23.2 million] \u2192 MONEY",
+        "[eur61] \u2192 MONEY  [eur47] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur0] \u2192 MONEY  [eur8] \u2192 MONEY  [2005] \u2192 DATE",
+        "[earnings] \u2192 EVENT  [share] \u2192 PRODUCT  [eps] \u2192 METRIC  [eur0] \u2192 MONEY  [loss] \u2192 METRIC  [eur0] \u2192 MONEY",
+        "[eur 37.1 mn] \u2192 MONEY  [eur 21.9 mn] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 5.4 mn] \u2192 MONEY  [eur 3.6 mn] \u2192 MONEY",
+        "[1.6 %] \u2192 PERCENT  [0.4 %] \u2192 PERCENT",
+        "[$ 12.5 million] \u2192 MONEY  [nokia oyj] \u2192 ORG",
+        "[affecto] \u2192 ORG  [sales] \u2192 METRIC  [2010] \u2192 DATE  [2009] \u2192 DATE  [eur 103 million] \u2192 MONEY",
+        "[aktia] \u2192 ORG  [profit] \u2192 METRIC  [2009] \u2192 DATE  [eur 47.0 mn] \u2192 MONEY  [eur 6.6 mn] \u2192 MONEY  [2008] \u2192 DATE",
+        "[sales] \u2192 METRIC  [eur 68.3 million] \u2192 MONEY  [eur 62.2 million] \u2192 MONEY",
+        "[enskilda] \u2192 ORG  [Helsinki] \u2192 LOC  [2009] \u2192 DATE  [shares] \u2192 PRODUCT  [2009] \u2192 DATE",
+        "[2011] \u2192 DATE  [loss] \u2192 METRIC  [eur500] \u2192 MONEY  [2010] \u2192 DATE  [eur5] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 1.94 mn] \u2192 MONEY  [eur 2.45 mn] \u2192 MONEY",
+        "[loss] \u2192 METRIC  [$ 2.3] \u2192 MONEY  [2006] \u2192 DATE  [$ 4.8 mln] \u2192 MONEY  [2005.] \u2192 DATE",
+        "[pohjola] \u2192 ORG  [45 %] \u2192 PERCENT  [2013] \u2192 DATE",
+        "[eps] \u2192 METRIC  [eur3] \u2192 MONEY  [eur0] \u2192 MONEY",
+        "[2010] \u2192 DATE  [dividend] \u2192 EVENT  [$ 0.03] \u2192 MONEY  [$ 0.05 per] \u2192 MONEY  [share.] \u2192 PRODUCT",
+        "[loss] \u2192 METRIC  [2007] \u2192 DATE  [eur 0.3 mn] \u2192 MONEY  [2007] \u2192 DATE",
+        "[sales] \u2192 METRIC  [tehtaat] \u2192 ORG  [13 %] \u2192 PERCENT  [2008] \u2192 DATE  [eur 349.1 mn] \u2192 MONEY  [eur 309.6 mn] \u2192 MONEY  [2007] \u2192 DATE",
+        "[2009] \u2192 DATE  [5 %] \u2192 PERCENT",
+        "[40 %] \u2192 PERCENT  [30 %] \u2192 PERCENT  [eur 576 million] \u2192 MONEY  [eur 1.7 billion] \u2192 MONEY  [2010] \u2192 DATE",
+        "[feb] \u2192 DATE  [2009] \u2192 DATE  [rapala] \u2192 ORG  [profit] \u2192 METRIC  [eur 19.2 million] \u2192 MONEY  [usd 24.6] \u2192 MONEY  [2008] \u2192 DATE  [eur 17.5 million] \u2192 MONEY  [2007] \u2192 DATE",
+        "[eur 105 million] \u2192 MONEY  [bonds] \u2192 PRODUCT  [2009] \u2192 DATE",
+        "[income] \u2192 METRIC  [eur 152.2 mn] \u2192 MONEY  [eur 101.0 mn] \u2192 MONEY  [2008] \u2192 DATE",
+        "[profit] \u2192 METRIC  [sales] \u2192 METRIC  [eur7] \u2192 MONEY  [eur655] \u2192 MONEY  [2005] \u2192 DATE",
+        "[2010] \u2192 DATE  [sales] \u2192 METRIC  [eur131m] \u2192 MONEY  [eur76m] \u2192 MONEY  [profit] \u2192 METRIC  [loss] \u2192 METRIC  [eur7m] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 5.8 mn] \u2192 MONEY  [loss] \u2192 METRIC  [eur 1.7 mn] \u2192 MONEY  [2009] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 27.8 mn] \u2192 MONEY  [eur 17.5 mn] \u2192 MONEY  [2008] \u2192 DATE",
+        "[stock] \u2192 PRODUCT  [2.0 %] \u2192 PERCENT",
+        "[sales] \u2192 METRIC  [30 %] \u2192 PERCENT  [eur 36 million] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 21.3 mn] \u2192 MONEY  [2009] \u2192 DATE  [eur 6.1 mn] \u2192 MONEY  [2008] \u2192 DATE",
+        "[okmetic oyj] \u2192 ORG  [Helsinki] \u2192 LOC  [profit] \u2192 METRIC  [eur5] \u2192 MONEY  [2008] \u2192 DATE  [eur3] \u2192 MONEY  [2007] \u2192 DATE",
+        "[2010] \u2192 DATE  [loss] \u2192 METRIC  [eur 400] \u2192 MONEY  [eur 600] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 17.5 mn] \u2192 MONEY  [2010] \u2192 DATE  [eur 8.2 mn] \u2192 MONEY  [2009] \u2192 DATE",
+        "[revenue] \u2192 METRIC  [5.1 %] \u2192 PERCENT  [eur 460.8 mn] \u2192 MONEY  [eur 438.5 mn] \u2192 MONEY  [2009] \u2192 DATE",
+        "[sales] \u2192 METRIC  [5.4 %] \u2192 PERCENT",
+        "[2006] \u2192 DATE  [2006] \u2192 DATE",
+        "[eur100m usd125] \u2192 MONEY  [bond] \u2192 PRODUCT",
+        "[sales] \u2192 METRIC  [12 %] \u2192 PERCENT  [eur159] \u2192 MONEY  [6 %] \u2192 PERCENT",
+        "[stora enso oyj] \u2192 ORG  [$ 2.52 million] \u2192 MONEY",
+        "[2011] \u2192 DATE  [eur1] \u2192 MONEY  [usd1] \u2192 MONEY  [sodra] \u2192 ORG",
+        "[profit] \u2192 METRIC  [eur 21.1 mn] \u2192 MONEY  [2008] \u2192 DATE  [eur 35.8 mn] \u2192 MONEY  [2007] \u2192 DATE",
+        "[sales] \u2192 METRIC  [25.5 %] \u2192 PERCENT  [eur59] \u2192 MONEY  [41 %] \u2192 PERCENT",
+        "[kemira oyj] \u2192 ORG  [kra1v] \u2192 ORG  [86 %] \u2192 PERCENT  [kemira] \u2192 ORG  [shareholders] \u2192 PRODUCT",
+        "[Finland] \u2192 LOC  [sales] \u2192 METRIC  [eur 140.1 mn] \u2192 MONEY  [eur 131.8 mn] \u2192 MONEY",
+        "[earnings] \u2192 EVENT  [share] \u2192 PRODUCT  [eps] \u2192 METRIC  [eur0] \u2192 MONEY  [loss] \u2192 METRIC  [eur0] \u2192 MONEY",
+        "[0.9 %] \u2192 PERCENT  [0.6 %] \u2192 PERCENT",
+        "[revenues] \u2192 METRIC  [2007] \u2192 DATE  [23 %] \u2192 PERCENT  [2006] \u2192 DATE",
+        "[fiskars oyj] \u2192 ORG  [profit] \u2192 METRIC  [eur 24.1 million] \u2192 MONEY  [usd 33.6] \u2192 MONEY  [2010] \u2192 DATE  [eur 17.9 million] \u2192 MONEY",
+        "[oct] \u2192 DATE  [2008] \u2192 DATE  [eur 5.2 million] \u2192 MONEY  [usd 7.4] \u2192 MONEY  [oct] \u2192 DATE  [2008] \u2192 DATE  [raisio oyj] \u2192 ORG  [profit] \u2192 METRIC  [eur 16.4 million] \u2192 MONEY  [usd 20.9] \u2192 MONEY  [2008] \u2192 DATE  [eur 1.1 million] \u2192 MONEY  [sep] \u2192 DATE  [2008] \u2192 DATE  [software] \u2192 PRODUCT  [usd 1.9 million] \u2192 MONEY  [eur 1.3] \u2192 MONEY  [Russian] \u2192 LOC",
+        "[profit] \u2192 METRIC  [eur21m] \u2192 MONEY  [eur106] \u2192 MONEY",
+        "[stock] \u2192 PRODUCT  [10 3 2011] \u2192 DATE  [2010] \u2192 DATE",
+        "[digia plc] \u2192 ORG  [2006] \u2192 DATE  [Finland] \u2192 LOC  [2005] \u2192 DATE",
+        "[loss] \u2192 METRIC  [eur 2.6 million] \u2192 MONEY  [profit] \u2192 METRIC  [eur 1.3 million] \u2192 MONEY",
+        "[yit oyj] \u2192 ORG  [2007] \u2192 DATE  [$ 102.8] \u2192 MONEY  [tapiola] \u2192 ORG",
+        "[eur 60 million] \u2192 MONEY  [2010] \u2192 DATE",
+        "[eur 2.803 billion] \u2192 MONEY  [2009] \u2192 DATE  [eur 2.691 million] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [5.9 %] \u2192 PERCENT  [ebitda] \u2192 METRIC  [eur 0.2 mn] \u2192 MONEY  [2009] \u2192 DATE",
+        "[shareholder] \u2192 PRODUCT  [bernhard nyberg] \u2192 ORG  [shares] \u2192 PRODUCT  [5.68 %] \u2192 PERCENT  [aspo plc] \u2192 ORG",
+        "[2010] \u2192 DATE  [profit] \u2192 METRIC  [eur3] \u2192 MONEY  [eur2] \u2192 MONEY  [2009] \u2192 DATE",
+        "[2009] \u2192 DATE  [loss] \u2192 METRIC  [eur2] \u2192 MONEY  [profit] \u2192 METRIC  [eur6] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 13.1 mn] \u2192 MONEY  [eur 8.7 mn] \u2192 MONEY  [2007] \u2192 DATE  [7.7 %] \u2192 PERCENT  [sales] \u2192 METRIC",
+        "[profit] \u2192 METRIC  [eur 1] \u2192 MONEY  [eur 1] \u2192 MONEY  [2005] \u2192 DATE",
+        "[2008] \u2192 DATE  [2008] \u2192 DATE",
+        "[60.9 %] \u2192 PERCENT  [54.2 %] \u2192 PERCENT  [2007] \u2192 DATE  [sales] \u2192 METRIC  [eur 11.0] \u2192 MONEY  [5 %] \u2192 PERCENT  [2006] \u2192 DATE",
+        "[panostaja oyj] \u2192 ORG  [2007] \u2192 DATE  [$ 4.1] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [14 %] \u2192 PERCENT  [eur 1] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [39.9 %] \u2192 PERCENT  [eur 18.0 mn] \u2192 MONEY  [eur12] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [eur655m] \u2192 MONEY  [2010] \u2192 DATE  [eur438m] \u2192 MONEY",
+        "[eur 40.000] \u2192 MONEY  [eur 30.000] \u2192 MONEY  [eur 20.000] \u2192 MONEY",
+        "[share] \u2192 PRODUCT  [$ 23.54] \u2192 MONEY",
+        "[dividend] \u2192 EVENT  [eur0] \u2192 MONEY  [share] \u2192 PRODUCT  [2010] \u2192 DATE  [eur0] \u2192 MONEY  [2009] \u2192 DATE",
+        "[$ 781 million] \u2192 MONEY  [$ 4.31 per] \u2192 MONEY  [share from] \u2192 PRODUCT",
+        "[componenta oyj hel] \u2192 ORG  [loss] \u2192 METRIC  [eur 500] \u2192 MONEY  [usd 680] \u2192 MONEY  [2010] \u2192 DATE  [eur 5.3 million] \u2192 MONEY",
+        "[2010] \u2192 DATE  [loss] \u2192 METRIC  [eur415] \u2192 MONEY  [eur7] \u2192 MONEY  [2009] \u2192 DATE",
+        "[2008] \u2192 DATE  [kemira] \u2192 ORG  [revenue] \u2192 METRIC  [eur 2.8 billion] \u2192 MONEY",
+        "[2010] \u2192 DATE  [2011] \u2192 DATE  [2012] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 3 million] \u2192 MONEY  [usd 4.1] \u2192 MONEY  [2009] \u2192 DATE",
+        "[profit] \u2192 METRIC  [sales] \u2192 METRIC  [eur10] \u2192 MONEY  [eur28] \u2192 MONEY  [2004] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 5.9 mn] \u2192 MONEY  [eur 1.3 mn] \u2192 MONEY",
+        "[7.25 %] \u2192 PERCENT",
+        "[2010] \u2192 DATE  [2009] \u2192 DATE",
+        "[sales] \u2192 METRIC  [$ 9.6] \u2192 MONEY  [2005] \u2192 DATE",
+        "[2009] \u2192 DATE  [profit] \u2192 METRIC  [eur 13.6 mn] \u2192 MONEY  [eur 26.8 mn] \u2192 MONEY  [2008] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 4.7 mn] \u2192 MONEY  [eur 4.6 mn] \u2192 MONEY",
+        "[shareholders] \u2192 PRODUCT  [77.39 %] \u2192 PERCENT",
+        "[ebitda] \u2192 METRIC  [2009] \u2192 DATE  [eur484m] \u2192 MONEY  [eur472m] \u2192 MONEY  [2008] \u2192 DATE",
+        "[2009] \u2192 DATE  [2012] \u2192 DATE  [sales] \u2192 METRIC  [20 %] \u2192 PERCENT  [40 %] \u2192 PERCENT  [profit] \u2192 METRIC  [10 %] \u2192 PERCENT  [20 %] \u2192 PERCENT",
+        "[profit] \u2192 METRIC  [eur 4.7 mn] \u2192 MONEY  [eur 3.6 mn] \u2192 MONEY",
+        "[$ 645.8] \u2192 MONEY",
+        "[eps] \u2192 METRIC  [eur0] \u2192 MONEY  [eur0] \u2192 MONEY",
+        "[2010] \u2192 DATE  [profit] \u2192 METRIC  [14 %] \u2192 PERCENT  [eur 65.4 million] \u2192 MONEY  [sales] \u2192 METRIC  [eur 525.3 million] \u2192 MONEY  [eur 487.7 million] \u2192 MONEY",
+        "[eur 1.9 bn] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 2.9 mn] \u2192 MONEY  [eur 10.5 mn] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [usd 2.6 million] \u2192 MONEY  [2008] \u2192 DATE",
+        "[bond] \u2192 PRODUCT  [2010] \u2192 DATE  [eur5m] \u2192 MONEY",
+        "[sales] \u2192 METRIC  [2007] \u2192 DATE  [eur 329 million] \u2192 MONEY  [19 %] \u2192 PERCENT",
+        "[shares] \u2192 PRODUCT  [1.21 %] \u2192 PERCENT  [stock] \u2192 PRODUCT  [7.41 %] \u2192 PERCENT",
+        "[2008] \u2192 DATE  [sales] \u2192 METRIC  [eur 970.8 mn] \u2192 MONEY  [eur 906.8 mn] \u2192 MONEY  [2007] \u2192 DATE",
+        "[2010] \u2192 DATE  [income] \u2192 METRIC  [eur 9.1 mn] \u2192 MONEY  [eur 9.7 mn] \u2192 MONEY",
+        "[43 %] \u2192 PERCENT  [2010] \u2192 DATE  [33 %] \u2192 PERCENT  [18 %] \u2192 PERCENT  [2 %] \u2192 PERCENT  [3 %] \u2192 PERCENT",
+        "[sales] \u2192 METRIC  [25 %] \u2192 PERCENT  [39 %] \u2192 PERCENT",
+        "[profit] \u2192 METRIC  [eur 7.0 mn] \u2192 MONEY  [loss] \u2192 METRIC  [eur 4.0 mn] \u2192 MONEY  [2009] \u2192 DATE",
+        "[shareholder] \u2192 PRODUCT  [15.9.1966] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 2.0 mn] \u2192 MONEY  [eur 1.4 mn] \u2192 MONEY  [2005] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur13] \u2192 MONEY  [sales] \u2192 METRIC  [eur394] \u2192 MONEY  [2005] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur 3.1 mn] \u2192 MONEY",
+        "[eur 30mn] \u2192 MONEY  [2009] \u2192 DATE",
+        "[55 %] \u2192 PERCENT  [eur732m] \u2192 MONEY",
+        "[eur 5 million] \u2192 MONEY  [usd 6.5] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [eur 1.6 mn] \u2192 MONEY  [eur 1.1 mn] \u2192 MONEY  [2006] \u2192 DATE",
+        "[sales] \u2192 METRIC  [2010] \u2192 DATE  [eur598] \u2192 MONEY  [eur582] \u2192 MONEY  [2009] \u2192 DATE",
+        "[sales] \u2192 METRIC  [eur 54.5 mn] \u2192 MONEY  [2008] \u2192 DATE  [eur 54.3 mn] \u2192 MONEY",
+        "[income] \u2192 METRIC  [22 %] \u2192 PERCENT  [eur 4.4 mn] \u2192 MONEY  [13.5 %] \u2192 PERCENT",
+        "[2007] \u2192 DATE  [sales] \u2192 METRIC  [eur 213.1 mn] \u2192 MONEY  [eur 172.6 mn] \u2192 MONEY  [2006] \u2192 DATE",
+        "[stora] \u2192 ORG  [enso] \u2192 ORG  [eur 33 million] \u2192 MONEY  [2006] \u2192 DATE",
+        "[revenue] \u2192 METRIC  [2 %] \u2192 PERCENT  [3 %] \u2192 PERCENT  [2009] \u2192 DATE",
+        "[profit] \u2192 METRIC  [44.0 %] \u2192 PERCENT  [eur 3.3 mn] \u2192 MONEY  [2004] \u2192 DATE",
+        "[sales] \u2192 METRIC  [1 %] \u2192 PERCENT  [eur 29 million] \u2192 MONEY  [acquisitions] \u2192 EVENT  [eur 5.1 million] \u2192 MONEY",
+        "[$ 7.3 mn] \u2192 MONEY",
+        "[2006] \u2192 DATE  [share] \u2192 PRODUCT  [eur 4.88] \u2192 MONEY  [eur 0.60] \u2192 MONEY",
+        "[Sheksna] \u2192 LOC  [Vologda] \u2192 LOC  [Russia] \u2192 LOC  [2009] \u2192 DATE  [2011] \u2192 DATE",
+        "[2010] \u2192 DATE  [eur5m] \u2192 MONEY  [bond] \u2192 PRODUCT",
+        "[eur 4.5 million] \u2192 MONEY  [2010] \u2192 DATE",
+        "[profit] \u2192 METRIC  [sales] \u2192 METRIC  [eur20] \u2192 MONEY  [eur177] \u2192 MONEY  [2004] \u2192 DATE",
+        "[profit] \u2192 METRIC  [eur2] \u2192 MONEY  [eur43] \u2192 MONEY",
+        "[profit] \u2192 METRIC  [9 %] \u2192 PERCENT  [eur 187.8 mn] \u2192 MONEY  [2008] \u2192 DATE  [eur 207.1 mn] \u2192 MONEY",
+        "[eur25] \u2192 MONEY  [2010] \u2192 DATE",
+        "[feb] \u2192 DATE  [2009] \u2192 DATE  [profit] \u2192 METRIC  [eur 8.5 million] \u2192 MONEY  [usd 11m] \u2192 MONEY  [2008] \u2192 DATE  [eur 7 million] \u2192 MONEY  [2007] \u2192 DATE",
+        "[ipods] \u2192 EVENT  [Apple Inc] \u2192 ORG  [$ 2.9 billion] \u2192 MONEY  [India] \u2192 LOC",
+        "[Google LLC] \u2192 ORG  [$ 1.2 billion] \u2192 MONEY"
+    ]
+}
