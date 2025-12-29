@@ -1,6 +1,4 @@
 # STEP 2: Separate MD&A and Financial Statements
-# Milestone 3 – As per mentor images
-
 import json
 import re
 from pathlib import Path

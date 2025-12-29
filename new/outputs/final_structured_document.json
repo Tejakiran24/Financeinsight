@@ -1,0 +1,772 @@
+{
+    "document_id": "financial_doc_001",
+    "company": null,
+    "metrics": {
+        "revenue": [
+            {
+                "metric": "revenue",
+                "value": "usd 12 . 5 billion",
+                "period": "q4 2022",
+                "sentence": "The company reported revenue of USD 12.5 billion in Q4 2022."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": "2024",
+                "sentence": "Apple Inc reported revenue growth in 2024."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Amazon recorded an increase in online sales revenue."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": "year",
+                "sentence": "Google reported higher advertising revenue this year."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": "quarter",
+                "sentence": "Tesla achieved record revenue in the last quarter."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Netflix reported subscription revenue growth globally."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Samsung Electronics generated strong operating revenue."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "IBM reported stable revenue from enterprise clients."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": "year",
+                "sentence": "Revenue growth remained consistent throughout the year."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Investors responded positively to revenue growth."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Revenue from India increased significantly."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Asia-Pacific region contributed strong revenue."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Overseas revenue supported overall growth."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "Management issued cautious revenue guidance."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "Revenue projections were revised upward."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": "half-year",
+                "sentence": "Revenue growth accelerated in the second half."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Market expansion supported revenue growth."
+            },
+            {
+                "metric": "revenue",
+                "value": "negative trend",
+                "period": null,
+                "sentence": "Revenue diversification reduced risk."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Revenue streams expanded globally."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Revenue contribution from new products increased."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "Revenue targets were achieved."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "Revenue consistency supported planning."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "Revenue expansion supported valuation."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Revenue growth supported expansion."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "Revenue outlook remained positive."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "Revenue improvement boosted confidence."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Revenue trends remained strong."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Market growth supported revenues."
+            }
+        ],
+        "profit": [
+            {
+                "metric": "profit",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Profit increased by 18 percent in Europe."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Apple Inc reported a rise in net profit."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": "2024",
+                "sentence": "Microsoft achieved higher operating profit in 2024."
+            },
+            {
+                "metric": "profit",
+                "value": "negative trend",
+                "period": null,
+                "sentence": "Amazon faced a decline in profit margins."
+            },
+            {
+                "metric": "profit",
+                "value": "positive trend",
+                "period": "quarter",
+                "sentence": "Google announced steady profit growth this quarter."
+            },
+            {
+                "metric": "profit",
+                "value": "negative trend",
+                "period": null,
+                "sentence": "Tesla reported reduced profits due to higher costs."
+            },
+            {
+                "metric": "profit",
+                "value": "negative trend",
+                "period": "quarter",
+                "sentence": "Netflix posted a decline in quarterly profit."
+            },
+            {
+                "metric": "profit",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Samsung reported improved profit margins."
+            },
+            {
+                "metric": "profit",
+                "value": "negative trend",
+                "period": null,
+                "sentence": "IBM saw lower profits due to restructuring costs."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Oracle announced consistent profit performance."
+            },
+            {
+                "metric": "profit",
+                "value": "negative trend",
+                "period": null,
+                "sentence": "Inflationary pressures reduced profit margins."
+            },
+            {
+                "metric": "profit",
+                "value": "positive trend",
+                "period": "year",
+                "sentence": "Profit margins improved compared to last year."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Profit forecasts exceeded expectations."
+            },
+            {
+                "metric": "profit",
+                "value": "negative trend",
+                "period": null,
+                "sentence": "Profit margins stabilized after decline."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Profit recovery was observed."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Profit goals were met."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Profit stability reassured investors."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Profit margins stabilized."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Profit recovery strengthened outlook."
+            }
+        ],
+        "sales": [
+            {
+                "metric": "sales",
+                "value": "positive trend",
+                "region": null,
+                "sentence": "Amazon recorded an increase in online sales revenue."
+            },
+            {
+                "metric": "sales",
+                "value": "positive trend",
+                "region": null,
+                "sentence": "Tesla expanded sales across European markets."
+            },
+            {
+                "metric": "sales",
+                "value": "positive trend",
+                "region": null,
+                "sentence": "Samsung increased smartphone sales worldwide."
+            },
+            {
+                "metric": "sales",
+                "value": "positive trend",
+                "region": null,
+                "sentence": "Sales in Europe showed moderate growth."
+            },
+            {
+                "metric": "sales",
+                "value": "negative trend",
+                "region": null,
+                "sentence": "International sales declined slightly."
+            },
+            {
+                "metric": "sales",
+                "value": null,
+                "region": null,
+                "sentence": "Regional expansion boosted sales figures."
+            },
+            {
+                "metric": "sales",
+                "value": null,
+                "region": null,
+                "sentence": "Sales performance exceeded projections."
+            }
+        ]
+    },
+    "events": [
+        {
+            "event": "merger",
+            "period": null,
+            "sentence": "In 2021, Apple announced a merger with a regional supplier."
+        },
+        {
+            "event": "earnings",
+            "period": "quarter",
+            "sentence": "Microsoft Corporation posted strong quarterly earnings."
+        },
+        {
+            "event": "earnings",
+            "period": null,
+            "sentence": "Shares rose after strong earnings reports."
+        },
+        {
+            "event": "merger",
+            "period": "year",
+            "sentence": "A merger was announced during the fiscal year."
+        },
+        {
+            "event": "acquisition",
+            "period": null,
+            "sentence": "The firm completed an acquisition successfully."
+        },
+        {
+            "event": "earnings",
+            "period": null,
+            "sentence": "Future earnings are expected to improve."
+        },
+        {
+            "event": "dividend",
+            "period": null,
+            "sentence": "Dividend payouts remained consistent."
+        },
+        {
+            "event": "earnings",
+            "period": null,
+            "sentence": "Earnings improved due to cost reductions."
+        },
+        {
+            "event": "earnings",
+            "period": null,
+            "sentence": "Earnings stability increased investor confidence."
+        },
+        {
+            "event": "earnings",
+            "period": null,
+            "sentence": "Earnings visibility improved."
+        },
+        {
+            "event": "earnings",
+            "period": null,
+            "sentence": "Earnings performance exceeded expectations."
+        },
+        {
+            "event": "earnings",
+            "period": null,
+            "sentence": "Earnings growth continued."
+        },
+        {
+            "event": "earnings",
+            "period": null,
+            "sentence": "Earnings quality improved."
+        }
+    ],
+    "regional_insights": [
+        {
+            "location": "indian",
+            "related_metric": null,
+            "sentence": "The company earned $2.9 billion from Indian operations."
+        },
+        {
+            "location": "asia",
+            "related_metric": null,
+            "sentence": "Apple expanded its market presence in Asia."
+        },
+        {
+            "location": "india",
+            "related_metric": null,
+            "sentence": "Netflix gained new subscribers in India."
+        },
+        {
+            "location": "asia",
+            "related_metric": null,
+            "sentence": "Apple announced expansion plans for Asia."
+        },
+        {
+            "location": "india",
+            "related_metric": null,
+            "sentence": "Amazon planned new warehouse expansions in India."
+        },
+        {
+            "location": "vietnam",
+            "related_metric": null,
+            "sentence": "Samsung expanded manufacturing facilities in Vietnam."
+        },
+        {
+            "location": "india",
+            "related_metric": "revenue",
+            "sentence": "Revenue from India increased significantly."
+        }
+    ],
+    "tables": {
+        "revenue_table": [
+            {
+                "metric": "revenue",
+                "value": "usd 12 . 5 billion",
+                "period": "q4 2022",
+                "sentence": "The company reported revenue of USD 12.5 billion in Q4 2022."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": "2024",
+                "sentence": "Apple Inc reported revenue growth in 2024."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Amazon recorded an increase in online sales revenue."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": "year",
+                "sentence": "Google reported higher advertising revenue this year."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": "quarter",
+                "sentence": "Tesla achieved record revenue in the last quarter."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Netflix reported subscription revenue growth globally."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Samsung Electronics generated strong operating revenue."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "IBM reported stable revenue from enterprise clients."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": "year",
+                "sentence": "Revenue growth remained consistent throughout the year."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Investors responded positively to revenue growth."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Revenue from India increased significantly."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Asia-Pacific region contributed strong revenue."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Overseas revenue supported overall growth."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "Management issued cautious revenue guidance."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "Revenue projections were revised upward."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": "half-year",
+                "sentence": "Revenue growth accelerated in the second half."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Market expansion supported revenue growth."
+            },
+            {
+                "metric": "revenue",
+                "value": "negative trend",
+                "period": null,
+                "sentence": "Revenue diversification reduced risk."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Revenue streams expanded globally."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Revenue contribution from new products increased."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "Revenue targets were achieved."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "Revenue consistency supported planning."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "Revenue expansion supported valuation."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Revenue growth supported expansion."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "Revenue outlook remained positive."
+            },
+            {
+                "metric": "revenue",
+                "value": null,
+                "period": null,
+                "sentence": "Revenue improvement boosted confidence."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Revenue trends remained strong."
+            },
+            {
+                "metric": "revenue",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Market growth supported revenues."
+            }
+        ],
+        "profit_table": [
+            {
+                "metric": "profit",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Profit increased by 18 percent in Europe."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Apple Inc reported a rise in net profit."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": "2024",
+                "sentence": "Microsoft achieved higher operating profit in 2024."
+            },
+            {
+                "metric": "profit",
+                "value": "negative trend",
+                "period": null,
+                "sentence": "Amazon faced a decline in profit margins."
+            },
+            {
+                "metric": "profit",
+                "value": "positive trend",
+                "period": "quarter",
+                "sentence": "Google announced steady profit growth this quarter."
+            },
+            {
+                "metric": "profit",
+                "value": "negative trend",
+                "period": null,
+                "sentence": "Tesla reported reduced profits due to higher costs."
+            },
+            {
+                "metric": "profit",
+                "value": "negative trend",
+                "period": "quarter",
+                "sentence": "Netflix posted a decline in quarterly profit."
+            },
+            {
+                "metric": "profit",
+                "value": "positive trend",
+                "period": null,
+                "sentence": "Samsung reported improved profit margins."
+            },
+            {
+                "metric": "profit",
+                "value": "negative trend",
+                "period": null,
+                "sentence": "IBM saw lower profits due to restructuring costs."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Oracle announced consistent profit performance."
+            },
+            {
+                "metric": "profit",
+                "value": "negative trend",
+                "period": null,
+                "sentence": "Inflationary pressures reduced profit margins."
+            },
+            {
+                "metric": "profit",
+                "value": "positive trend",
+                "period": "year",
+                "sentence": "Profit margins improved compared to last year."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Profit forecasts exceeded expectations."
+            },
+            {
+                "metric": "profit",
+                "value": "negative trend",
+                "period": null,
+                "sentence": "Profit margins stabilized after decline."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Profit recovery was observed."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Profit goals were met."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Profit stability reassured investors."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Profit margins stabilized."
+            },
+            {
+                "metric": "profit",
+                "value": null,
+                "period": null,
+                "sentence": "Profit recovery strengthened outlook."
+            }
+        ],
+        "sales_table": [
+            {
+                "metric": "sales",
+                "value": "positive trend",
+                "region": null,
+                "sentence": "Amazon recorded an increase in online sales revenue."
+            },
+            {
+                "metric": "sales",
+                "value": "positive trend",
+                "region": null,
+                "sentence": "Tesla expanded sales across European markets."
+            },
+            {
+                "metric": "sales",
+                "value": "positive trend",
+                "region": null,
+                "sentence": "Samsung increased smartphone sales worldwide."
+            },
+            {
+                "metric": "sales",
+                "value": "positive trend",
+                "region": null,
+                "sentence": "Sales in Europe showed moderate growth."
+            },
+            {
+                "metric": "sales",
+                "value": "negative trend",
+                "region": null,
+                "sentence": "International sales declined slightly."
+            },
+            {
+                "metric": "sales",
+                "value": null,
+                "region": null,
+                "sentence": "Regional expansion boosted sales figures."
+            },
+            {
+                "metric": "sales",
+                "value": null,
+                "region": null,
+                "sentence": "Sales performance exceeded projections."
+            }
+        ]
+    }
+}

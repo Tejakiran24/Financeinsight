@@ -1,0 +1,510 @@
+{
+    "revenue_table": [
+        {
+            "section": "General",
+            "metric": "revenue",
+            "value": null,
+            "period": "2024",
+            "sentence": "Apple Inc reported revenue growth in 2024."
+        },
+        {
+            "section": "General",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Amazon recorded an increase in online sales revenue."
+        },
+        {
+            "section": "General",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Google reported higher advertising revenue this year."
+        },
+        {
+            "section": "General",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Tesla achieved record revenue in the last quarter."
+        },
+        {
+            "section": "General",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Netflix reported subscription revenue growth globally."
+        },
+        {
+            "section": "General",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Samsung Electronics generated strong operating revenue."
+        },
+        {
+            "section": "General",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "IBM reported stable revenue from enterprise clients."
+        },
+        {
+            "section": "General",
+            "metric": "revenue",
+            "value": "usd 12 . 5 billion",
+            "period": "q4 2022",
+            "sentence": "The company reported revenue of USD 12.5 billion in Q4 2022."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Revenue growth remained consistent throughout the year."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Investors responded positively to revenue growth."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Revenue from India increased significantly."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Asia-Pacific region contributed strong revenue."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Overseas revenue supported overall growth."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Management issued cautious revenue guidance."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Revenue projections were revised upward."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Revenue growth accelerated in the second half."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Market expansion supported revenue growth."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Revenue diversification reduced risk."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Revenue streams expanded globally."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Revenue contribution from new products increased."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Revenue targets were achieved."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Revenue consistency supported planning."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Revenue expansion supported valuation."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Revenue growth supported expansion."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Revenue outlook remained positive."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Revenue improvement boosted confidence."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Revenue trends remained strong."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "revenue",
+            "value": null,
+            "period": null,
+            "sentence": "Market growth supported revenues."
+        }
+    ],
+    "profit_table": [
+        {
+            "section": "General",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Profit increased by 18 percent in Europe."
+        },
+        {
+            "section": "Profit & Loss",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Apple Inc reported a rise in net profit."
+        },
+        {
+            "section": "Profit & Loss",
+            "metric": "profit",
+            "value": null,
+            "period": "2024",
+            "sentence": "Microsoft achieved higher operating profit in 2024."
+        },
+        {
+            "section": "Profit & Loss",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Amazon faced a decline in profit margins."
+        },
+        {
+            "section": "Profit & Loss",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Google announced steady profit growth this quarter."
+        },
+        {
+            "section": "Profit & Loss",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Tesla reported reduced profits due to higher costs."
+        },
+        {
+            "section": "Profit & Loss",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Netflix posted a decline in quarterly profit."
+        },
+        {
+            "section": "Profit & Loss",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Samsung reported improved profit margins."
+        },
+        {
+            "section": "Profit & Loss",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "IBM saw lower profits due to restructuring costs."
+        },
+        {
+            "section": "Profit & Loss",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Oracle announced consistent profit performance."
+        },
+        {
+            "section": "Risk Factors",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Inflationary pressures reduced profit margins."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Profit margins improved compared to last year."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Profit forecasts exceeded expectations."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Profit margins stabilized after decline."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Profit recovery was observed."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Profit goals were met."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Profit stability reassured investors."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Profit margins stabilized."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "profit",
+            "value": null,
+            "period": null,
+            "sentence": "Profit recovery strengthened outlook."
+        }
+    ],
+    "sales_table": [
+        {
+            "section": "General",
+            "metric": "sales",
+            "value": null,
+            "region": null,
+            "sentence": "Amazon recorded an increase in online sales revenue."
+        },
+        {
+            "section": "Market & Growth",
+            "metric": "sales",
+            "value": null,
+            "region": null,
+            "sentence": "Tesla expanded sales across European markets."
+        },
+        {
+            "section": "Market & Growth",
+            "metric": "sales",
+            "value": null,
+            "region": null,
+            "sentence": "Samsung increased smartphone sales worldwide."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "sales",
+            "value": null,
+            "region": null,
+            "sentence": "Sales in Europe showed moderate growth."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "sales",
+            "value": null,
+            "region": null,
+            "sentence": "International sales declined slightly."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "sales",
+            "value": null,
+            "region": null,
+            "sentence": "Regional expansion boosted sales figures."
+        },
+        {
+            "section": "Financial Performance",
+            "metric": "sales",
+            "value": null,
+            "region": null,
+            "sentence": "Sales performance exceeded projections."
+        }
+    ],
+    "events_table": [
+        {
+            "section": "General",
+            "event": "merger",
+            "period": null,
+            "sentence": "In 2021, Apple announced a merger with a regional supplier."
+        },
+        {
+            "section": "General",
+            "event": "earnings",
+            "period": null,
+            "sentence": "Microsoft Corporation posted strong quarterly earnings."
+        },
+        {
+            "section": "Financial Performance",
+            "event": "earnings",
+            "period": null,
+            "sentence": "Shares rose after strong earnings reports."
+        },
+        {
+            "section": "Financial Performance",
+            "event": "merger",
+            "period": null,
+            "sentence": "A merger was announced during the fiscal year."
+        },
+        {
+            "section": "Financial Performance",
+            "event": "acquisition",
+            "period": null,
+            "sentence": "The firm completed an acquisition successfully."
+        },
+        {
+            "section": "Financial Performance",
+            "event": "earnings",
+            "period": null,
+            "sentence": "Future earnings are expected to improve."
+        },
+        {
+            "section": "Financial Performance",
+            "event": "dividend",
+            "period": null,
+            "sentence": "Dividend payouts remained consistent."
+        },
+        {
+            "section": "Financial Performance",
+            "event": "earnings",
+            "period": null,
+            "sentence": "Earnings improved due to cost reductions."
+        },
+        {
+            "section": "Financial Performance",
+            "event": "earnings",
+            "period": null,
+            "sentence": "Earnings stability increased investor confidence."
+        },
+        {
+            "section": "Financial Performance",
+            "event": "earnings",
+            "period": null,
+            "sentence": "Earnings visibility improved."
+        },
+        {
+            "section": "Financial Performance",
+            "event": "earnings",
+            "period": null,
+            "sentence": "Earnings performance exceeded expectations."
+        },
+        {
+            "section": "Financial Performance",
+            "event": "earnings",
+            "period": null,
+            "sentence": "Earnings growth continued."
+        },
+        {
+            "section": "Financial Performance",
+            "event": "earnings",
+            "period": null,
+            "sentence": "Earnings quality improved."
+        }
+    ],
+    "region_table": [
+        {
+            "section": "General",
+            "location": "indian",
+            "related_metric": null,
+            "sentence": "The company earned $2.9 billion from Indian operations."
+        },
+        {
+            "section": "Market & Growth",
+            "location": "asia",
+            "related_metric": null,
+            "sentence": "Apple expanded its market presence in Asia."
+        },
+        {
+            "section": "Market & Growth",
+            "location": "india",
+            "related_metric": null,
+            "sentence": "Netflix gained new subscribers in India."
+        },
+        {
+            "section": "Investment & Expansion",
+            "location": "asia",
+            "related_metric": null,
+            "sentence": "Apple announced expansion plans for Asia."
+        },
+        {
+            "section": "Investment & Expansion",
+            "location": "india",
+            "related_metric": null,
+            "sentence": "Amazon planned new warehouse expansions in India."
+        },
+        {
+            "section": "Investment & Expansion",
+            "location": "vietnam",
+            "related_metric": null,
+            "sentence": "Samsung expanded manufacturing facilities in Vietnam."
+        },
+        {
+            "section": "Financial Performance",
+            "location": "india",
+            "related_metric": "revenue",
+            "sentence": "Revenue from India increased significantly."
+        }
+    ]
+}
