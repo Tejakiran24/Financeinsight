@@ -1,0 +1,27 @@
+data/raw/
+data/clean/*.csv
+*.log
+__pycache__/
+echo "data/raw/" >> .gitignore
+echo "data/clean/" >> .gitignore
+# Ignore outputs
+outputs/
+new/outputs/
+
+# Ignore generated json files
+*.json
+
+# Ignore model / large files
+*.pt
+*.bin
+*.model
+*.pkl
+
+# Ignore cache and temp
+*.tmp
+*.cache
+# Ignore trained models
+*.safetensors
+*.pt
+*.bin
+new/finbert_ner_model/

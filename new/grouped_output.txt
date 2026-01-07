@@ -1,0 +1,1122 @@
+[pearl plaza llc] → ORG  [Saint Petersburg Russia] → LOC
+[biohit oyj] → ORG
+[ahlstrom corporation] → ORG  [stock] → PRODUCT  [13.02.2008] → DATE  [ahlstrom] → ORG  [acquisition] → EVENT
+[affecto oyj] → ORG  [eur2m] → MONEY
+[jan] → DATE
+[dividend] → EVENT  [2010] → DATE  [shareholders] → PRODUCT  [2010] → DATE
+[aug] → DATE
+[2008] → DATE  [Finland] → LOC
+[revenues] → METRIC  [3.4 %] → PERCENT  [0.4 %] → PERCENT
+[apr] → DATE  [2009] → DATE  [loss] → METRIC  [eur 189] → MONEY  [usd 245] → MONEY  [2009] → DATE  [eur 10] → MONEY  [America] → LOC
+[earnings] → EVENT  [2009] → DATE  [2008] → DATE
+[stock] → PRODUCT
+[Ayanambakkam] → LOC  [Chennai] → LOC
+[kesko agro eesti] → ORG  [sales] → METRIC  [2007] → DATE
+[earnings] → EVENT  [share] → PRODUCT  [eps] → METRIC  [eur 0.56] → MONEY  [eur 0.38] → MONEY
+[shares] → PRODUCT
+[35 %] → PERCENT  [share] → PRODUCT  [sales] → METRIC
+[65.4 %] → PERCENT  [sales] → METRIC
+[London] → LOC
+[cargotec] → ORG  [share] → PRODUCT
+[profitable] → METRIC
+[sales] → METRIC  [2009] → DATE
+[huhtamaki oyj] → ORG  [stock] → PRODUCT  [16.12.2008] → DATE  [Finland] → LOC
+[shares] → PRODUCT  [dividends] → EVENT  [Helsinki] → LOC
+[may 2009] → DATE  [biohit oyj] → ORG  [may 2009] → DATE  [loss] → METRIC  [eur0] → MONEY  [usd0] → MONEY  [2009] → DATE  [eur0] → MONEY  [2008] → DATE
+[Zapadnye] → LOC  [2009] → DATE
+[share] → PRODUCT
+[profit] → METRIC  [eur 83.0 mn] → MONEY  [eur 23.5 mn] → MONEY
+[revenues] → METRIC
+[profit] → METRIC  [eur36m] → MONEY  [eur27m] → MONEY
+[earnings] → EVENT  [share] → PRODUCT
+[sales] → METRIC
+[profit] → METRIC  [sales] → METRIC  [eur21] → MONEY  [eur196] → MONEY  [2005] → DATE
+[share] → PRODUCT  [eur422] → MONEY
+[shares] → PRODUCT  [Helsinki] → LOC  [acquisition] → EVENT
+[Helsinki] → LOC
+[merger] → EVENT  [79 %] → PERCENT
+[profit] → METRIC  [eur 0.6 mn] → MONEY  [loss] → METRIC  [eur 19mn] → MONEY
+[2010] → DATE  [eur 9.6 mn] → MONEY  [eur 0.5 mn] → MONEY  [2009] → DATE
+[sales] → METRIC
+[stocks] → PRODUCT
+[sales] → METRIC  [2005] → DATE
+[dna] → ORG
+[plc] → ORG  [Helsinki] → LOC  [eur150m] → MONEY  [eur50m] → MONEY
+[shares] → PRODUCT
+[eur 1 million] → MONEY
+[finnair plc] → ORG  [2006] → DATE
+[sales] → METRIC
+[Helsinki] → LOC  [Indian] → LOC
+[Finland] → LOC
+[2008] → DATE
+[finnair] → ORG  [Uk] → LOC  [London] → LOC  [Osaka] → LOC  [Manchester] → LOC  [Uk] → LOC  [Helsinki] → LOC  [Finland] → LOC
+[Finland] → LOC  [acquisition] → EVENT
+[91.2 %] → PERCENT  [88.8 %] → PERCENT  [2006] → DATE
+[sales] → METRIC  [12 %] → PERCENT  [eur 159.5 million] → MONEY  [6 %] → PERCENT
+[Russian] → LOC
+[profit] → METRIC  [sales] → METRIC  [eur15] → MONEY  [eur131] → MONEY  [2005] → DATE
+[share] → PRODUCT  [shares] → PRODUCT  [eur 15] → MONEY
+[nokia] → ORG
+[eur2] → MONEY  [2008] → DATE
+[peugeot] → ORG  [sales] → METRIC
+[eur7m] → MONEY
+[loss] → METRIC  [eur 32] → MONEY
+[sales] → METRIC  [$ 14.8] → MONEY  [2005] → DATE
+[revenue] → METRIC
+[2011] → DATE  [marimekko oyj] → ORG  [profit] → METRIC  [eur8] → MONEY  [2010] → DATE  [eur6] → MONEY  [2009] → DATE
+[rapala] → ORG  [80 %] → PERCENT  [shareholding] → PRODUCT
+[2011] → DATE
+[stock] → PRODUCT
+[dividend] → EVENT  [2008] → DATE  [shareholders] → PRODUCT  [2008] → DATE
+[profit] → METRIC
+[jun] → DATE  [2009] → DATE  [eur 900 million] → MONEY  [usd 1.3 bn] → MONEY
+[software] → PRODUCT
+[tekla] → ORG  [software] → PRODUCT  [2011] → DATE
+[2008] → DATE  [sales] → METRIC  [eur 9.3 million] → MONEY  [usd 13.1] → MONEY
+[talvik] → ORG
+[lemminkainen group] → ORG  [Helsinki] → LOC  [Finland] → LOC
+[sales] → METRIC  [profit] → METRIC  [2006] → DATE
+[share] → PRODUCT  [eur0] → MONEY  [2013] → DATE
+[profit] → METRIC  [eur 825mn] → MONEY  [eur 763mn] → MONEY  [2004] → DATE
+[profit] → METRIC  [eur 37] → MONEY  [eur 37.2 mn] → MONEY  [2006] → DATE
+[revenue] → METRIC  [3.2 %] → PERCENT  [12.2 %] → PERCENT
+[oct] → DATE
+[software] → PRODUCT
+[profit] → METRIC  [42.5 %] → PERCENT  [2004] → DATE
+[shareholder] → PRODUCT
+[bonds] → PRODUCT
+[uponor] → ORG  [2010] → DATE
+[acquisition] → EVENT
+[outotec] → ORG
+[stock] → PRODUCT
+[America] → LOC  [share] → PRODUCT
+[France] → LOC  [shareholder] → PRODUCT
+[plc] → ORG  [profit] → METRIC  [$ 1.7] → MONEY  [2006] → DATE  [$ 1.5 mln] → MONEY  [2005.] → DATE
+[sales] → METRIC
+[profit] → METRIC  [$ 12.4] → MONEY
+[sales] → METRIC  [Finland] → LOC  [3.9 %] → PERCENT  [0.7 %] → PERCENT
+[2011] → DATE
+[pohjola] → ORG  [plc] → ORG  [eur 40 million] → MONEY  [usd 51.2] → MONEY  [bond] → PRODUCT  [2010] → DATE  [2010] → DATE  [2010] → DATE
+[eps] → METRIC
+[altia] → ORG  [profit] → METRIC  [eur 47 million] → MONEY  [eur 6.6 million] → MONEY
+[shares] → PRODUCT
+[atria] → ORG  [atria] → ORG  [Russia] → LOC
+[sales] → METRIC  [2010] → DATE
+[software] → PRODUCT
+[Russia] → LOC  [70 %] → PERCENT  [sales] → METRIC  [20 %] → PERCENT
+[profit] → METRIC  [sales] → METRIC  [26.6 %] → PERCENT  [3.4 %] → PERCENT  [2006] → DATE
+[2009] → DATE
+[2011] → DATE  [profit] → METRIC  [eur2] → MONEY  [2010] → DATE  [eur995] → MONEY  [2009] → DATE
+[profit] → METRIC  [eur 3.11 mn] → MONEY  [eur 1.22 mn] → MONEY  [2009] → DATE
+[lemminkainen oyj hel] → ORG  [Russia] → LOC
+[shares] → PRODUCT  [1.2 %] → PERCENT  [2 %] → PERCENT  [1.7 %] → PERCENT
+[2010] → DATE  [profit] → METRIC  [eur41m] → MONEY  [eur30m] → MONEY  [2009] → DATE
+[aspo plc] → ORG  [stock] → PRODUCT  [2006] → DATE
+[pertti] → ORG  [shareholders] → PRODUCT
+[elisa] → ORG  [2007] → DATE
+[platform] → PRODUCT
+[software] → PRODUCT
+[nov] → DATE  [2008] → DATE  [loss] → METRIC  [eur 2 million] → MONEY  [usd 2.5] → MONEY  [2008] → DATE  [eur 57] → MONEY  [2007] → DATE  [$ 6.9] → MONEY  [$ 83.7 mln] → MONEY
+[2009] → DATE
+[sales] → METRIC  [7.0 %] → PERCENT  [eur 30.8 mn] → MONEY
+[2008] → DATE
+[shares] → PRODUCT
+[atria] → ORG  [eesti] → ORG  [eur 9.59 mn] → MONEY  [usd 14.19 mn] → MONEY
+[platforms] → PRODUCT
+[gunneflo] → ORG  [Sweden] → LOC
+[2009] → DATE
+[Finland] → LOC
+[Russia] → LOC
+[profit] → METRIC  [sales] → METRIC  [eur0] → MONEY  [eur13] → MONEY  [2005] → DATE
+[eps] → METRIC  [eur0] → MONEY  [eur0] → MONEY  [2008] → DATE  [sales] → METRIC  [eur15] → MONEY  [2.8 %] → PERCENT  [eur14] → MONEY  [2008] → DATE
+[profit] → METRIC  [eur 9.8 mn] → MONEY  [eur 6.0 mn] → MONEY  [2004] → DATE
+[huhtamaki] → ORG
+[sales] → METRIC  [eur 41.8 mn] → MONEY  [2007] → DATE  [2008] → DATE  [11.2 %] → PERCENT
+[2010] → DATE  [sales] → METRIC  [2 %] → PERCENT  [eur5] → MONEY  [2010] → DATE  [Finland] → LOC
+[software] → PRODUCT
+[eur 2] → MONEY  [eur 2] → MONEY  [2006] → DATE
+[profitable] → METRIC
+[19.6 %] → PERCENT
+[2009] → DATE
+[Finland] → LOC
+[2005] → DATE  [sales] → METRIC  [eur 2.3 billion] → MONEY
+[America] → LOC  [Asia] → LOC
+[profit] → METRIC  [11.2 %] → PERCENT  [11.7 %] → PERCENT
+[steps] → METRIC
+[2008] → DATE  [sales] → METRIC
+[profit] → METRIC  [eur 21.9 million] → MONEY  [eur 3.1 million] → MONEY
+[Finland] → LOC
+[Finland] → LOC
+[may] → DATE  [2006] → DATE  [share] → PRODUCT  [eur 10.22] → MONEY
+[profit] → METRIC  [145.1 %] → PERCENT  [eur 8.3 mn] → MONEY  [eur 3.4 mn] → MONEY
+[Petersburg] → LOC
+[sales] → METRIC  [2009] → DATE  [2010] → DATE
+[2009] → DATE  [eur121m] → MONEY  [eur97m] → MONEY
+[1964] → DATE  [2007] → DATE
+[France] → LOC  [Germany] → LOC
+[2010] → DATE  [Finland] → LOC
+[income] → METRIC  [eur 6.8 mn] → MONEY  [eur 3.2 mn] → MONEY  [eur 5.2 mn] → MONEY  [eur 1.5 mn] → MONEY  [2009] → DATE
+[cramo] → ORG  [Finland] → LOC
+[Uk] → LOC  [Estonia] → LOC  [London] → LOC  [oct] → DATE  [sarantel] → ORG  [elcoteq] → ORG  [Tallinn] → LOC
+[2008] → DATE  [sales] → METRIC  [2 %] → PERCENT  [eur 1] → MONEY  [eur 1] → MONEY  [2007] → DATE
+[2011] → DATE
+[eur 1.2 mn] → MONEY
+[cybercom] → ORG
+[Sweden] → LOC
+[eur 52.7 mn] → MONEY  [eur 15.6 mn] → MONEY  [2007] → DATE
+[acquisition] → EVENT  [pavara] → ORG
+[Helsinki] → LOC
+[sarantel] → ORG  [Uk] → LOC
+[stock] → PRODUCT  [1.8 %] → PERCENT
+[shareholders] → PRODUCT  [lihakunta] → ORG  [itikka osuuskunta] → ORG  [shares] → PRODUCT  [eur 20mn] → MONEY
+[software] → PRODUCT  [Finland] → LOC  [eur 1.7 million] → MONEY  [usd 2m] → MONEY  [2010] → DATE
+[profit] → METRIC  [eur 21.1 mn] → MONEY  [eur 18.6 mn] → MONEY  [2007] → DATE  [9.7 %] → PERCENT  [sales] → METRIC
+[2011] → DATE
+[2008] → DATE
+[eur1 usd1] → MONEY  [sales] → METRIC  [18.5 %] → PERCENT  [eur167] → MONEY
+[eur 25.8 million] → MONEY
+[2010] → DATE  [profit] → METRIC  [eur 3.1 million] → MONEY  [eur 2.5 million] → MONEY  [2009] → DATE
+[eur 1] → MONEY
+[share] → PRODUCT
+[software] → PRODUCT
+[profit] → METRIC  [eur 26.7 mn] → MONEY  [eur 14.9 mn] → MONEY  [2006] → DATE
+[Andalusia] → LOC
+[nov] → DATE  [2008] → DATE  [profit] → METRIC  [eur 18 million] → MONEY  [usd 23.1] → MONEY  [2008] → DATE  [eur 1] → MONEY  [oct] → DATE  [2008] → DATE  [konecranes oyj] → ORG  [eur 116.6 million] → MONEY  [usd 149.1] → MONEY  [2008] → DATE  [eur 73.6 million] → MONEY  [sales] → METRIC  [10 %] → PERCENT  [2008] → DATE
+[$ 240 million] → MONEY
+[2010] → DATE  [outotec oyj hel ote1v] → ORG  [loss] → METRIC  [eur7] → MONEY  [2010] → DATE  [profit] → METRIC  [eur12] → MONEY
+[share] → PRODUCT  [$ 24.7] → MONEY
+[teliasonera] → ORG  [ebitda] → METRIC
+[Orhangazi] → LOC
+[profit] → METRIC  [eur 20.3 mn] → MONEY  [eur 11.4 mn] → MONEY
+[profit] → METRIC  [eur3] → MONEY  [sales] → METRIC  [eur61] → MONEY  [2007] → DATE
+[2010] → DATE
+[software] → PRODUCT
+[lemcon] → ORG
+[Saudi Arabia] → LOC
+[sales] → METRIC  [7 %] → PERCENT  [4 %] → PERCENT
+[Finland] → LOC
+[affecto oyj] → ORG  [loss] → METRIC  [eur 115] → MONEY  [usd 152] → MONEY  [2010] → DATE  [profit] → METRIC  [eur 845] → MONEY
+[profit] → METRIC  [eur 4.0 mn] → MONEY  [eur 4.9 mn] → MONEY
+[lattelecom] → ORG
+[marimekko] → ORG
+[profitable] → METRIC
+[Jerusalem] → LOC
+[share] → PRODUCT
+[eur 0.7 million] → MONEY
+[upm] → ORG  [kymmene] → ORG
+[eur 2.5 mn] → MONEY
+[sanoma] → ORG
+[2010] → DATE
+[eur 2] → MONEY  [2004] → DATE
+[eur 12 million] → MONEY  [2008] → DATE
+[olvi] → ORG  [Finland] → LOC  [2009] → DATE
+[loss] → METRIC  [share] → PRODUCT  [eur 0.27] → MONEY  [eur 0.86] → MONEY
+[Uk] → LOC
+[2010] → DATE  [elisa oyj] → ORG
+[Tanzania] → LOC  [Bukoba] → LOC  [Tanzania] → LOC
+[sales] → METRIC
+[profit] → METRIC  [sales] → METRIC  [eur4] → MONEY  [eur26] → MONEY  [2004] → DATE
+[share] → PRODUCT  [eur 27] → MONEY
+[shareholder] → PRODUCT  [Estonia] → LOC
+[eur 2.83 bn] → MONEY  [usd 3.81 bn] → MONEY
+[2009] → DATE  [income] → METRIC  [eur 112.4 mn] → MONEY  [eur 74.3 mn] → MONEY  [2008] → DATE
+[7 %] → PERCENT
+[2010] → DATE  [loss] → METRIC  [eur 415] → MONEY  [eur 7.4 million] → MONEY  [2009] → DATE
+[Indian] → LOC  [2007] → DATE
+[sales] → METRIC  [Sweden] → LOC  [Russia] → LOC
+[2011] → DATE  [sanoma oyj] → ORG  [2010] → DATE  [profit] → METRIC  [eur297] → MONEY  [eur107] → MONEY  [2009] → DATE
+[acquisition] → EVENT
+[share] → PRODUCT  [Tallinna] → LOC  [2005] → DATE
+[2009] → DATE
+[acquisition] → EVENT  [aspocomp] → ORG
+[Helsinki] → LOC
+[0.5 %] → PERCENT  [2.3 %] → PERCENT
+[shares] → PRODUCT
+[profit] → METRIC  [eur 31.6 mn] → MONEY  [eur 50.0 mn] → MONEY
+[2011] → DATE
+[2009] → DATE  [80 %] → PERCENT
+[profit] → METRIC  [eur 24.5 mn] → MONEY  [eur 23.0 mn] → MONEY
+[sales] → METRIC
+[sales] → METRIC  [9.7 %] → PERCENT  [eur 63.1 mn] → MONEY  [eur 57.5 mn] → MONEY  [2006] → DATE  [16.4 %] → PERCENT  [eur 41.2 mn] → MONEY  [eur 35.4 mn] → MONEY  [2006] → DATE
+[income] → METRIC  [25.7 %] → PERCENT  [eur 16.1 mn] → MONEY  [eur 12.8 mn] → MONEY  [2004] → DATE
+[Finland] → LOC  [sales] → METRIC
+[revenue] → METRIC
+[2010] → DATE  [sales] → METRIC
+[2011] → DATE
+[2009] → DATE
+[share] → PRODUCT
+[2008] → DATE  [2010] → DATE
+[profit] → METRIC  [sales] → METRIC  [eur13] → MONEY  [eur143] → MONEY  [2007] → DATE
+[profit] → METRIC  [eur 139.7 mn] → MONEY  [23 %] → PERCENT  [eur 113.8 mn] → MONEY
+[eur25] → MONEY
+[profit] → METRIC  [27 %] → PERCENT  [eur 579.8 mn] → MONEY  [eur 457.2 mn] → MONEY  [2006] → DATE
+[eur21m] → MONEY  [eur17m] → MONEY
+[2009] → DATE  [stockmann] → PRODUCT
+[bond] → PRODUCT
+[Uk] → LOC
+[cargotec oyj] → ORG  [eur 13 million] → MONEY  [usd 16.6] → MONEY  [shipowner] → EVENT
+[Petersburg] → LOC  [Russia] → LOC  [2010] → DATE  [stockmann] → PRODUCT  [2011] → DATE
+[Estonia] → LOC
+[oyj ruukki] → ORG  [2008] → DATE  [$ 14.1] → MONEY  [Gothenburg] → LOC  [Sweden] → LOC
+[platform] → PRODUCT
+[lehdentekijat oy] → ORG
+[profit] → METRIC  [eur 151.0 mn] → MONEY  [eur 143.7 mn] → MONEY  [2007] → DATE
+[konecranes oyj] → ORG  [2008] → DATE  [profit] → METRIC  [$ 111.1] → MONEY  [2008] → DATE  [$ 89.1 mln] → MONEY  [2007.] → DATE
+[sales] → METRIC  [8 %] → PERCENT  [eur64] → MONEY  [acquisitions] → EVENT  [2008] → DATE  [eur10] → MONEY
+[acquisition] → EVENT
+[olvi] → ORG
+[$ 61us] → MONEY
+[elcoteq] → ORG
+[software] → PRODUCT  [oyj] → ORG  [2006] → DATE  [$ 3.3] → MONEY
+[sales] → METRIC  [59.8 %] → PERCENT  [eur 1] → MONEY
+[revenues] → METRIC  [eur 1.3 mn] → MONEY  [2009] → DATE  [eur 0.3 mn] → MONEY  [loss] → METRIC  [2008] → DATE
+[2008] → DATE
+[$ 2.2] → MONEY  [2007] → DATE  [$ 534.3 mln] → MONEY
+[30.65 %] → PERCENT  [shares] → PRODUCT  [31.12 %] → PERCENT
+[Finland] → LOC
+[India] → LOC
+[eps] → METRIC
+[India] → LOC
+[share] → PRODUCT
+[sales] → METRIC
+[Kazakhstan] → LOC  [Shalkiya] → LOC  [Kazakhstan] → LOC
+[stock] → PRODUCT  [28.02.2008] → DATE  [aspo plc] → ORG  [aspo] → ORG  [share] → PRODUCT  [kesko] → ORG
+[2009] → DATE
+[profit] → METRIC  [eur 11.4 mn] → MONEY  [eur 7.5 mn] → MONEY
+[profit] → METRIC  [43.2 %] → PERCENT  [eur 6 million] → MONEY
+[Usa] → LOC
+[platform] → PRODUCT
+[France] → LOC  [reuters] → ORG
+[Finland] → LOC
+[componenta] → ORG  [doktas] → ORG  [dokumculuk] → ORG
+[2010] → DATE  [2010] → DATE
+[ict plc] → ORG  [shares] → PRODUCT  [eur 2] → MONEY  [2010] → DATE
+[usd 10] → MONEY
+[aug] → DATE
+[profit] → METRIC
+[earnings] → EVENT  [income] → METRIC  [shareholding] → PRODUCT  [wartsila] → ORG
+[oyj] → ORG  [loss] → METRIC  [$ 4.2] → MONEY  [2006 -] → DATE  [2007] → DATE  [2007] → DATE  [$ 1.2 mln] → MONEY  [2005 - 06] → DATE
+[revenue] → METRIC  [earnings] → EVENT  [Finland] → LOC
+[shares] → PRODUCT  [Helsinki] → LOC  [stock] → PRODUCT  [2006] → DATE
+[Finland] → LOC
+[Chennai] → LOC
+[okmetic oyj] → ORG  [Helsinki] → LOC  [profit] → METRIC  [eur7] → MONEY  [2008] → DATE  [eur6] → MONEY  [2007] → DATE
+[eur12] → MONEY
+[profit] → METRIC  [2005] → DATE
+[stocks] → PRODUCT
+[2009] → DATE
+[$ 350] → MONEY
+[vaisala oyj] → ORG  [stock] → PRODUCT  [26.03.2010] → DATE  [vaisala oyj] → ORG  [2010] → DATE  [2009] → DATE
+[Finland] → LOC
+[elisa] → ORG  [eesti] → ORG
+[Zgody] → LOC
+[slovakia] → ORG  [Finland] → LOC  [2010] → DATE  [slovakia] → ORG
+[Uk] → LOC  [biohit oyj] → ORG
+[acquisition] → EVENT
+[acquisitions] → EVENT
+[profitability] → METRIC
+[poyry plc] → ORG  [Finland] → LOC
+[sales] → METRIC  [eur 190mn] → MONEY  [2009] → DATE  [eur 180mn] → MONEY  [2008] → DATE
+[kesko] → ORG  [sales] → METRIC
+[feb] → DATE  [2010] → DATE  [loss] → METRIC  [eur 81.5 million] → MONEY  [usd 11.8] → MONEY  [2009] → DATE  [profit] → METRIC  [eur 29.3 million] → MONEY  [2008] → DATE
+[kapiteeli] → ORG  [acquisition] → EVENT  [eur 2] → MONEY
+[Helsinki] → LOC  [eps] → METRIC  [eur1] → MONEY  [2009] → DATE  [eur1] → MONEY  [2008] → DATE
+[2011] → DATE  [2015] → DATE
+[eur 30 million] → MONEY  [usd 38.7] → MONEY
+[tikkurila] → ORG
+[earnings] → EVENT  [share] → PRODUCT  [eps] → METRIC  [eur0] → MONEY  [loss] → METRIC  [eur0] → MONEY
+[Russia] → LOC
+[shares] → PRODUCT  [dividend] → EVENT
+[2006] → DATE  [i ky] → ORG  [Finland] → LOC
+[tulikivi oyj] → ORG  [2007] → DATE  [kermansavi oy] → ORG  [tulikivi] → ORG
+[2010] → DATE  [eur23] → MONEY  [stock] → PRODUCT
+[may] → DATE  [2008] → DATE  [Finland] → LOC  [shareholding] → PRODUCT  [shares] → PRODUCT
+[shares] → PRODUCT
+[stock] → PRODUCT  [0.9 %] → PERCENT  [losses] → METRIC
+[jul] → DATE  [2009] → DATE  [Finland] → LOC  [ruukki] → ORG  [loss] → METRIC  [eur 184 million] → MONEY  [usd 259.7] → MONEY  [2009] → DATE  [profit] → METRIC  [eur 2] → MONEY  [eur 56.5 mn] → MONEY  [eur 232.9 mn] → MONEY
+[earnings] → EVENT  [share] → PRODUCT  [eps] → METRIC  [eur 1.05] → MONEY  [eur 0.64] → MONEY
+[share] → PRODUCT  [acquisitions] → EVENT
+[sales] → METRIC  [eur 645.3 mn] → MONEY  [eur 563.6 mn] → MONEY
+[Finland] → LOC
+[shared] → PRODUCT
+[Sweden] → LOC  [sales] → METRIC  [1 %] → PERCENT  [11 %] → PERCENT
+[Finland] → LOC  [sales] → METRIC  [eur 80mn] → MONEY  [eur 100mn] → MONEY
+[stock] → PRODUCT  [2010] → DATE
+[2010] → DATE  [loss] → METRIC  [eur7m] → MONEY  [2010] → DATE  [eur23] → MONEY  [2009] → DATE
+[2008] → DATE
+[Russian] → LOC  [Russia] → LOC
+[sales] → METRIC
+[2006] → DATE  [2009] → DATE
+[sales] → METRIC  [2005] → DATE
+[profit] → METRIC  [eur 9.2 mn] → MONEY  [eur 6.8 mn] → MONEY  [2007] → DATE
+[componenta oyj] → ORG  [profit] → METRIC  [$ 35.9] → MONEY  [2007] → DATE  [$ 7.3 mln] → MONEY  [2006.] → DATE
+[profit] → METRIC
+[sales] → METRIC  [Sweden] → LOC
+[44 0 20 7162] → DATE  [Usa] → LOC
+[raute] → ORG  [Russian] → LOC  [sveza group] → ORG
+[Finland] → LOC
+[loss] → METRIC  [eur 6.7 million] → MONEY  [profit] → METRIC  [eur 58.9 million] → MONEY
+[earnings] → EVENT  [share] → PRODUCT  [eps] → METRIC  [eur 0.52] → MONEY  [eur 0.09] → MONEY
+[dividend] → EVENT  [eur 0.10] → MONEY  [share] → PRODUCT  [eur 7] → MONEY
+[Finland] → LOC  [Estonia] → LOC
+[shares] → PRODUCT  [7 %] → PERCENT
+[hkscan] → ORG  [Finland] → LOC  [Sweden] → LOC
+[Jamnagar] → LOC
+[may] → DATE
+[Ostrobothnia] → LOC
+[Russia] → LOC
+[eur 7.2 mn] → MONEY
+[profit] → METRIC  [eur 11.07 mn] → MONEY  [eur 8.65 mn] → MONEY
+[Finland] → LOC  [finnair plc] → ORG  [2005] → DATE
+[2012] → DATE
+[sales] → METRIC  [16 %] → PERCENT  [eur74] → MONEY  [profit] → METRIC  [eur0] → MONEY  [loss] → METRIC  [eur0] → MONEY
+[teliasonera] → ORG
+[Finland] → LOC  [revenue] → METRIC  [2.4 %] → PERCENT  [eur6] → MONEY  [sales] → METRIC  [6.2 %] → PERCENT  [eur3] → MONEY
+[aspocomp] → ORG
+[share] → PRODUCT
+[France] → LOC
+[stock] → PRODUCT  [2006] → DATE
+[Russia] → LOC
+[profit] → METRIC
+[shareholders] → PRODUCT
+[stockmann] → PRODUCT
+[may 2007] → DATE
+[76 %] → PERCENT  [shares] → PRODUCT
+[$ 35 million] → MONEY
+[sales] → METRIC  [Finland] → LOC
+[share] → PRODUCT  [eur 1] → MONEY  [2008] → DATE
+[lemminkainen] → ORG  [lemminkainen sverige] → ORG  [2011] → DATE  [2013] → DATE
+[Helsinki] → LOC
+[netcom] → ORG
+[panostaja oyj] → ORG  [profit] → METRIC  [$ 11.4] → MONEY  [2005 -] → DATE  [2006] → DATE  [$ 3.7 mln] → MONEY  [2004 - 05] → DATE
+[Finland] → LOC
+[lemminkainen] → ORG
+[$ 2.6] → MONEY  [shares] → PRODUCT
+[acquisition] → EVENT  [relacom] → ORG  [Finland] → LOC
+[Russia] → LOC
+[share] → PRODUCT
+[hkscan group] → ORG  [revenues] → METRIC  [eur 3.5 mn] → MONEY  [eur 160.4 mn] → MONEY  [2010] → DATE  [eur 156.9 mn] → MONEY
+[Helsinki] → LOC  [2008] → DATE
+[sales] → METRIC  [eur 145.8 mn] → MONEY  [eur 138.4 mn] → MONEY
+[Helsinki] → LOC  [kci konecranes] → ORG
+[sales] → METRIC  [42 %] → PERCENT  [eur 432mn] → MONEY  [32 %] → PERCENT  [2009] → DATE
+[2011] → DATE
+[feedstocks] → PRODUCT
+[Russia] → LOC
+[kesko] → ORG  [share] → PRODUCT  [$ 15.5] → MONEY  [$ 6.2 mln] → MONEY  [2008.] → DATE
+[acquisition] → EVENT
+[2006] → DATE
+[2007] → DATE  [2008] → DATE
+[reino] → ORG  [tammela] → ORG
+[share] → PRODUCT
+[eesti] → ORG  [energia] → ORG  [eesti] → ORG  [energia] → ORG
+[0.6 %] → PERCENT  [0.2 %] → PERCENT
+[acquisition] → EVENT
+[Ukmerge] → LOC
+[profitability] → METRIC
+[1.0 %] → PERCENT  [Sweden] → LOC
+[tekla] → ORG  [software] → PRODUCT
+[2010] → DATE  [wartsila oyj] → ORG  [platform] → PRODUCT  [eidesvik] → ORG
+[2007] → DATE
+[Sweden] → LOC  [Usa] → LOC  [Germany] → LOC
+[income] → METRIC  [4.5 %] → PERCENT  [eur 31.4 mn] → MONEY  [eur 30.0 mn] → MONEY  [2004] → DATE
+[platform] → PRODUCT
+[sales] → METRIC  [acquisition] → EVENT
+[Finland] → LOC  [revenue] → METRIC  [19.06.2007] → DATE
+[sales] → METRIC  [2010] → DATE  [2009] → DATE  [eur 141.7 million] → MONEY
+[stock] → PRODUCT
+[profit] → METRIC  [sales] → METRIC  [eur16] → MONEY  [eur139m] → MONEY  [2006] → DATE
+[Russia] → LOC
+[$ 814 million] → MONEY
+[20 %] → PERCENT
+[eur500] → MONEY
+[elisa] → ORG
+[sales] → METRIC  [eur 51.3 mn] → MONEY  [2010] → DATE  [eur 37.5 mn] → MONEY  [2009] → DATE
+[profit] → METRIC  [sales] → METRIC  [eur18] → MONEY  [eur127] → MONEY  [2006] → DATE
+[eur 50 million] → MONEY  [eur 80 million] → MONEY
+[usd5] → MONEY  [Russia] → LOC  [2005] → DATE
+[loss] → METRIC  [$ 2.0] → MONEY  [2006] → DATE  [$ 2.7 mln] → MONEY  [2005.] → DATE
+[Estonia] → LOC  [Finland] → LOC  [stockmann] → PRODUCT
+[aspo oyj] → ORG  [2008] → DATE  [telpak] → ORG
+[ceo] → ORG  [matti] → ORG
+[sales] → METRIC  [$ 585us] → MONEY  [2006] → DATE
+[share] → PRODUCT  [eur 1] → MONEY
+[Sweden] → LOC  [profit] → METRIC  [eur 3.4 mn] → MONEY  [30.8 %] → PERCENT  [2005] → DATE
+[motorola] → ORG
+[feb] → DATE  [2010] → DATE  [Finland] → LOC  [loss] → METRIC  [eur 46 million] → MONEY  [usd 64.5] → MONEY  [2009] → DATE  [eur 14.5 mn] → MONEY  [eur 20mn] → MONEY
+[hkscan] → ORG  [Finland] → LOC
+[2005] → DATE
+[profit] → METRIC  [eur17] → MONEY  [eur1149] → MONEY  [2007] → DATE
+[shares] → PRODUCT
+[atria] → ORG
+[earnings] → EVENT  [share] → PRODUCT  [eur0] → MONEY
+[2006] → DATE  [2007] → DATE
+[Helsinki] → LOC  [Finland] → LOC
+[eur 1.0] → MONEY  [usd 1.397] → MONEY
+[Ukonaho] → LOC
+[2009] → DATE
+[profit] → METRIC  [11.4 %] → PERCENT  [2005] → DATE  [sales] → METRIC  [13.8 %] → PERCENT
+[5 %] → PERCENT
+[stock] → PRODUCT  [2009] → DATE  [Finland] → LOC
+[exel] → ORG
+[2010] → DATE  [talvivaara] → ORG  [loss] → METRIC  [eur 8.3 million] → MONEY  [eur 21.9 million] → MONEY  [2009] → DATE
+[stockmann] → PRODUCT  [profit] → METRIC  [$ 56.8] → MONEY  [2007] → DATE  [$ 53.4 mln] → MONEY  [2006.] → DATE
+[share] → PRODUCT  [2009] → DATE
+[Helsinki] → LOC  [profit] → METRIC  [sales] → METRIC
+[sales] → METRIC
+[share] → PRODUCT  [sales] → METRIC
+[profit] → METRIC  [eur0] → MONEY  [eur29] → MONEY
+[genvec] → ORG
+[revenue] → METRIC  [5.4 %] → PERCENT  [eur 21.46 mn] → MONEY  [2.4 %] → PERCENT
+[revenue] → METRIC  [27.6 %] → PERCENT  [eur61m] → MONEY
+[stock] → PRODUCT  [may 2008] → DATE
+[acquisition] → EVENT
+[2011] → DATE
+[Dubai] → LOC
+[$ 1.5 billion] → MONEY  [share] → PRODUCT  [2008] → DATE
+[4 %] → PERCENT  [2008] → DATE
+[eur 146mn] → MONEY  [loss] → METRIC  [eur 267mn] → MONEY  [2009] → DATE
+[dividend] → EVENT  [eur0] → MONEY  [share] → PRODUCT
+[sales] → METRIC
+[Riihim Ki] → LOC
+[2010] → DATE  [alandsbanken] → ORG  [share] → PRODUCT
+[software] → PRODUCT
+[Savonlinna] → LOC  [Finland] → LOC
+[software] → PRODUCT
+[2007] → DATE
+[kemira oyj] → ORG  [$ 890us] → MONEY  [share] → PRODUCT
+[software] → PRODUCT  [profit] → METRIC  [$ 4.6] → MONEY  [2006] → DATE  [$ 3.0 mln] → MONEY  [2005.] → DATE
+[revenue] → METRIC  [$ 743 million] → MONEY
+[acquisition] → EVENT
+[stockmann] → PRODUCT  [Estonia] → LOC
+[earnings] → EVENT  [share] → PRODUCT  [eps] → METRIC  [eur 0.29] → MONEY  [eur 0.05] → MONEY
+[Helsinki] → LOC  [profit] → METRIC  [earnings] → EVENT  [sales] → METRIC
+[Finland] → LOC  [sales] → METRIC  [eur 134 million] → MONEY  [2009] → DATE
+[sales] → METRIC  [eur 5.7 bn] → MONEY  [45 %] → PERCENT  [2005] → DATE
+[huhtamaki oyj] → ORG  [share] → PRODUCT  [eur 358] → MONEY  [shares] → PRODUCT
+[sales] → METRIC
+[panostaja] → ORG
+[software] → PRODUCT
+[tietoenator] → ORG  [Indian] → LOC  [software] → PRODUCT
+[profit] → METRIC  [eur 15.86 mn] → MONEY  [eur 4.14 mn] → MONEY
+[profit] → METRIC
+[profit] → METRIC  [sales] → METRIC  [eur0] → MONEY  [eur3] → MONEY  [2005] → DATE
+[sales] → METRIC
+[Finland] → LOC  [Kazakhstan] → LOC
+[profit] → METRIC  [share] → PRODUCT  [eur 1.03] → MONEY  [eur 0.87] → MONEY
+[sales] → METRIC  [India] → LOC
+[London] → LOC
+[profit] → METRIC
+[share] → PRODUCT
+[2007] → DATE  [sales] → METRIC  [eur 505.4 mn] → MONEY  [eur 473.5 mn] → MONEY  [2006] → DATE
+[sales] → METRIC  [2008] → DATE  [28 %] → PERCENT  [2007] → DATE
+[2009] → DATE  [profit] → METRIC  [33.8 %] → PERCENT  [eur33m] → MONEY
+[outotec] → ORG  [profit] → METRIC  [2007] → DATE  [$ 23.1] → MONEY  [$ 6.3 mln] → MONEY
+[Finland] → LOC
+[acquisition] → EVENT
+[profit] → METRIC  [eur 5mn] → MONEY  [eur 2.8 mn] → MONEY  [2008] → DATE
+[sales] → METRIC  [$ 4.5] → MONEY  [earnings] → EVENT  [2007] → DATE
+[2011] → DATE  [2012] → DATE
+[may] → DATE
+[2008] → DATE  [2008] → DATE
+[France] → LOC  [Germany] → LOC
+[20 %] → PERCENT  [Russian] → LOC
+[Finland] → LOC  [revenues] → METRIC  [2007] → DATE  [2008] → DATE
+[share] → PRODUCT
+[profit] → METRIC  [eur 3.2 mn] → MONEY  [eur 1.0 mn] → MONEY  [2008] → DATE
+[sales] → METRIC
+[1999] → DATE
+[profit] → METRIC  [eur 1.5 mn] → MONEY  [eur 1.3 mn] → MONEY  [eur 1.3 mn] → MONEY  [eur 1.0 mn] → MONEY  [2006] → DATE
+[ms] → ORG
+[eur 6mn] → MONEY
+[income] → METRIC  [eur 39.3 mn] → MONEY  [eur 32.7 mn] → MONEY
+[Russia] → LOC  [Finland] → LOC
+[Finland] → LOC  [2 %] → PERCENT  [2010] → DATE  [2011] → DATE
+[sales] → METRIC  [50 %] → PERCENT  [eur647m] → MONEY
+[Helsinki] → LOC
+[Thousands] → LOC
+[merger] → EVENT  [Finland] → LOC
+[profit] → METRIC  [eur 5.5 mn] → MONEY
+[Finland] → LOC
+[2010] → DATE
+[$ 575] → MONEY
+[sales] → METRIC
+[alfa group] → ORG  [43.9 %] → PERCENT  [stock] → PRODUCT  [35.4 %] → PERCENT  [20.7 %] → PERCENT
+[Estonia] → LOC
+[profit] → METRIC  [eur 70.0 mn] → MONEY  [2010] → DATE  [eur 54.9 mn] → MONEY  [2009] → DATE
+[sales] → METRIC
+[sales] → METRIC  [2009] → DATE  [profit] → METRIC  [2009] → DATE
+[profit] → METRIC  [eur 854mn] → MONEY  [eur 730mn] → MONEY  [2004] → DATE
+[Germany] → LOC
+[software] → PRODUCT
+[$ 30.3] → MONEY  [2007] → DATE
+[profit] → METRIC  [eur 14.0 mn] → MONEY  [eur 4.9 mn] → MONEY  [2005] → DATE
+[eur5] → MONEY  [2006] → DATE
+[Helsinki] → LOC
+[London] → LOC  [shares] → PRODUCT  [1.7 %] → PERCENT
+[share] → PRODUCT  [sales] → METRIC
+[2010] → DATE  [30 %] → PERCENT  [10 %] → PERCENT
+[profit] → METRIC  [eur2] → MONEY  [eur1] → MONEY
+[Russia] → LOC  [Vladivostok] → LOC
+[nokia] → ORG
+[loss] → METRIC  [eur 17mn] → MONEY  [eur 10.8 mn] → MONEY  [2005] → DATE
+[shares] → PRODUCT
+[eur 130 million] → MONEY  [2008] → DATE
+[share] → PRODUCT
+[stocks] → PRODUCT  [1.29 %] → PERCENT
+[profit] → METRIC  [eur 39.4 mn] → MONEY  [eur 33.9 mn] → MONEY  [2006] → DATE
+[sales] → METRIC  [eur 44.1 mn] → MONEY  [2010] → DATE  [eur 43.3 mn] → MONEY  [2009] → DATE
+[$ 2.182] → MONEY  [2005] → DATE  [may] → DATE  [2006] → DATE
+[componenta oyj] → ORG  [profit] → METRIC  [$ 4.5] → MONEY  [2006] → DATE  [$ 2.8 mln] → MONEY  [2005.] → DATE
+[2000] → DATE
+[nokia] → ORG  [profit] → METRIC
+[Russia] → LOC
+[nov] → DATE  [2008] → DATE  [Ukraine] → LOC
+[Russia] → LOC
+[copenhagen] → ORG
+[2009] → DATE  [activision] → ORG
+[eur2] → MONEY  [2009] → DATE  [software] → PRODUCT  [loss] → METRIC  [eur2] → MONEY  [2009] → DATE  [eur35] → MONEY
+[Finland] → LOC  [stockholm] → PRODUCT  [Sweden] → LOC
+[eur 36 million] → MONEY
+[israeli] → ORG  [Israel] → LOC
+[sales] → METRIC  [1.7 %] → PERCENT
+[eur20] → MONEY  [12.2 %] → PERCENT  [sales] → METRIC  [acquisitions] → EVENT  [2009] → DATE
+[sales] → METRIC
+[2010] → DATE  [vaisala oyj hel vaias] → ORG  [loss] → METRIC  [eur4] → MONEY  [2010] → DATE  [eur2] → MONEY
+[eur 43] → MONEY  [sales] → METRIC  [2006] → DATE
+[Finland] → LOC
+[earnings] → EVENT  [share] → PRODUCT  [eps] → METRIC  [2007] → DATE  [eur0] → MONEY  [eur0] → MONEY
+[2010] → DATE  [loss] → METRIC  [eur 123] → MONEY  [eur 1.5 million] → MONEY  [2009] → DATE
+[profit] → METRIC  [eur 20.5 mn] → MONEY  [2005] → DATE  [eur 9.3 mn] → MONEY  [2004] → DATE  [sales] → METRIC  [eur 103.3 mn] → MONEY  [eur 96.4 mn] → MONEY
+[Russia] → LOC
+[sales] → METRIC  [3.6 %] → PERCENT  [2009] → DATE  [eur 162.8 mn] → MONEY  [eur 168.8 mn] → MONEY  [2008] → DATE
+[eur 35 billion] → MONEY
+[$ 1.98] → MONEY
+[Estonian] → LOC  [Tallinn] → LOC  [oct] → DATE
+[may] → DATE
+[Finland] → LOC
+[metso oyj] → ORG  [may] → DATE  [2008] → DATE  [acquisition] → EVENT  [mitsubishi] → ORG
+[stockmann] → PRODUCT  [Finland] → LOC  [Russia] → LOC  [1989] → DATE
+[7 %] → PERCENT  [9 %] → PERCENT
+[Finland] → LOC
+[atria] → ORG
+[sales] → METRIC
+[software] → PRODUCT
+[sales] → METRIC  [2010] → DATE  [eur67] → MONEY  [9.7 %] → PERCENT  [2009] → DATE  [eur61] → MONEY
+[Finland] → LOC  [Kazakhstan] → LOC  [Astana] → LOC
+[kalmar] → ORG
+[Petersburg] → LOC  [2005] → DATE  [Strelny] → LOC
+[Helsinki] → LOC  [stock] → PRODUCT
+[$ 60 million] → MONEY
+[nokia] → ORG
+[platform] → PRODUCT
+[Helsinki] → LOC  [Finland] → LOC  [Tallinn] → LOC  [Estonia] → LOC  [36 %] → PERCENT  [Sweden] → LOC  [9 %] → PERCENT
+[feb] → DATE  [2009] → DATE  [software] → PRODUCT  [profit] → METRIC  [eur 3.5 million] → MONEY  [usd 4.5] → MONEY  [2008] → DATE  [eur 3.1 million] → MONEY  [2007] → DATE
+[2006] → DATE  [2006] → DATE
+[kone oyj] → ORG  [2007] → DATE  [$ 21.2] → MONEY
+[sales] → METRIC  [2006] → DATE
+[sales] → METRIC  [2008] → DATE  [10 %] → PERCENT  [2007] → DATE
+[revenue] → METRIC  [$ 13.2] → MONEY  [Indian] → LOC  [2007] → DATE
+[shareholders] → PRODUCT  [eur 1] → MONEY
+[shareholders] → PRODUCT
+[stonesoft] → ORG
+[Germany] → LOC  [eur 55] → MONEY
+[Finland] → LOC
+[dividend] → EVENT  [2008] → DATE
+[software] → PRODUCT
+[Russia] → LOC
+[platform] → PRODUCT
+[sales] → METRIC  [share] → PRODUCT  [Finland] → LOC
+[sales] → METRIC  [eur 93.6 mn] → MONEY  [eur 93.2 mn] → MONEY  [2005] → DATE
+[2010] → DATE  [2011] → DATE
+[ponsse] → ORG
+[eps] → METRIC  [2007] → DATE  [2008] → DATE
+[1910] → DATE  [Helsinki] → LOC
+[comptel] → ORG
+[1.4 %] → PERCENT  [5.1 %] → PERCENT
+[2007] → DATE
+[dec] → DATE  [2008] → DATE  [eur 28 million] → MONEY  [usd 36.8] → MONEY  [metsamasina] → ORG  [share] → PRODUCT  [27 %] → PERCENT
+[okmetic oyj] → ORG  [2007] → DATE  [Finland] → LOC  [plc] → ORG  [nordea] → ORG  [$ 26.9] → MONEY
+[Kazakhstan] → LOC  [Kazakhstan] → LOC
+[kemira] → ORG  [vinachem] → ORG
+[2010] → DATE  [eur 67.1 million] → MONEY
+[Helsinki] → LOC  [profit] → METRIC  [dec] → DATE
+[sales] → METRIC
+[jun] → DATE
+[sales] → METRIC  [8 %] → PERCENT  [eur 155.2 mn] → MONEY  [profit] → METRIC  [eur 31.1 mn] → MONEY  [eur 17.1 mn] → MONEY  [2004] → DATE
+[2009] → DATE
+[eur11] → MONEY
+[profit] → METRIC  [eur 17.8 mn] → MONEY  [eur 14.9 mn] → MONEY  [2005] → DATE
+[2016] → DATE
+[$ 35 million] → MONEY  [$ 10 million as] → MONEY  [$ 20 million worth] → MONEY  [shares to] → PRODUCT
+[Helsinki] → LOC
+[share] → PRODUCT
+[2009] → DATE
+[profit] → METRIC  [eur 152.3 mn] → MONEY  [2010] → DATE  [eur 32.7 mn] → MONEY  [2009] → DATE
+[eur928] → MONEY  [q1 2010] → DATE  [may 2010] → DATE  [marimekko oyj hel] → ORG  [profit] → METRIC  [eur928] → MONEY  [2010] → DATE  [eur13] → MONEY
+[acquisition] → EVENT
+[platform] → PRODUCT
+[2008] → DATE
+[profit] → METRIC  [eur 397.4 mn] → MONEY  [eur 164.7 mn] → MONEY
+[rautakesko] → ORG  [Russia] → LOC  [2005] → DATE  [sales] → METRIC
+[Helsinki] → LOC  [metso] → ORG
+[sales] → METRIC  [14 %] → PERCENT  [2008] → DATE
+[kesko] → ORG
+[sales] → METRIC  [eur 60 million] → MONEY
+[profit] → METRIC  [eur 0.6 mn] → MONEY  [eur 0.4 mn] → MONEY  [2005] → DATE
+[earnings] → EVENT  [share] → PRODUCT
+[usd12] → MONEY
+[Finland] → LOC
+[2006] → DATE  [eur50m] → MONEY  [1998] → DATE  [2006] → DATE  [eur50m] → MONEY
+[Karara] → LOC
+[ulefos group] → ORG
+[$ 1.14] → MONEY  [2006] → DATE
+[shareholders] → PRODUCT
+[Sabah] → LOC
+[cybercom] → ORG
+[share] → PRODUCT  [software] → PRODUCT  [acquisition] → EVENT
+[patrizia] → ORG  [acquisition] → EVENT  [eur3bn] → MONEY
+[Saimaa] → LOC
+[shares] → PRODUCT
+[stock] → PRODUCT  [2006] → DATE  [share] → PRODUCT  [shares] → PRODUCT
+[profit] → METRIC  [16.7 %] → PERCENT  [eur 7.7 mn] → MONEY
+[earnings] → EVENT  [share] → PRODUCT  [eps] → METRIC  [eur 0.11] → MONEY  [eur 0.03] → MONEY
+[2005] → DATE
+[2009] → DATE
+[aspocomp] → ORG  [Finland] → LOC
+[Helsinki] → LOC  [kesko] → ORG  [sales] → METRIC
+[2006] → DATE
+[may] → DATE
+[profit] → METRIC  [eur 36 million] → MONEY  [eur 27 million] → MONEY
+[shareholders] → PRODUCT
+[neomarkka] → ORG
+[eur12m] → MONEY  [2007] → DATE
+[Vsevolozhsk] → LOC  [Russia] → LOC  [Leningrad] → LOC
+[2009] → DATE
+[outotec oyj] → ORG  [profit] → METRIC  [$ 72.5] → MONEY  [2007] → DATE  [$ 28.9 mln] → MONEY  [2006.] → DATE
+[profit] → METRIC  [eur 13.5 mn] → MONEY  [eur 9.7 mn] → MONEY  [2006] → DATE
+[eur 12 million] → MONEY  [Russia] → LOC
+[acquisition] → EVENT  [Helsinki] → LOC
+[norsun] → ORG  [norsun] → ORG
+[tikkurila oyj hel] → ORG
+[sales] → METRIC  [2010] → DATE  [2009] → DATE
+[sales] → METRIC
+[profit] → METRIC
+[20 %] → PERCENT  [sales] → METRIC  [2010] → DATE
+[sales] → METRIC
+[sales] → METRIC  [2006] → DATE  [25 %] → PERCENT  [35 %] → PERCENT
+[software] → PRODUCT  [stonesoft oyj] → ORG  [2008] → DATE  [sales] → METRIC  [$ 5.3] → MONEY  [2007] → DATE
+[2009] → DATE  [software] → PRODUCT
+[eur 2 million] → MONEY  [usd 2.7] → MONEY  [2010] → DATE
+[sales] → METRIC  [eur 10.6 mn] → MONEY  [eur 10.1 mn] → MONEY
+[1946] → DATE  [Indiana] → LOC
+[aktia] → ORG  [profit] → METRIC  [eur 44.4 mn] → MONEY  [2009] → DATE  [eur 37.3 mn] → MONEY  [2008] → DATE
+[profit] → METRIC  [eur 103.4 mn] → MONEY  [eur 23.2] → MONEY  [2006] → DATE
+[earnings] → EVENT  [share] → PRODUCT  [2010] → DATE  [eur0] → MONEY  [20 %] → PERCENT  [eur0] → MONEY
+[upm] → ORG  [kymmene] → ORG
+[tomtom] → ORG
+[valkama] → ORG  [rannikkoseutu] → ORG
+[stockmann] → PRODUCT
+[2008] → DATE  [30 01 2009] → DATE
+[profitability] → METRIC  [13.6 %] → PERCENT  [14.3 %] → PERCENT  [q2 2009] → DATE
+[Finland] → LOC  [Kaunas] → LOC
+[coq] → ORG  [sales] → METRIC  [2004] → DATE
+[shareholders] → PRODUCT  [2011] → DATE
+[63 %] → PERCENT  [q1 2010] → DATE  [Comparison] → LOC  [q1 2009] → DATE
+[losses] → METRIC  [2010] → DATE
+[shares] → PRODUCT  [2004] → DATE  [stock] → PRODUCT
+[lemmink] → ORG
+[revenue] → METRIC  [$ 964 million] → MONEY
+[platforms] → PRODUCT
+[Finland] → LOC
+[share] → PRODUCT  [eur 300] → MONEY  [may] → DATE  [2008] → DATE
+[30 %] → PERCENT
+[share] → PRODUCT
+[eur40m] → MONEY
+[amer] → ORG  [sports oyj hel ameas] → ORG  [loss] → METRIC  [eur 16.9 million] → MONEY  [usd 22.3] → MONEY  [second quarter] → DATE  [2010] → DATE  [eur 23.2 million] → MONEY
+[sales] → METRIC
+[nokia] → ORG  [nokia] → ORG  [nokia] → ORG  [nokia] → ORG
+[sales] → METRIC  [Russia] → LOC  [Ukraine] → LOC
+[2007] → DATE
+[eur61] → MONEY  [eur47] → MONEY
+[profitability] → METRIC
+[profit] → METRIC
+[share] → PRODUCT
+[Estonia] → LOC
+[2012] → DATE
+[huhtamaki] → ORG  [share] → PRODUCT  [eur360] → MONEY  [shares] → PRODUCT
+[Finland] → LOC
+[atria] → ORG
+[Kemira] → LOC
+[cargotec] → ORG  [share] → PRODUCT  [eur 64] → MONEY
+[profit] → METRIC  [eur0] → MONEY  [eur8] → MONEY  [2005] → DATE
+[altimo] → ORG  [teliasonera] → ORG
+[profit] → METRIC  [$ 65 million] → MONEY  [sales] → METRIC
+[sales] → METRIC  [Finland] → LOC
+[earnings] → EVENT  [share] → PRODUCT  [eps] → METRIC  [eur0] → MONEY  [loss] → METRIC  [eur0] → MONEY
+[plc] → ORG
+[eur 37.1 mn] → MONEY  [eur 21.9 mn] → MONEY
+[profit] → METRIC  [eur 5.4 mn] → MONEY  [eur 3.6 mn] → MONEY
+[Helsinki] → LOC
+[Russia] → LOC
+[Mukkavilli] → LOC
+[nordea group] → ORG  [profit] → METRIC  [2010] → DATE  [revenue] → METRIC
+[2008] → DATE  [sales] → METRIC
+[1.6 %] → PERCENT  [0.4 %] → PERCENT
+[may] → DATE
+[$ 12.5 million] → MONEY  [nokia oyj] → ORG
+[affecto] → ORG  [sales] → METRIC  [2010] → DATE  [2009] → DATE  [eur 103 million] → MONEY
+[aktia] → ORG  [profit] → METRIC  [2009] → DATE  [eur 47.0 mn] → MONEY  [eur 6.6 mn] → MONEY  [2008] → DATE
+[32 %] → PERCENT
+[netanttila] → ORG  [Finland] → LOC
+[seppala] → ORG  [sales] → METRIC
+[2006] → DATE
+[share] → PRODUCT
+[sales] → METRIC  [share] → PRODUCT
+[sanoma] → ORG
+[2009] → DATE
+[Finland] → LOC
+[shares] → PRODUCT
+[Finland] → LOC
+[software] → PRODUCT
+[sales] → METRIC  [eur 68.3 million] → MONEY  [eur 62.2 million] → MONEY
+[enskilda] → ORG  [Helsinki] → LOC  [2009] → DATE  [shares] → PRODUCT  [2009] → DATE
+[2011] → DATE  [loss] → METRIC  [eur500] → MONEY  [2010] → DATE  [eur5] → MONEY
+[profit] → METRIC  [eur 1.94 mn] → MONEY  [eur 2.45 mn] → MONEY
+[eur 8mn] → MONEY
+[Finland] → LOC
+[loss] → METRIC  [$ 2.3] → MONEY  [2006] → DATE  [$ 4.8 mln] → MONEY  [2005.] → DATE
+[1968] → DATE
+[pohjola] → ORG  [45 %] → PERCENT  [2013] → DATE
+[rapala] → ORG  [France] → LOC
+[eps] → METRIC  [eur3] → MONEY  [eur0] → MONEY
+[2010] → DATE  [dividend] → EVENT  [$ 0.03] → MONEY  [$ 0.05 per] → MONEY  [share.] → PRODUCT
+[loss] → METRIC  [2007] → DATE  [eur 0.3 mn] → MONEY  [2007] → DATE
+[takoma] → ORG  [share] → PRODUCT  [Finland] → LOC
+[sales] → METRIC  [tehtaat] → ORG  [13 %] → PERCENT  [2008] → DATE  [eur 349.1 mn] → MONEY  [eur 309.6 mn] → MONEY  [2007] → DATE
+[software] → PRODUCT  [2006] → DATE
+[Helsinki] → LOC
+[2010] → DATE  [marimekko oyj] → ORG
+[2009] → DATE  [5 %] → PERCENT
+[40 %] → PERCENT  [30 %] → PERCENT  [eur 576 million] → MONEY  [eur 1.7 billion] → MONEY  [2010] → DATE
+[feb] → DATE  [2009] → DATE  [rapala] → ORG  [profit] → METRIC  [eur 19.2 million] → MONEY  [usd 24.6] → MONEY  [2008] → DATE  [eur 17.5 million] → MONEY  [2007] → DATE
+[Mississippi] → LOC
+[2009] → DATE  [Kyronsalmi] → LOC  [Savonlinna] → LOC  [Finland] → LOC
+[eur 105 million] → MONEY  [bonds] → PRODUCT  [2009] → DATE
+[income] → METRIC  [eur 152.2 mn] → MONEY  [eur 101.0 mn] → MONEY  [2008] → DATE
+[sales] → METRIC
+[profit] → METRIC  [sales] → METRIC  [eur7] → MONEY  [eur655] → MONEY  [2005] → DATE
+[Vantaa] → LOC  [Finland] → LOC
+[sales] → METRIC  [2008] → DATE
+[campofrio] → ORG
+[2007] → DATE  [revenue] → METRIC
+[Finland] → LOC
+[ixonos] → ORG
+[2010] → DATE  [sales] → METRIC  [eur131m] → MONEY  [eur76m] → MONEY  [profit] → METRIC  [loss] → METRIC  [eur7m] → MONEY
+[may] → DATE
+[40 %] → PERCENT  [Helsinki] → LOC
+[2010] → DATE
+[France] → LOC
+[veidekke] → ORG
+[Sweden] → LOC  [shares] → PRODUCT  [Finland] → LOC
+[2008] → DATE
+[profit] → METRIC  [eur 5.8 mn] → MONEY  [loss] → METRIC  [eur 1.7 mn] → MONEY  [2009] → DATE
+[sales] → METRIC
+[2007] → DATE  [Ukmerge] → LOC
+[profit] → METRIC  [eur 27.8 mn] → MONEY  [eur 17.5 mn] → MONEY  [2008] → DATE
+[stock] → PRODUCT  [2.0 %] → PERCENT
+[sales] → METRIC  [30 %] → PERCENT  [eur 36 million] → MONEY
+[sales] → METRIC  [may] → DATE
+[Helsinki] → LOC
+[profit] → METRIC  [eur 21.3 mn] → MONEY  [2009] → DATE  [eur 6.1 mn] → MONEY  [2008] → DATE
+[2008] → DATE
+[eur 383] → MONEY
+[sales] → METRIC  [2006] → DATE
+[may 2006] → DATE
+[$ 8 billion] → MONEY
+[sales] → METRIC  [share] → PRODUCT  [2010] → DATE
+[biohit] → ORG
+[2008] → DATE
+[okmetic oyj] → ORG  [Helsinki] → LOC  [profit] → METRIC  [eur5] → MONEY  [2008] → DATE  [eur3] → MONEY  [2007] → DATE
+[2005] → DATE
+[Finland] → LOC
+[2010] → DATE  [loss] → METRIC  [eur 400] → MONEY  [eur 600] → MONEY
+[$ 163 million] → MONEY
+[Uk] → LOC
+[eqt] → ORG  [nordstjernan] → ORG  [$ 47 million] → MONEY
+[profit] → METRIC  [eur 17.5 mn] → MONEY  [2010] → DATE  [eur 8.2 mn] → MONEY  [2009] → DATE
+[2010] → DATE
+[Asia] → LOC
+[2010] → DATE
+[sales] → METRIC  [2004] → DATE
+[revenue] → METRIC  [5.1 %] → PERCENT  [eur 460.8 mn] → MONEY  [eur 438.5 mn] → MONEY  [2009] → DATE
+[Finland] → LOC
+[sales] → METRIC  [5.4 %] → PERCENT
+[lemminkainen oyj] → ORG  [svenska] → ORG  [handelsbanken] → ORG
+[shares] → PRODUCT  [2011] → DATE
+[2006] → DATE  [2006] → DATE
+[eur100m usd125] → MONEY  [bond] → PRODUCT
+[2007] → DATE
+[sales] → METRIC  [12 %] → PERCENT  [eur159] → MONEY  [6 %] → PERCENT
+[stora enso oyj] → ORG  [$ 2.52 million] → MONEY
+[stockmann] → PRODUCT  [1998] → DATE
+[Finland] → LOC
+[kesko] → ORG  [sales] → METRIC
+[rushydro] → ORG
+[2006] → DATE
+[2011] → DATE  [eur1] → MONEY  [usd1] → MONEY  [sodra] → ORG
+[plc] → ORG  [Finland] → LOC
+[shareholders] → PRODUCT
+[profit] → METRIC  [eur 21.1 mn] → MONEY  [2008] → DATE  [eur 35.8 mn] → MONEY  [2007] → DATE
+[vaisala] → ORG  [Helsinki] → LOC  [Finland] → LOC
+[sales] → METRIC  [25.5 %] → PERCENT  [eur59] → MONEY  [41 %] → PERCENT
+[kemira oyj] → ORG  [kra1v] → ORG  [86 %] → PERCENT  [kemira] → ORG  [shareholders] → PRODUCT
+[nyrstar] → ORG
+[60 %] → PERCENT  [Estonia] → LOC
+[Finland] → LOC
+[2010] → DATE
+[2007] → DATE
+[Finland] → LOC  [sales] → METRIC  [eur 140.1 mn] → MONEY  [eur 131.8 mn] → MONEY
+[earnings] → EVENT  [share] → PRODUCT  [eps] → METRIC  [eur0] → MONEY  [loss] → METRIC  [eur0] → MONEY
+[stock] → PRODUCT
+[0.9 %] → PERCENT  [0.6 %] → PERCENT
+[acquisition] → EVENT
+[revenues] → METRIC  [2007] → DATE  [23 %] → PERCENT  [2006] → DATE
+[oy] → ORG
+[fiskars oyj] → ORG  [profit] → METRIC  [eur 24.1 million] → MONEY  [usd 33.6] → MONEY  [2010] → DATE  [eur 17.9 million] → MONEY
+[airbaltic] → ORG  [airbaltic] → ORG
+[oct] → DATE  [2008] → DATE  [eur 5.2 million] → MONEY  [usd 7.4] → MONEY  [oct] → DATE  [2008] → DATE  [raisio oyj] → ORG  [profit] → METRIC  [eur 16.4 million] → MONEY  [usd 20.9] → MONEY  [2008] → DATE  [eur 1.1 million] → MONEY  [sep] → DATE  [2008] → DATE  [software] → PRODUCT  [usd 1.9 million] → MONEY  [eur 1.3] → MONEY  [Russian] → LOC
+[stockmann] → PRODUCT  [2004] → DATE
+[profit] → METRIC  [eur21m] → MONEY  [eur106] → MONEY
+[Finland] → LOC  [2007] → DATE  [sales] → METRIC  [loss] → METRIC
+[austria] → ORG  [poyry plc] → ORG
+[stock] → PRODUCT  [10 3 2011] → DATE  [2010] → DATE
+[aldata] → ORG
+[stock] → PRODUCT  [may 2010] → DATE
+[digia plc] → ORG  [2006] → DATE  [Finland] → LOC  [2005] → DATE
+[loss] → METRIC  [eur 2.6 million] → MONEY  [profit] → METRIC  [eur 1.3 million] → MONEY
+[eps] → METRIC
+[Helsinki] → LOC  [acquisition] → EVENT
+[shareholders] → PRODUCT
+[2010] → DATE
+[shares] → PRODUCT  [dividend] → EVENT
+[marimekko group] → ORG  [sales] → METRIC  [10 %] → PERCENT
+[profit] → METRIC  [10 %] → PERCENT
+[yit oyj] → ORG  [2007] → DATE  [$ 102.8] → MONEY  [tapiola] → ORG
+[eur 60 million] → MONEY  [2010] → DATE
+[marimekko] → ORG
+[eur 2.803 billion] → MONEY  [2009] → DATE  [eur 2.691 million] → MONEY
+[software] → PRODUCT
+[wartsila] → ORG  [2007] → DATE  [Manturovo] → LOC  [Kostroma] → LOC  [Russia] → LOC  [Moscow] → LOC  [Russia] → LOC
+[2011] → DATE
+[50 %] → PERCENT  [sales] → METRIC  [Finland] → LOC  [profitability] → METRIC
+[Germany] → LOC
+[Ireland] → LOC
+[profit] → METRIC  [dec] → DATE
+[sales] → METRIC  [eur42m] → MONEY
+[mergers] → EVENT  [acquisitions] → EVENT
+[sales] → METRIC  [5.9 %] → PERCENT  [ebitda] → METRIC  [eur 0.2 mn] → MONEY  [2009] → DATE
+[shareholder] → PRODUCT  [bernhard nyberg] → ORG  [shares] → PRODUCT  [5.68 %] → PERCENT  [aspo plc] → ORG
+[profitability] → METRIC  [earnings] → EVENT  [2007] → DATE
+[2010] → DATE  [profit] → METRIC  [eur3] → MONEY  [eur2] → MONEY  [2009] → DATE
+[cameco] → ORG  [usd 60mn] → MONEY
+[2009] → DATE  [loss] → METRIC  [eur2] → MONEY  [profit] → METRIC  [eur6] → MONEY
+[profit] → METRIC  [eur 13.1 mn] → MONEY  [eur 8.7 mn] → MONEY  [2007] → DATE  [7.7 %] → PERCENT  [sales] → METRIC
+[profit] → METRIC  [eur 1] → MONEY  [eur 1] → MONEY  [2005] → DATE
+[2008] → DATE  [2008] → DATE
+[earnings] → EVENT  [share] → PRODUCT
+[sales] → METRIC  [Russia] → LOC  [stockmann] → PRODUCT
+[sales] → METRIC
+[60.9 %] → PERCENT  [54.2 %] → PERCENT  [2007] → DATE  [sales] → METRIC  [eur 11.0] → MONEY  [5 %] → PERCENT  [2006] → DATE
+[panostaja oyj] → ORG  [panostaja] → ORG  [2010] → DATE
+[panostaja oyj] → ORG  [2007] → DATE  [$ 4.1] → MONEY
+[share] → PRODUCT
+[sales] → METRIC
+[sales] → METRIC  [14 %] → PERCENT  [eur 1] → MONEY
+[shares] → PRODUCT
+[2007] → DATE
+[profit] → METRIC  [39.9 %] → PERCENT  [eur 18.0 mn] → MONEY  [eur12] → MONEY
+[France] → LOC  [2008] → DATE
+[Russian] → LOC
+[Russian] → LOC  [Helsinki] → LOC
+[stockmann] → PRODUCT  [Russia] → LOC
+[Ukraine] → LOC
+[sales] → METRIC  [eur655m] → MONEY  [2010] → DATE  [eur438m] → MONEY
+[share] → PRODUCT  [5 %] → PERCENT
+[eur 40.000] → MONEY  [eur 30.000] → MONEY  [eur 20.000] → MONEY
+[eesti] → ORG
+[2009] → DATE
+[Russia] → LOC
+[teliasonera] → ORG
+[shares] → PRODUCT
+[Finland] → LOC
+[share] → PRODUCT  [$ 23.54] → MONEY
+[Helsinki] → LOC
+[Finland] → LOC
+[dividend] → EVENT  [eur0] → MONEY  [share] → PRODUCT  [2010] → DATE  [eur0] → MONEY  [2009] → DATE
+[$ 781 million] → MONEY  [$ 4.31 per] → MONEY  [share from] → PRODUCT
+[aspo] → ORG  [sales] → METRIC  [kaukomarkkinat] → ORG
+[2005] → DATE  [Helsinki] → LOC  [stock] → PRODUCT
+[slovakia] → ORG
+[Finland] → LOC
+[sales] → METRIC  [2005] → DATE
+[componenta oyj hel] → ORG  [loss] → METRIC  [eur 500] → MONEY  [usd 680] → MONEY  [2010] → DATE  [eur 5.3 million] → MONEY
+[London] → LOC  [Uk] → LOC
+[2010] → DATE  [loss] → METRIC  [eur415] → MONEY  [eur7] → MONEY  [2009] → DATE
+[2008] → DATE  [kemira] → ORG  [revenue] → METRIC  [eur 2.8 billion] → MONEY
+[2010] → DATE  [2011] → DATE  [2012] → DATE
+[jan] → DATE
+[profit] → METRIC  [eur 3 million] → MONEY  [usd 4.1] → MONEY  [2009] → DATE
+[rostelecom] → ORG
+[shareholders] → PRODUCT  [bond] → PRODUCT
+[Bulgaria] → LOC
+[earnings] → EVENT
+[profit] → METRIC  [sales] → METRIC  [eur10] → MONEY  [eur28] → MONEY  [2004] → DATE
+[profit] → METRIC  [eur 5.9 mn] → MONEY  [eur 1.3 mn] → MONEY
+[7.25 %] → PERCENT
+[2010] → DATE  [2009] → DATE
+[sales] → METRIC
+[sales] → METRIC
+[2009] → DATE  [India] → LOC
+[stora] → ORG  [profit] → METRIC  [eur 197mn] → MONEY
+[sales] → METRIC  [$ 9.6] → MONEY  [2005] → DATE
+[2009] → DATE  [profit] → METRIC  [eur 13.6 mn] → MONEY  [eur 26.8 mn] → MONEY  [2008] → DATE
+[profit] → METRIC  [eur 4.7 mn] → MONEY  [eur 4.6 mn] → MONEY
+[shareholders] → PRODUCT  [77.39 %] → PERCENT
+[outotec] → ORG  [Finland] → LOC
+[Asia] → LOC
+[Helsinki] → LOC  [Finland] → LOC  [shares] → PRODUCT
+[Sotkamo] → LOC  [Finland] → LOC
+[ebitda] → METRIC  [2009] → DATE  [eur484m] → MONEY  [eur472m] → MONEY  [2008] → DATE
+[teliasonera] → ORG  [Sweden] → LOC
+[2009] → DATE  [2012] → DATE  [sales] → METRIC  [20 %] → PERCENT  [40 %] → PERCENT  [profit] → METRIC  [10 %] → PERCENT  [20 %] → PERCENT
+[profit] → METRIC  [eur 4.7 mn] → MONEY  [eur 3.6 mn] → MONEY
+[2009] → DATE
+[$ 645.8] → MONEY
+[2008] → DATE
+[eps] → METRIC  [eur0] → MONEY  [eur0] → MONEY
+[2010] → DATE  [profit] → METRIC  [14 %] → PERCENT  [eur 65.4 million] → MONEY  [sales] → METRIC  [eur 525.3 million] → MONEY  [eur 487.7 million] → MONEY
+[jan] → DATE
+[acquisition] → EVENT  [Lukkoexpert] → LOC  [ceo] → ORG  [kimmo] → ORG
+[acquisition] → EVENT
+[2006] → DATE  [plc] → ORG  [plc] → ORG  [shares] → PRODUCT
+[Helsinki] → LOC
+[shares] → PRODUCT
+[2006] → DATE
+[stock] → PRODUCT
+[2009] → DATE
+[sales] → METRIC  [40 %] → PERCENT
+[eur 1.9 bn] → MONEY
+[profit] → METRIC  [eur 2.9 mn] → MONEY  [eur 10.5 mn] → MONEY
+[aspo plc] → ORG  [stock] → PRODUCT  [2011] → DATE
+[sales] → METRIC  [usd 2.6 million] → MONEY  [2008] → DATE
+[bond] → PRODUCT  [2010] → DATE  [eur5m] → MONEY
+[sales] → METRIC  [2007] → DATE  [eur 329 million] → MONEY  [19 %] → PERCENT
+[1973] → DATE
+[shares] → PRODUCT  [1.21 %] → PERCENT  [stock] → PRODUCT  [7.41 %] → PERCENT
+[eur 100mn] → MONEY
+[sales] → METRIC
+[2008] → DATE  [sales] → METRIC  [eur 970.8 mn] → MONEY  [eur 906.8 mn] → MONEY  [2007] → DATE
+[jan] → DATE
+[2010] → DATE
+[2010] → DATE  [income] → METRIC  [eur 9.1 mn] → MONEY  [eur 9.7 mn] → MONEY
+[stockholm] → PRODUCT
+[shares] → PRODUCT
+[43 %] → PERCENT  [2010] → DATE  [33 %] → PERCENT  [18 %] → PERCENT  [2 %] → PERCENT  [3 %] → PERCENT
+[sales] → METRIC  [25 %] → PERCENT  [39 %] → PERCENT
+[Finland] → LOC
+[xerox] → ORG  [stora] → ORG  [enso] → ORG
+[profit] → METRIC  [eur 7.0 mn] → MONEY  [loss] → METRIC  [eur 4.0 mn] → MONEY  [2009] → DATE
+[jsc mikron] → ORG  [Russia] → LOC
+[1994] → DATE  [revenue] → METRIC
+[New York] → LOC
+[Helsinki] → LOC  [Finland] → LOC
+[Finland] → LOC  [outokumpu] → ORG  [profit] → METRIC
+[share] → PRODUCT
+[shareholder] → PRODUCT  [15.9.1966] → DATE
+[enso] → ORG
+[Russian] → LOC  [mpra] → ORG  [tikkurila] → ORG  [kraski teks] → ORG  [2006] → DATE
+[profit] → METRIC  [eur 2.0 mn] → MONEY  [eur 1.4 mn] → MONEY  [2005] → DATE
+[panostaja] → ORG
+[kesko group] → ORG  [sales] → METRIC
+[Sweden] → LOC
+[profit] → METRIC  [eur13] → MONEY  [sales] → METRIC  [eur394] → MONEY  [2005] → DATE
+[jydsk] → ORG
+[poyry plc] → ORG  [Helsinki] → LOC  [Dibba] → LOC
+[revenues] → METRIC
+[shares] → PRODUCT  [stock] → PRODUCT  [2006] → DATE
+[nokia] → ORG  [platform] → PRODUCT  [share] → PRODUCT
+[profit] → METRIC  [eur 3.1 mn] → MONEY
+[2007] → DATE
+[Liljeholmen] → LOC  [stockholm] → PRODUCT
+[eur 30mn] → MONEY  [2009] → DATE
+[outotec] → ORG
+[55 %] → PERCENT  [eur732m] → MONEY
+[eur 5 million] → MONEY  [usd 6.5] → MONEY
+[sales] → METRIC
+[profit] → METRIC  [eur 1.6 mn] → MONEY  [eur 1.1 mn] → MONEY  [2006] → DATE
+[2006] → DATE
+[eur 3bn] → MONEY
+[sales] → METRIC  [2010] → DATE  [eur598] → MONEY  [eur582] → MONEY  [2009] → DATE
+[London] → LOC  [nokia nok] → ORG  [India] → LOC
+[Finland] → LOC
+[Finland] → LOC
+[panostaja oyj] → ORG  [Helsinki] → LOC  [share] → PRODUCT
+[income] → METRIC
+[France] → LOC
+[share] → PRODUCT  [Sausages] → LOC
+[yhteishyv] → ORG  [helsingin sanomat] → ORG
+[sales] → METRIC  [eur 54.5 mn] → MONEY  [2008] → DATE  [eur 54.3 mn] → MONEY
+[income] → METRIC  [22 %] → PERCENT  [eur 4.4 mn] → MONEY  [13.5 %] → PERCENT
+[2007] → DATE  [sales] → METRIC  [eur 213.1 mn] → MONEY  [eur 172.6 mn] → MONEY  [2006] → DATE
+[2011] → DATE  [shares] → PRODUCT
+[2007] → DATE
+[sales] → METRIC
+[Finland] → LOC
+[sanomawsoy] → ORG  [2008] → DATE
+[stora] → ORG  [enso] → ORG  [eur 33 million] → MONEY  [2006] → DATE
+[Helsinki] → LOC
+[share] → PRODUCT
+[revenue] → METRIC  [2 %] → PERCENT  [3 %] → PERCENT  [2009] → DATE
+[profit] → METRIC  [44.0 %] → PERCENT  [eur 3.3 mn] → MONEY  [2004] → DATE
+[sales] → METRIC  [1 %] → PERCENT  [eur 29 million] → MONEY  [acquisitions] → EVENT  [eur 5.1 million] → MONEY
+[shareholders] → PRODUCT  [shares] → PRODUCT
+[elcoteq] → ORG  [Tallinn] → LOC  [layoffs] → EVENT
+[$ 7.3 mn] → MONEY
+[Finland] → LOC  [71 %] → PERCENT
+[Finland] → LOC
+[sales] → METRIC  [2004] → DATE
+[2006] → DATE  [share] → PRODUCT  [eur 4.88] → MONEY  [eur 0.60] → MONEY
+[Germany] → LOC
+[2010] → DATE  [sales] → METRIC
+[Russian] → LOC  [20 %] → PERCENT
+[Sheksna] → LOC  [Vologda] → LOC  [Russia] → LOC  [2009] → DATE  [2011] → DATE
+[2010] → DATE  [eur5m] → MONEY  [bond] → PRODUCT
+[eur 4.5 million] → MONEY  [2010] → DATE
+[acquisition] → EVENT  [sales] → METRIC  [Russian] → LOC
+[profit] → METRIC  [sales] → METRIC  [eur20] → MONEY  [eur177] → MONEY  [2004] → DATE
+[sales] → METRIC  [$ 44million] → MONEY  [kemira] → ORG  [jan.] → DATE
+[$ 4 billion] → MONEY
+[Helsinki] → LOC
+[software] → PRODUCT
+[2010] → DATE  [oyj] → ORG
+[profit] → METRIC  [eur2] → MONEY  [eur43] → MONEY
+[Finland] → LOC
+[shares] → PRODUCT
+[2011] → DATE
+[profit] → METRIC  [9 %] → PERCENT  [eur 187.8 mn] → MONEY  [2008] → DATE  [eur 207.1 mn] → MONEY
+[eur25] → MONEY  [2010] → DATE
+[2011] → DATE
+[feb] → DATE  [2009] → DATE  [profit] → METRIC  [eur 8.5 million] → MONEY  [usd 11m] → MONEY  [2008] → DATE  [eur 7 million] → MONEY  [2007] → DATE
+[Russia] → LOC
+[Helsinki] → LOC  [shares] → PRODUCT  [earnings] → EVENT
+[ipods] → EVENT  [Apple Inc] → ORG  [$ 2.9 billion] → MONEY  [India] → LOC
+[Microsoft Corporation] → ORG  [Europe] → LOC
+[Google LLC] → ORG  [$ 1.2 billion] → MONEY
+[Amazon] → ORG  [United States] → LOC
+[Tesla Inc] → ORG  [$ 500 million] → MONEY  [China] → LOC
+[IBM Corporation] → ORG  [Canada] → LOC
+[Infosys Limited] → ORG  [India] → LOC
+[Meta Platforms] → ORG  [$ 800 million] → MONEY  [Europe] → LOC
+[Samsung Electronics] → ORG  [Vietnam] → LOC
+[Reliance Industries] → ORG  [India] → LOC
