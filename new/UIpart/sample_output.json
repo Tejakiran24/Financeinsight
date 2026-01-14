@@ -1,0 +1,30 @@
+{
+  "document_id": "demo_001",
+  "company": "Apple Inc",
+  "metrics": {
+    "revenue": [
+      {
+        "company": "Apple Inc",
+        "metric": "revenue",
+        "value": "USD 12.5 billion",
+        "trend": "positive",
+        "period": "2024",
+        "sentence": "Apple reported strong revenue growth in 2024."
+      }
+    ]
+  },
+  "events": [
+    {
+      "event": "earnings",
+      "period": "quarter",
+      "sentence": "Apple posted strong quarterly earnings."
+    }
+  ],
+  "regional_insights": [
+    {
+      "location": "India",
+      "sentence": "Apple expanded operations in India."
+    }
+  ],
+  "tables": {}
+}
