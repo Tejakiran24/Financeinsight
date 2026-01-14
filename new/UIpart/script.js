@@ -3,7 +3,11 @@
    Old Method | Auto-load | Evaluation-ready
 ===================================================== */
 
-const DATA_SOURCE = "http://127.0.0.1:5000/api/extract";
+/* -----------------------------
+   BACKEND CONFIG
+------------------------------ */
+const API_BASE = "https://financeinsight-backend-4yub.onrender.com";
+const DATA_SOURCE = `${API_BASE}/api/extract`;
 
 /* -----------------------------
    AUTO LOAD ON PAGE OPEN
@@ -28,7 +32,8 @@ function loadData() {
     })
     .catch(error => {
       console.error(error);
-      document.body.innerHTML = "<h2 style='color:red'>Error loading dashboard</h2>";
+      document.body.innerHTML =
+        "<h2 style='color:red;text-align:center'>Error loading dashboard</h2>";
     });
 }
 
