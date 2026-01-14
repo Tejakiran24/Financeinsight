@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_FILE = os.path.join(BASE_DIR, "output.json")
+OUTPUT_FILE = os.path.join(BASE_DIR, "sample_output.json")
 
 @app.route("/api/extract", methods=["GET"])
 def extract_data():
