@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FinanceInsight Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <h2>FinanceInsight</h2>
+</nav>
+
+<section class="card">
+  <h2>📤 Upload Financial Document</h2>
+  <input type="file" id="fileInput" accept=".pdf,.txt,.docx">
+  <button class="btn primary" onclick="uploadDocument()">Process Document</button>
+  <p class="note">Supported formats: PDF, TXT, DOCX</p>
+</section>
+
+<section id="summary" class="card"></section>
+
+<section class="card">
+  <h2>📈 Financial Metrics</h2>
+  <div id="metricsContainer"></div>
+</section>
+
+<section class="card">
+  <h2>📅 Financial Events</h2>
+  <ul id="eventsList"></ul>
+</section>
+
+<section class="card">
+  <h2>🌍 Regional Insights</h2>
+  <ul id="regionsList"></ul>
+</section>
+
+<section class="card">
+  <h2>📑 Extracted Tables</h2>
+  <div id="tablesContainer"></div>
+</section>
+
+<footer>
+  <p>Model: FinBERT | Backend: Flask | Status: Deployed</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

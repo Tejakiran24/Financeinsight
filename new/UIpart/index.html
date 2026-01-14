@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FinanceInsight</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="logo">FinanceInsight</div>
+  <button class="launch-btn" onclick="goToDashboard()">Launch App</button>
+</header>
+
+<!-- ================= HERO SECTION ================= -->
+<section class="hero">
+  <h1>AI-Powered Financial Data Extraction</h1>
+  <p>
+    Extract financial metrics, events, and insights from unstructured
+    documents using Named Entity Recognition (NER).
+  </p>
+  <button class="hero-btn" onclick="goToDashboard()">Get Started</button>
+</section>
+
+<!-- ================= FEATURES ================= -->
+<section class="features">
+
+  <div class="feature-card" onclick="goToDashboard()">
+    <h3>📄 Document Processing</h3>
+    <p>Upload financial reports, filings, or news articles.</p>
+  </div>
+
+  <div class="feature-card" onclick="goToDashboard()">
+    <h3>📊 Financial NER</h3>
+    <p>Extract revenue, profit, sales, EPS, and more.</p>
+  </div>
+
+  <div class="feature-card" onclick="goToDashboard()">
+    <h3>📅 Event Detection</h3>
+    <p>Identify mergers, earnings, acquisitions, and dividends.</p>
+  </div>
+
+  <div class="feature-card" onclick="goToDashboard()">
+    <h3>🌍 Regional Insights</h3>
+    <p>Understand geographic financial performance.</p>
+  </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  © 2026 FinanceInsight | Infosys Internship Project
+</footer>
+
+<!-- ================= JS ================= -->
+<script>
+  function goToDashboard() {
+    window.location.href = "dashboard.html";
+  }
+</script>
+
+</body>
+</html>
