@@ -1,3 +1,4 @@
+/* ================= GLOBAL ================= */
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@
 body {
   background: #f4f7f8;
   color: #1f2937;
+  line-height: 1.6;
 }
 
 /* ================= NAVBAR ================= */
@@ -25,14 +27,28 @@ body {
   color: #f9fafb;
 }
 
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-link {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav-link:hover {
+  color: #10b981;
+}
+
 .launch-btn {
   background: #1f2937;
   color: #f9fafb;
-  border: none;
-  padding: 10px 20px;
+  padding: 10px 18px;
   border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.2s;
+  text-decoration: none;
 }
 
 .launch-btn:hover {
@@ -43,138 +59,159 @@ body {
 .hero {
   background: linear-gradient(135deg, #0f766e, #10b981);
   color: white;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 90px 25px;
+  padding: 40px 20px;
 }
 
 .hero h1 {
-  font-size: 38px;
-  font-weight: 600;
-  margin-bottom: 14px;
+  font-size: 40px;
+  margin-bottom: 15px;
 }
 
 .hero p {
   font-size: 18px;
-  max-width: 720px;
-  margin: auto;
-  opacity: 0.95;
-  margin-bottom: 26px;
+  max-width: 700px;
+  margin-bottom: 30px;
 }
 
 .hero-btn {
   background: #065f46;
-  border: none;
   color: white;
-  padding: 13px 26px;
-  font-size: 16px;
+  padding: 14px 28px;
   border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.2s;
+  text-decoration: none;
 }
 
 .hero-btn:hover {
   background: #064e3b;
 }
 
-/* ================= FEATURES ================= */
-.features {
+/* ================= SECTIONS ================= */
+.section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.section.light {
+  background: #eef2f3;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* ================= BOX GRID ================= */
+.box-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 26px;
-  padding: 60px 50px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
 }
 
-.feature-card {
+.info-box {
   background: white;
-  padding: 32px;
-  border-radius: 16px;
-  cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-}
-
-.feature-card h3 {
-  margin-bottom: 10px;
-  font-size: 18px;
-}
-
-.feature-card p {
-  color: #4b5563;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.08);
   font-size: 15px;
 }
 
-.feature-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 16px 30px rgba(0,0,0,0.15);
+/* ================= BUTTON ================= */
+.primary-btn {
+  background: #10b981;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.primary-btn:hover {
+  background: #059669;
+}
+
+/* ================= CUSTOMER CARE ================= */
+.customer-care {
+  background: #0f172a;
+  color: #e5e7eb;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.care-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  margin-top: 25px;
 }
 
 /* ================= FOOTER ================= */
 footer {
-  background: #0f172a;
-  color: #e5e7eb;
+  background: #020617;
+  color: #cbd5e1;
   text-align: center;
   padding: 18px;
   font-size: 14px;
 }
 
-/* ================= RESPONSIVE ================= */
-@media (max-width: 900px) {
-  .features {
-    grid-template-columns: repeat(2, 1fr);
-  }
+/* ================= LOGIN PAGE ================= */
+.login-body {
+  background: linear-gradient(135deg, #0f766e, #10b981);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@media (max-width: 520px) {
-  .features {
-    grid-template-columns: 1fr;
-  }
-
-  .hero h1 {
-    font-size: 30px;
-  }
+.login-container {
+  background: white;
+  padding: 40px;
+  width: 360px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2);
+  text-align: center;
 }
 
-/* ================= GLOBAL ================= */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Arial, sans-serif;
+.login-container h2 {
+  margin-bottom: 20px;
 }
 
-body {
-  background: #f4f7f8;
-  color: #1f2937;
-  line-height: 1.6;
+.login-container label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-size: 14px;
 }
 
-/* ================= NAVBAR ================= */
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+}
+
+.login-note {
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.login-note a {
+  color: #10b981;
+  text-decoration: none;
+}
+
+/* ================= DASHBOARD ================= */
 nav {
   background: #0f172a;
   color: #f9fafb;
   padding: 16px 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
-nav h2 {
-  font-size: 22px;
-  font-weight: 600;
-}
-
-nav .nav-links a {
-  color: #e5e7eb;
-  margin-left: 20px;
-  text-decoration: none;
-  font-size: 14px;
-}
-
-nav .nav-links a:hover {
-  color: #10b981;
-}
-
-/* ================= CARD LAYOUT ================= */
 .card {
   background: white;
   margin: 30px 40px;
@@ -184,24 +221,21 @@ nav .nav-links a:hover {
 }
 
 .card h2 {
-  margin-bottom: 15px;
   color: #0f766e;
+  margin-bottom: 15px;
 }
 
-/* ================= UPLOAD SECTION ================= */
 input[type="file"] {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 button {
   background: #10b981;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 18px;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 14px;
 }
 
 button:hover {
@@ -209,12 +243,11 @@ button:hover {
 }
 
 .note {
-  margin-top: 10px;
   font-size: 13px;
   color: #6b7280;
 }
 
-/* ================= TABLE STYLING ================= */
+/* TABLES */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -225,78 +258,19 @@ th, td {
   border: 1px solid #e5e7eb;
   padding: 10px;
   font-size: 14px;
-  vertical-align: top;
 }
 
 th {
   background: #ecfeff;
   color: #065f46;
-  font-weight: 600;
 }
 
-td {
-  background: #ffffff;
-}
-
-table tr:hover {
-  background: #f0fdfa;
-}
-
-/* ================= METRIC HEADINGS ================= */
-#metricsContainer h3 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  color: #065f46;
-}
-
-/* ================= EVENTS & REGIONS ================= */
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-ul li {
-  background: #f0fdfa;
-  margin-bottom: 8px;
-  padding: 12px;
-  border-left: 5px solid #10b981;
-  border-radius: 8px;
-  font-size: 14px;
-}
-
-/* ================= TRENDS ================= */
-.positive {
-  color: #16a34a;
-  font-weight: 600;
-}
-
-.negative {
-  color: #dc2626;
-  font-weight: 600;
-}
-
-/* ================= FOOTER ================= */
-footer {
-  background: #0f172a;
-  color: #e5e7eb;
-  text-align: center;
-  padding: 18px;
-  font-size: 14px;
-  margin-top: 40px;
-}
+.positive { color: #16a34a; font-weight: 600; }
+.negative { color: #dc2626; font-weight: 600; }
 
 /* ================= RESPONSIVE ================= */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
   .card {
     margin: 20px;
-  }
-
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  nav .nav-links {
-    margin-top: 10px;
   }
 }

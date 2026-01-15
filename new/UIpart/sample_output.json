@@ -1,30 +1,125 @@
 {
-  "document_id": "demo_001",
-  "company": "Apple Inc",
-  "metrics": {
-    "revenue": [
+  "document_metadata": {
+    "document_id": "FINANCE_DOC_001",
+    "source_type": "Annual Financial Report",
+    "company": "Apple Inc",
+    "financial_year": "2024",
+    "processed_date": "2026-01-15"
+  },
+
+  "dashboard_summary": {
+    "overall_sentiment": "Positive",
+    "key_highlight": "Strong revenue and profit growth driven by services and emerging markets."
+  },
+
+  "kpi_overview": {
+    "revenue": {
+      "value": "USD 383.3 Billion",
+      "trend": "positive",
+      "change_percentage": "+7%"
+    },
+    "net_profit": {
+      "value": "USD 97 Billion",
+      "trend": "positive",
+      "change_percentage": "+5%"
+    },
+    "market_cap": {
+      "value": "USD 2.9 Trillion",
+      "trend": "positive"
+    }
+  },
+
+  "financial_metrics": {
+    "revenue_details": [
       {
         "company": "Apple Inc",
-        "metric": "revenue",
-        "value": "USD 12.5 billion",
+        "value": "USD 383.3 Billion",
+        "period": "FY 2024",
         "trend": "positive",
-        "period": "2024",
-        "sentence": "Apple reported strong revenue growth in 2024."
+        "confidence_score": 0.96,
+        "context_sentence": "Apple reported strong revenue growth driven by iPhone and Services segments."
+      }
+    ],
+    "profit_details": [
+      {
+        "company": "Apple Inc",
+        "value": "USD 97 Billion",
+        "period": "FY 2024",
+        "trend": "positive",
+        "confidence_score": 0.94,
+        "context_sentence": "Net profit increased due to improved margins and operational efficiency."
+      }
+    ],
+    "sales_details": [
+      {
+        "company": "Apple Inc",
+        "region": "Asia-Pacific",
+        "trend": "positive",
+        "context_sentence": "Sales growth was strong in Asia-Pacific markets, especially India."
       }
     ]
   },
-  "events": [
+
+  "time_series_analysis": {
+    "revenue_by_year": [
+      { "year": 2022, "value": "USD 365 Billion" },
+      { "year": 2023, "value": "USD 372 Billion" },
+      { "year": 2024, "value": "USD 383.3 Billion" }
+    ],
+    "profit_by_year": [
+      { "year": 2022, "value": "USD 95 Billion" },
+      { "year": 2023, "value": "USD 94 Billion" },
+      { "year": 2024, "value": "USD 97 Billion" }
+    ]
+  },
+
+  "key_events": [
     {
-      "event": "earnings",
-      "period": "quarter",
-      "sentence": "Apple posted strong quarterly earnings."
+      "event_type": "Earnings Announcement",
+      "time_period": "Q4 2024",
+      "impact": "positive",
+      "description": "Apple posted better-than-expected quarterly earnings."
+    },
+    {
+      "event_type": "Market Expansion",
+      "time_period": "2024",
+      "impact": "positive",
+      "description": "Apple expanded manufacturing and retail operations in India."
     }
   ],
+
   "regional_insights": [
     {
-      "location": "India",
-      "sentence": "Apple expanded operations in India."
+      "region": "India",
+      "metric": "Revenue",
+      "impact": "high_growth",
+      "details": "Revenue from India increased significantly due to rising smartphone demand."
+    },
+    {
+      "region": "Europe",
+      "metric": "Profit",
+      "impact": "stable",
+      "details": "Profit margins remained stable despite inflationary pressures."
     }
   ],
-  "tables": {}
+
+  "risk_and_opportunity_analysis": {
+    "growth_drivers": [
+      "Services segment expansion",
+      "Emerging market demand",
+      "Brand loyalty and ecosystem"
+    ],
+    "potential_risks": [
+      "Supply chain dependency",
+      "Currency exchange fluctuations",
+      "Global economic slowdown"
+    ]
+  },
+
+  "model_metadata": {
+    "ner_model_used": "FinBERT",
+    "extraction_confidence_average": 0.94,
+    "data_type": "sample_demo_output",
+    "intended_use": "Deployment and dashboard demonstration"
+  }
 }
