@@ -59,7 +59,7 @@ body {
 .hero {
   background: linear-gradient(135deg, #0f766e, #10b981);
   color: white;
-  min-height: 50vh;
+  min-height: 45vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -273,4 +273,29 @@ th {
   .card {
     margin: 20px;
   }
+}
+/* ================= LOGO AREA ================= */
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.site-logo {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+
+.site-name {
+  font-size: 22px;
+  font-weight: 600;
+  color: #f9fafb;
+}
+/* LOGO CIRCLE */
+.site-logo {
+  width: 42px;          /* adjust size if needed */
+  height: 42px;
+  border-radius: 50%;   /* THIS makes it circular */
+  object-fit: cover;    /* prevents stretching */
 }
