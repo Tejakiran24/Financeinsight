@@ -1,6 +1,6 @@
 /* =====================================================
    FinanceInsight - Frontend Controller
-   Old Method | Auto-load | Evaluation-ready
+   Updated for Structured Backend JSON
 ===================================================== */
 
 /* -----------------------------
@@ -10,55 +10,57 @@ const API_BASE = "https://financeinsight-backend-4yub.onrender.com";
 const DATA_SOURCE = `${API_BASE}/api/extract`;
 
 /* -----------------------------
-   AUTO LOAD ON PAGE OPEN
+   AUTO LOAD
 ------------------------------ */
 document.addEventListener("DOMContentLoaded", () => {
   loadData();
 });
 
 /* -----------------------------
-   FETCH DATA FROM BACKEND
+   FETCH DATA
 ------------------------------ */
 function loadData() {
   fetch(DATA_SOURCE)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error("Failed to fetch data");
-      }
-      return response.json();
+    .then(res => {
+      if (!res.ok) throw new Error("API error");
+      return res.json();
     })
     .then(data => {
+      console.log("Dashboard Data:", data);
       renderDashboard(data);
     })
-    .catch(error => {
-      console.error(error);
+    .catch(err => {
+      console.error(err);
       document.body.innerHTML =
         "<h2 style='color:red;text-align:center'>Error loading dashboard</h2>";
     });
 }
 
 /* -----------------------------
-   MAIN RENDER FUNCTION
+   MAIN RENDER
 ------------------------------ */
 function renderDashboard(data) {
-  renderSummary(data);
-  renderMetrics(data.metrics);
-  renderEvents(data.events);
+  renderSummary(data.document_metadata, data.dashboard_summary);
+  renderMetrics(data.financial_metrics);
+  renderEvents(data.key_events);
   renderRegions(data.regional_insights);
-  renderTables(data.tables);
 }
 
 /* -----------------------------
    SUMMARY
 ------------------------------ */
-function renderSummary(data) {
-  const summary = document.getElementById("summary");
-  if (!summary) return;
+function renderSummary(meta, summary) {
+  const box = document.getElementById("summary");
+  if (!box) return;
 
-  summary.innerHTML = `
+  box.innerHTML = `
     <h2>📄 Document Summary</h2>
-    <p><b>Document ID:</b> ${safe(data.document_id)}</p>
-    <p><b>Primary Company:</b> ${safe(data.company)}</p>
+    <p><b>Document ID:</b> ${safe(meta?.document_id)}</p>
+    <p><b>Company:</b> ${safe(meta?.company)}</p>
+    <p><b>Financial Year:</b> ${safe(meta?.financial_year)}</p>
+    <p><b>Processed Date:</b> ${safe(meta?.processed_date)}</p>
+    <p><b>Key Highlight:</b> ${safe(summary?.key_highlight)}</p>
+    <p><b>Overall Sentiment:</b> ${safe(summary?.overall_sentiment)}</p>
   `;
 }
 
@@ -71,30 +73,22 @@ function renderMetrics(metrics) {
 
   container.innerHTML = "";
 
-  Object.keys(metrics).forEach(metricType => {
-    const rows = metrics[metricType];
+  Object.keys(metrics).forEach(type => {
+    const rows = metrics[type];
     if (!rows || rows.length === 0) return;
 
     let html = `
-      <h3>${metricType.toUpperCase()}</h3>
+      <h3>${formatTitle(type)}</h3>
       <table>
         <tr>
-          <th>Company</th>
-          <th>Value</th>
-          <th>Trend</th>
-          <th>Period</th>
-          <th>Sentence</th>
+          ${Object.keys(rows[0]).map(col => `<th>${formatTitle(col)}</th>`).join("")}
         </tr>
     `;
 
-    rows.forEach(item => {
+    rows.forEach(row => {
       html += `
         <tr>
-          <td>${safe(item.company)}</td>
-          <td>${safe(item.value)}</td>
-          <td class="${trendClass(item.trend)}">${safe(item.trend)}</td>
-          <td>${safe(item.period)}</td>
-          <td>${safe(item.sentence)}</td>
+          ${Object.values(row).map(val => `<td>${safe(val)}</td>`).join("")}
         </tr>
       `;
     });
@@ -115,7 +109,11 @@ function renderEvents(events) {
 
   events.forEach(e => {
     const li = document.createElement("li");
-    li.innerHTML = `<b>${safe(e.event).toUpperCase()}</b> – ${safe(e.sentence)}`;
+    li.innerHTML = `
+      <b>${safe(e.event_type)}</b> (${safe(e.time_period)})<br>
+      ${safe(e.description)}<br>
+      <i>Impact: ${safe(e.impact)}</i>
+    `;
     list.appendChild(li);
   });
 }
@@ -131,59 +129,20 @@ function renderRegions(regions) {
 
   regions.forEach(r => {
     const li = document.createElement("li");
-    li.innerHTML = `<b>${safe(r.location)}</b> – ${safe(r.sentence)}`;
-    list.appendChild(li);
-  });
-}
-
-/* -----------------------------
-   TABLE EXTRACTION
------------------------------- */
-function renderTables(tables) {
-  const container = document.getElementById("tablesContainer");
-  if (!container || !tables) return;
-
-  container.innerHTML = "";
-
-  Object.keys(tables).forEach(tableName => {
-    const rows = tables[tableName];
-    if (!rows || rows.length === 0) return;
-
-    let html = `
-      <h3>${formatTitle(tableName)}</h3>
-      <table>
-        <tr>
-          ${Object.keys(rows[0]).map(col => `<th>${col}</th>`).join("")}
-        </tr>
+    li.innerHTML = `
+      <b>${safe(r.region)}</b> – ${safe(r.metric)}<br>
+      ${safe(r.details)}<br>
+      <i>Impact: ${safe(r.impact)}</i>
     `;
-
-    rows.forEach(row => {
-      html += `
-        <tr>
-          ${Object.values(row).map(val => `<td>${safe(val)}</td>`).join("")}
-        </tr>
-      `;
-    });
-
-    html += "</table>";
-    container.innerHTML += html;
+    list.appendChild(li);
   });
 }
 
 /* -----------------------------
    UTILITIES
 ------------------------------ */
-function safe(value) {
-  return value === null || value === undefined || value === ""
-    ? "-"
-    : value;
-}
-
-function trendClass(trend) {
-  if (!trend) return "";
-  if (trend.toLowerCase() === "positive") return "positive";
-  if (trend.toLowerCase() === "negative") return "negative";
-  return "";
+function safe(v) {
+  return v === null || v === undefined || v === "" ? "-" : v;
 }
 
 function formatTitle(text) {
