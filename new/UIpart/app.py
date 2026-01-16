@@ -7,25 +7,25 @@ from datetime import datetime
 
 from utils.text_extractor import extract_text
 
-# -------------------------------
+# ===============================
 # APP SETUP
-# -------------------------------
+# ===============================
 app = Flask(__name__)
 CORS(app)
 
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# -------------------------------
+# ===============================
 # HEALTH CHECK
-# -------------------------------
+# ===============================
 @app.route("/")
 def health():
     return "FinanceInsight backend running"
 
-# -------------------------------
+# ===============================
 # HELPER FUNCTIONS
-# -------------------------------
+# ===============================
 def detect_company(text):
     for line in text.splitlines():
         if "limited" in line.lower() or "ltd" in line.lower():
@@ -35,12 +35,13 @@ def detect_company(text):
 def detect_amounts(pattern, text):
     return re.findall(pattern, text, re.IGNORECASE)
 
-# -------------------------------
+# ===============================
 # UPLOAD + PROCESS API
-# -------------------------------
+# ===============================
 @app.route("/api/upload", methods=["POST"])
 def upload_document():
 
+    # ---- VALIDATE FILE ----
     if "document" not in request.files:
         return jsonify({"error": "No file uploaded"}), 400
 
@@ -48,25 +49,34 @@ def upload_document():
     if file.filename == "":
         return jsonify({"error": "Empty filename"}), 400
 
-    # Save file
+    # ---- SAVE FILE ----
     filename = f"{uuid.uuid4()}_{file.filename}"
     path = os.path.join(UPLOAD_FOLDER, filename)
     file.save(path)
 
-    # Extract text
-    text = extract_text(path)
+    print("File saved:", path)
 
-    if not text.strip():
-        return jsonify({"error": "No readable content found"}), 400
+    # ---- EXTRACT TEXT ----
+    try:
+        text = extract_text(path)
+    except Exception as e:
+        print("Text extraction error:", e)
+        text = ""
 
-    # -------------------------------
+    # ---- FALLBACK IF NO TEXT ----
+    if not text or not text.strip():
+        text = "No readable content detected. Proceeding with metadata only."
+
+    print("Extracted text length:", len(text))
+
+    # ===============================
     # COMPANY
-    # -------------------------------
+    # ===============================
     company = detect_company(text)
 
-    # -------------------------------
+    # ===============================
     # FINANCIAL METRICS
-    # -------------------------------
+    # ===============================
     revenue_matches = detect_amounts(
         r"revenue\s*(?:of|was|is)?\s*₹?\s*([\d,.]+)", text
     )
@@ -74,12 +84,15 @@ def upload_document():
         r"profit\s*(?:of|was|is)?\s*₹?\s*([\d,.]+)", text
     )
 
-    revenue = [{"year": "Detected", "amount": f"₹{amt}"} for amt in revenue_matches]
-    profit = [{"year": "Detected", "amount": f"₹{amt}"} for amt in profit_matches]
+    revenue = [{"year": "Detected", "amount": f"₹{amt}"} for amt in revenue_matches] or []
+    profit = [{"year": "Detected", "amount": f"₹{amt}"} for amt in profit_matches] or []
 
-    # -------------------------------
+    print("Revenue detected:", revenue)
+    print("Profit detected:", profit)
+
+    # ===============================
     # FINANCIAL EVENTS
-    # -------------------------------
+    # ===============================
     events = []
     event_keywords = [
         ("merger", "Merger"),
@@ -98,9 +111,11 @@ def upload_document():
                 "impact": "Medium"
             })
 
-    # -------------------------------
+    print("Events detected:", events)
+
+    # ===============================
     # REGIONAL INSIGHTS
-    # -------------------------------
+    # ===============================
     regions = []
     region_keywords = ["india", "asia", "europe", "usa", "america", "global"]
 
@@ -113,12 +128,14 @@ def upload_document():
                 "impact": "Medium"
             })
 
-    # -------------------------------
-    # RESPONSE
-    # -------------------------------
+    print("Regions detected:", regions)
+
+    # ===============================
+    # FINAL RESPONSE (ALWAYS RETURNS)
+    # ===============================
     return jsonify({
         "document_metadata": {
-            "document_id": file.filename,
+            "document_id": filename,
             "company": company,
             "financial_year": "Detected from document",
             "processed_date": datetime.now().strftime("%Y-%m-%d")
@@ -134,9 +151,3 @@ def upload_document():
         "key_events": events,
         "regional_insights": regions
     })
-
-# -------------------------------
-# RUN SERVER
-# -------------------------------
-# if __name__ == "__main__":
-#     app.run(debug=True)
