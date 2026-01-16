@@ -3,10 +3,13 @@
 ================================ */
 const API_BASE = "https://financeinsight-backend.onrender.com";
 
+/* Wake up backend (Render cold start fix) */
+fetch(`${API_BASE}/`).catch(() => {});
+
 /* ===============================
    LOADING UI HELPERS
 ================================ */
-function showLoading(message = "Processing document, please wait...") {
+function showLoading(message) {
   let loader = document.getElementById("global-loader");
 
   if (!loader) {
@@ -15,12 +18,13 @@ function showLoading(message = "Processing document, please wait...") {
     loader.innerHTML = `
       <div class="loader-box">
         <div class="spinner"></div>
-        <p>${message}</p>
+        <p id="loader-text"></p>
       </div>
     `;
     document.body.appendChild(loader);
   }
 
+  document.getElementById("loader-text").innerText = message;
   loader.style.display = "flex";
 }
 
@@ -30,9 +34,9 @@ function hideLoading() {
 }
 
 /* ===============================
-   UPLOAD DOCUMENT (LANDING PAGE)
+   UPLOAD DOCUMENT
 ================================ */
-function uploadDocument() {
+function uploadDocument(retry = false) {
   const fileInput = document.getElementById("fileInput");
 
   if (!fileInput || !fileInput.files.length) {
@@ -40,22 +44,30 @@ function uploadDocument() {
     return;
   }
 
-  const formData = new FormData();
-  formData.append("document", fileInput.files[0]);
+  const file = fileInput.files[0];
 
-  showLoading("Uploading & analyzing document...");
+  /* File size limit (2MB) */
+  if (file.size > 2 * 1024 * 1024) {
+    alert("Please upload a file smaller than 2MB for faster analysis");
+    return;
+  }
+
+  const formData = new FormData();
+  formData.append("document", file);
+
+  showLoading("Uploading document...");
 
   fetch(`${API_BASE}/api/upload`, {
     method: "POST",
     body: formData
   })
     .then(res => {
-      if (!res.ok) {
-        throw new Error("Server error");
-      }
+      showLoading("Extracting financial data...");
+      if (!res.ok) throw new Error("Server error");
       return res.json();
     })
     .then(data => {
+      showLoading("Generating insights...");
       sessionStorage.setItem("financeData", JSON.stringify(data));
       hideLoading();
       window.location.href = "dashboard.html";
@@ -63,14 +75,18 @@ function uploadDocument() {
     .catch(err => {
       console.error("Upload error:", err);
       hideLoading();
-      alert(
-        "Backend is waking up or temporarily unavailable.\nPlease wait 20 seconds and try again."
-      );
+
+      if (!retry) {
+        alert("Backend is waking up. Retrying once...");
+        setTimeout(() => uploadDocument(true), 3000);
+      } else {
+        alert("Upload failed. Please try again.");
+      }
     });
 }
 
 /* ===============================
-   LOAD DATA ON DASHBOARD PAGE
+   LOAD DATA ON DASHBOARD
 ================================ */
 document.addEventListener("DOMContentLoaded", () => {
   const storedData = sessionStorage.getItem("financeData");
@@ -112,6 +128,7 @@ function renderSummary(meta, summary) {
 function renderMetrics(metrics) {
   const container = document.getElementById("metricsContainer");
   if (!container) return;
+
   container.innerHTML = "";
 
   Object.keys(metrics).forEach(type => {
@@ -119,16 +136,12 @@ function renderMetrics(metrics) {
     if (!rows || rows.length === 0) return;
 
     let html = `<h3>${type.toUpperCase()}</h3><table><tr>`;
-    Object.keys(rows[0]).forEach(col => {
-      html += `<th>${col}</th>`;
-    });
+    Object.keys(rows[0]).forEach(col => html += `<th>${col}</th>`);
     html += "</tr>";
 
     rows.forEach(row => {
       html += "<tr>";
-      Object.values(row).forEach(v => {
-        html += `<td>${v}</td>`;
-      });
+      Object.values(row).forEach(v => html += `<td>${v}</td>`);
       html += "</tr>";
     });
 
@@ -143,6 +156,7 @@ function renderMetrics(metrics) {
 function renderEvents(events) {
   const list = document.getElementById("eventsList");
   if (!list) return;
+
   list.innerHTML = "";
 
   if (!events || events.length === 0) {
@@ -163,6 +177,7 @@ function renderEvents(events) {
 function renderRegions(regions) {
   const list = document.getElementById("regionsList");
   if (!list) return;
+
   list.innerHTML = "";
 
   if (!regions || regions.length === 0) {
@@ -178,14 +193,11 @@ function renderRegions(regions) {
 }
 
 /* ===============================
-   DOWNLOAD AS JSON
+   DOWNLOAD JSON
 ================================ */
 function downloadJSON() {
   const data = sessionStorage.getItem("financeData");
-  if (!data) {
-    alert("No data available to download");
-    return;
-  }
+  if (!data) return alert("No data available");
 
   const blob = new Blob([data], { type: "application/json" });
   const url = URL.createObjectURL(blob);
@@ -199,55 +211,25 @@ function downloadJSON() {
 }
 
 /* ===============================
-   DOWNLOAD AS TEXT REPORT
+   DOWNLOAD TEXT
 ================================ */
 function downloadText() {
   const raw = sessionStorage.getItem("financeData");
-  if (!raw) {
-    alert("No data available to download");
-    return;
-  }
+  if (!raw) return alert("No data available");
 
   const data = JSON.parse(raw);
 
-  let report = `
-FinanceInsight – Financial Analysis Report
-------------------------------------------
+  let report = `FinanceInsight – Financial Analysis Report\n\n`;
+  report += `Company: ${data.document_metadata.company}\n`;
+  report += `Financial Year: ${data.document_metadata.financial_year}\n`;
+  report += `Processed Date: ${data.document_metadata.processed_date}\n\n`;
 
-Company: ${data.document_metadata.company}
-Financial Year: ${data.document_metadata.financial_year}
-Processed Date: ${data.document_metadata.processed_date}
-
-Key Highlight:
-${data.dashboard_summary.key_highlight}
-
-FINANCIAL METRICS:
-`;
-
+  report += "FINANCIAL METRICS:\n";
   Object.keys(data.financial_metrics).forEach(type => {
-    report += `\n${type.toUpperCase()}:\n`;
     data.financial_metrics[type].forEach(r => {
-      report += `- ${r.amount} (${r.year})\n`;
+      report += `- ${type}: ${r.amount}\n`;
     });
   });
-
-  report += `\nFINANCIAL EVENTS:\n`;
-  if (data.key_events.length === 0) {
-    report += "No events detected\n";
-  } else {
-    data.key_events.forEach(e => {
-      report += `- ${e.event_type}: ${e.description}\n`;
-    });
-  }
-
-  report += `\nREGIONAL INSIGHTS:\n`;
-  if (data.regional_insights.length === 0) {
-    report += "No regional insights detected\n";
-  } else {
-    data.regional_insights.forEach(r => {
-      report += `- ${r.region}: ${r.details}\n`;
-    });
-  }
 
   const blob = new Blob([report], { type: "text/plain" });
   const url = URL.createObjectURL(blob);
