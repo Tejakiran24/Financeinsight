@@ -1,44 +1,49 @@
-/* =====================================================
-   FinanceInsight - Frontend Controller
-   Updated for Structured Backend JSON
-===================================================== */
+const API_BASE = "http://localhost:5000";
 
-/* -----------------------------
-   BACKEND CONFIG
------------------------------- */
-const API_BASE = "https://financeinsight-backend-4yub.onrender.com";
-const DATA_SOURCE = `${API_BASE}/api/extract`;
+/* ===============================
+   UPLOAD DOCUMENT (LANDING PAGE)
+================================ */
+function uploadDocument() {
+  const fileInput = document.getElementById("fileInput");
+  if (!fileInput || !fileInput.files.length) {
+    alert("Please select a file");
+    return;
+  }
 
-/* -----------------------------
-   AUTO LOAD
------------------------------- */
-document.addEventListener("DOMContentLoaded", () => {
-  loadData();
-});
+  const formData = new FormData();
+  formData.append("document", fileInput.files[0]);
 
-/* -----------------------------
-   FETCH DATA
------------------------------- */
-function loadData() {
-  fetch(DATA_SOURCE)
-    .then(res => {
-      if (!res.ok) throw new Error("API error");
-      return res.json();
-    })
+  fetch(`${API_BASE}/api/upload`, {
+    method: "POST",
+    body: formData
+  })
+    .then(res => res.json())
     .then(data => {
-      console.log("Dashboard Data:", data);
-      renderDashboard(data);
+      // 🔴 STORE RESULT
+      sessionStorage.setItem("financeData", JSON.stringify(data));
+
+      // 🔴 REDIRECT TO DASHBOARD
+      window.location.href = "dashboard.html";
     })
     .catch(err => {
       console.error(err);
-      document.body.innerHTML =
-        "<h2 style='color:red;text-align:center'>Error loading dashboard</h2>";
+      alert("Upload failed");
     });
 }
 
-/* -----------------------------
-   MAIN RENDER
------------------------------- */
+/* ===============================
+   LOAD DATA ON DASHBOARD PAGE
+================================ */
+document.addEventListener("DOMContentLoaded", () => {
+  const storedData = sessionStorage.getItem("financeData");
+  if (storedData) {
+    renderDashboard(JSON.parse(storedData));
+  }
+});
+
+/* ===============================
+   RENDER DASHBOARD
+================================ */
 function renderDashboard(data) {
   renderSummary(data.document_metadata, data.dashboard_summary);
   renderMetrics(data.financial_metrics);
@@ -46,51 +51,43 @@ function renderDashboard(data) {
   renderRegions(data.regional_insights);
 }
 
-/* -----------------------------
+/* ===============================
    SUMMARY
------------------------------- */
+================================ */
 function renderSummary(meta, summary) {
   const box = document.getElementById("summary");
   if (!box) return;
 
   box.innerHTML = `
     <h2>📄 Document Summary</h2>
-    <p><b>Document ID:</b> ${safe(meta?.document_id)}</p>
-    <p><b>Company:</b> ${safe(meta?.company)}</p>
-    <p><b>Financial Year:</b> ${safe(meta?.financial_year)}</p>
-    <p><b>Processed Date:</b> ${safe(meta?.processed_date)}</p>
-    <p><b>Key Highlight:</b> ${safe(summary?.key_highlight)}</p>
-    <p><b>Overall Sentiment:</b> ${safe(summary?.overall_sentiment)}</p>
+    <p><b>Company:</b> ${meta.company}</p>
+    <p><b>Financial Year:</b> ${meta.financial_year}</p>
+    <p><b>Processed Date:</b> ${meta.processed_date}</p>
+    <p><b>Highlight:</b> ${summary.key_highlight}</p>
+    <p><b>Sentiment:</b> ${summary.overall_sentiment}</p>
   `;
 }
 
-/* -----------------------------
+/* ===============================
    METRICS
------------------------------- */
+================================ */
 function renderMetrics(metrics) {
   const container = document.getElementById("metricsContainer");
-  if (!container || !metrics) return;
-
+  if (!container) return;
   container.innerHTML = "";
 
   Object.keys(metrics).forEach(type => {
     const rows = metrics[type];
-    if (!rows || rows.length === 0) return;
+    if (!rows.length) return;
 
-    let html = `
-      <h3>${formatTitle(type)}</h3>
-      <table>
-        <tr>
-          ${Object.keys(rows[0]).map(col => `<th>${formatTitle(col)}</th>`).join("")}
-        </tr>
-    `;
+    let html = `<h3>${type.toUpperCase()}</h3><table border="1"><tr>`;
+    Object.keys(rows[0]).forEach(col => html += `<th>${col}</th>`);
+    html += "</tr>";
 
     rows.forEach(row => {
-      html += `
-        <tr>
-          ${Object.values(row).map(val => `<td>${safe(val)}</td>`).join("")}
-        </tr>
-      `;
+      html += "<tr>";
+      Object.values(row).forEach(v => html += `<td>${v}</td>`);
+      html += "</tr>";
     });
 
     html += "</table>";
@@ -98,53 +95,124 @@ function renderMetrics(metrics) {
   });
 }
 
-/* -----------------------------
+/* ===============================
    EVENTS
------------------------------- */
+================================ */
 function renderEvents(events) {
   const list = document.getElementById("eventsList");
-  if (!list || !events) return;
-
+  if (!list) return;
   list.innerHTML = "";
+
+  if (!events.length) {
+    list.innerHTML = "<li>No financial events detected</li>";
+    return;
+  }
 
   events.forEach(e => {
     const li = document.createElement("li");
-    li.innerHTML = `
-      <b>${safe(e.event_type)}</b> (${safe(e.time_period)})<br>
-      ${safe(e.description)}<br>
-      <i>Impact: ${safe(e.impact)}</i>
-    `;
+    li.innerHTML = `<b>${e.event_type}</b> – ${e.description}`;
     list.appendChild(li);
   });
 }
 
-/* -----------------------------
-   REGIONAL INSIGHTS
------------------------------- */
+/* ===============================
+   REGIONS
+================================ */
 function renderRegions(regions) {
   const list = document.getElementById("regionsList");
-  if (!list || !regions) return;
-
+  if (!list) return;
   list.innerHTML = "";
+
+  if (!regions.length) {
+    list.innerHTML = "<li>No regional insights detected</li>";
+    return;
+  }
 
   regions.forEach(r => {
     const li = document.createElement("li");
-    li.innerHTML = `
-      <b>${safe(r.region)}</b> – ${safe(r.metric)}<br>
-      ${safe(r.details)}<br>
-      <i>Impact: ${safe(r.impact)}</i>
-    `;
+    li.innerHTML = `<b>${r.region}</b> – ${r.details}`;
     list.appendChild(li);
   });
 }
+/* ===============================
+   DOWNLOAD AS JSON
+================================ */
+function downloadJSON() {
+  const data = sessionStorage.getItem("financeData");
+  if (!data) {
+    alert("No data available to download");
+    return;
+  }
 
-/* -----------------------------
-   UTILITIES
------------------------------- */
-function safe(v) {
-  return v === null || v === undefined || v === "" ? "-" : v;
+  const blob = new Blob([data], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "financeinsight_result.json";
+  a.click();
+
+  URL.revokeObjectURL(url);
 }
 
-function formatTitle(text) {
-  return text.replace(/_/g, " ").toUpperCase();
+/* ===============================
+   DOWNLOAD AS TEXT REPORT
+================================ */
+function downloadText() {
+  const raw = sessionStorage.getItem("financeData");
+  if (!raw) {
+    alert("No data available to download");
+    return;
+  }
+
+  const data = JSON.parse(raw);
+
+  let report = `
+FinanceInsight – Financial Analysis Report
+------------------------------------------
+
+Company: ${data.document_metadata.company}
+Financial Year: ${data.document_metadata.financial_year}
+Processed Date: ${data.document_metadata.processed_date}
+
+Key Highlight:
+${data.dashboard_summary.key_highlight}
+
+FINANCIAL METRICS:
+`;
+
+  Object.keys(data.financial_metrics).forEach(type => {
+    report += `\n${type.toUpperCase()}:\n`;
+    data.financial_metrics[type].forEach(r => {
+      report += `- ${r.amount} (${r.year})\n`;
+    });
+  });
+
+  report += `\nFINANCIAL EVENTS:\n`;
+  if (data.key_events.length === 0) {
+    report += "No events detected\n";
+  } else {
+    data.key_events.forEach(e => {
+      report += `- ${e.event_type}: ${e.description}\n`;
+    });
+  }
+
+  report += `\nREGIONAL INSIGHTS:\n`;
+  if (data.regional_insights.length === 0) {
+    report += "No regional insights detected\n";
+  } else {
+    data.regional_insights.forEach(r => {
+      report += `- ${r.region}: ${r.details}\n`;
+    });
+  }
+
+  const blob = new Blob([report], { type: "text/plain" });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "financeinsight_report.txt";
+  a.click();
+
+  URL.revokeObjectURL(url);
 }

@@ -3,47 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <title>FinanceInsight Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- ================= NAVBAR ================= -->
 <nav>
   <h2>FinanceInsight</h2>
+  <a href="index.html" class="nav-link">Home</a>
 </nav>
 
-<section class="card">
-  <h2>📤 Upload Financial Document</h2>
-  <input type="file" id="fileInput" accept=".pdf,.txt,.docx">
-  <button class="btn primary" onclick="uploadDocument()">Process Document</button>
-  <p class="note">Supported formats: PDF, TXT, DOCX</p>
+<!-- ================= DOWNLOAD SECTION ================= -->
+<section class="download-card">
+  <h2>⬇ Download Extracted Data</h2>
+
+  <button
+    type="button"
+    class="download-btn json"
+    onclick="downloadJSON()"
+  >
+    Download JSON
+  </button>
+
+  <button
+    type="button"
+    class="download-btn text"
+    onclick="downloadText()"
+  >
+    Download Report (TXT)
+  </button>
 </section>
 
+<!-- ================= UPLOAD SECTION ================= -->
+<section class="card">
+  <h2>📤 Upload Financial Document</h2>
+
+  <input
+    type="file"
+    id="fileInput"
+    accept=".pdf,.txt,.docx"
+  >
+
+  <button
+    type="button"
+    class="btn primary"
+    onclick="uploadDocument()"
+  >
+    Process Document
+  </button>
+
+  <p class="note">
+    Supported formats: PDF, TXT, DOCX
+  </p>
+</section>
+
+<!-- ================= SUMMARY ================= -->
 <section id="summary" class="card"></section>
 
+<!-- ================= METRICS ================= -->
 <section class="card">
   <h2>📈 Financial Metrics</h2>
   <div id="metricsContainer"></div>
 </section>
 
+<!-- ================= EVENTS ================= -->
 <section class="card">
   <h2>📅 Financial Events</h2>
   <ul id="eventsList"></ul>
 </section>
 
+<!-- ================= REGIONS ================= -->
 <section class="card">
   <h2>🌍 Regional Insights</h2>
   <ul id="regionsList"></ul>
 </section>
 
+<!-- ================= OPTIONAL TABLES ================= -->
 <section class="card">
   <h2>📑 Extracted Tables</h2>
-  <div id="tablesContainer"></div>
+  <div id="tablesContainer">
+    <!-- Optional: future use -->
+  </div>
 </section>
 
+<!-- ================= FOOTER ================= -->
 <footer>
-  <p>Model: FinBERT | Backend: Flask | Status: Deployed</p>
+  <p>Model: FinBERT | Backend: Flask | Status: Active</p>
 </footer>
 
+<!-- ================= SCRIPT ================= -->
 <script src="script.js"></script>
+
 </body>
 </html>

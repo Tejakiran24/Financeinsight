@@ -2,106 +2,137 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>FinanceInsight</title>
+  <title>FinanceInsight | AI Financial Insights</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- ================= NAVBAR ================= -->
-  <div class="navbar">
-    <div class="logo-area">
-      <!-- Add your logo image here -->
-      <img src="logo.png" alt="FinanceInsight Logo" class="site-logo" />
-      <span class="site-name">FinanceInsight</span>
-    </div>
-
-    <div class="nav-actions">
-      <a href="login.html" class="nav-link">Login</a>
-      <a href="dashboard.html" class="launch-btn">Dashboard</a>
-    </div>
+<!-- ================= NAVBAR ================= -->
+<div class="navbar">
+  <div class="logo-area">
+    <img src="logo.png" alt="FinanceInsight Logo" class="site-logo">
+    <span class="site-name">FinanceInsight</span>
   </div>
 
-  <!-- ================= HERO ================= -->
-  <section class="hero">
-    <h1>AI-Powered Financial Insights</h1>
-    <p>
-      Extract meaningful financial data from unstructured documents
-      and visualize insights instantly using intelligent analysis.
+  <div class="nav-actions">
+    <a href="login.html" class="nav-link">Login</a>
+    <a href="dashboard.html" class="launch-btn">Dashboard</a>
+  </div>
+</div>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <h1>AI-Powered Financial Insights</h1>
+  <p>
+    Extract meaningful financial data from unstructured documents
+    and visualize insights instantly using intelligent analysis.
+  </p>
+
+  <a href="#upload" class="hero-btn">Get Started</a>
+</section>
+
+<!-- ================= WHAT YOU CAN DO ================= -->
+<section class="section">
+  <h2 class="section-title">What You Can Do</h2>
+
+  <div class="box-grid">
+    <div class="info-box">Extract Revenue, Profit, and Sales Metrics</div>
+    <div class="info-box">Identify Key Financial Events from Reports</div>
+    <div class="info-box">Analyze Region-wise Market Performance</div>
+    <div class="info-box">View Insights in an Interactive Dashboard</div>
+  </div>
+</section>
+
+<!-- ================= UPLOAD FINANCIAL DOCUMENT ================= -->
+<section id="upload" class="upload-section">
+  <div class="upload-card">
+    <h2>📤 Upload Financial Document</h2>
+
+    <input
+      type="file"
+      id="fileInput"
+      accept=".pdf,.txt,.docx"
+      class="file-input"
+    >
+
+    <button
+      type="button"
+      class="primary-btn upload-btn"
+      onclick="uploadDocument()"
+    >
+      Process Document
+    </button>
+
+    <p class="note">
+      Supported formats: PDF, TXT, DOCX
     </p>
-    <a href="dashboard.html" class="hero-btn">Go to Dashboard</a>
-  </section>
+  </div>
+</section>
 
-  <!-- ================= WHAT YOU CAN DO ================= -->
-  <section class="section">
-    <h2 class="section-title">What You Can Do</h2>
+<!-- ================= WHY FINANCEINSIGHT ================= -->
+<section class="section light">
+  <h2 class="section-title">Why FinanceInsight?</h2>
 
-    <div class="box-grid">
-      <div class="info-box">
-        Extract Revenue, Profit, and Sales Metrics
-      </div>
-      <div class="info-box">
-        Identify Key Financial Events from Reports
-      </div>
-      <div class="info-box">
-        Analyze Region-wise Market Performance
-      </div>
-      <div class="info-box">
-        View Insights in an Interactive Dashboard
-      </div>
+  <div class="box-grid">
+    <div class="info-box">Save time on manual financial analysis</div>
+    <div class="info-box">Extract insights from unstructured documents</div>
+    <div class="info-box">Reduce human errors in data interpretation</div>
+    <div class="info-box">Make faster, data-driven business decisions</div>
+  </div>
+</section>
+
+<!-- ================= WHO CAN USE ================= -->
+<section class="section">
+  <h2 class="section-title">Who Can Use FinanceInsight?</h2>
+
+  <div class="box-grid">
+    <div class="info-box">Financial Analysts & Accountants</div>
+    <div class="info-box">Business Owners & Managers</div>
+    <div class="info-box">Investors & Market Researchers</div>
+    <div class="info-box">Students & Finance Learners</div>
+  </div>
+</section>
+
+<!-- ================= CUSTOMER CARE ================= -->
+<section class="section light">
+  <h2 class="section-title">Customer Care</h2>
+
+  <p style="text-align:center; max-width:700px; margin:0 auto 30px;">
+    Need assistance or have questions? Our support team is here to help.
+  </p>
+
+  <div class="box-grid">
+    <div class="info-box">
+      <strong>Email</strong><br><br>
+      support@financeinsight.ai
     </div>
-  </section>
 
-  <!-- ================= WHY FINANCEINSIGHT ================= -->
-  <section class="section light">
-    <h2 class="section-title">Why FinanceInsight?</h2>
-
-    <div class="box-grid">
-      <div class="info-box">
-        Save Time on Manual Financial Analysis
-      </div>
-      <div class="info-box">
-        Reduce Human Errors in Data Extraction
-      </div>
-      <div class="info-box">
-        Make Faster, Data-Driven Decisions
-      </div>
-      <div class="info-box">
-        Clear Visualization of Complex Financial Data
-      </div>
+    <div class="info-box">
+      <strong>Phone</strong><br><br>
+      +91 89090 90990
     </div>
-  </section>
 
-  <!-- ================= CALL TO ACTION ================= -->
-  <section class="section">
-    <h2 class="section-title">Start Exploring Financial Insights</h2>
-    <a href="dashboard.html" class="primary-btn">Go to Dashboard</a>
-  </section>
-
-  <!-- ================= CUSTOMER CARE ================= -->
-  <section class="customer-care">
-    <h2>Customer Care</h2>
-    <p>If you need assistance or have questions, feel free to reach us.</p>
-
-    <div class="care-grid">
-      <div>
-        <strong>Email</strong><br />
-        support@financeinsight.ai
-      </div>
-      <div>
-        <strong>Phone</strong><br />
-        +91 98765 43210
-      </div>
-      <div>
-        <strong>Working Hours</strong><br />
-        Mon – Fri, 9:00 AM – 6:00 PM
-      </div>
+    <div class="info-box">
+      <strong>Working Hours</strong><br><br>
+      Mon – Fri<br>
+      9:00 AM – 6:00 PM
     </div>
-  </section>
 
-  <!-- ================= FOOTER ================= -->
-  <footer>
-    © 2026 FinanceInsight
-  </footer>
+    <div class="info-box">
+      <strong>Help Center</strong><br><br>
+      FAQs & Documentation
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  © 2026 FinanceInsight | AI-Based Financial Intelligence
+</footer>
+
+<!-- ================= SCRIPT ================= -->
+<script src="script.js"></script>
 
 </body>
 </html>
