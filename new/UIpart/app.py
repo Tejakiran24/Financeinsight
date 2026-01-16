@@ -5,6 +5,7 @@ import uuid
 import re
 from datetime import datetime
 
+# IMPORTANT: utils must contain __init__.py
 from utils.text_extractor import extract_text
 
 # ===============================
@@ -19,7 +20,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 # ===============================
 # HEALTH CHECK
 # ===============================
-@app.route("/")
+@app.route("/", methods=["GET"])
 def health():
     return "FinanceInsight backend running"
 
@@ -41,7 +42,7 @@ def detect_amounts(pattern, text):
 @app.route("/api/upload", methods=["POST"])
 def upload_document():
 
-    # ---- VALIDATE FILE ----
+    # ---------- FILE VALIDATION ----------
     if "document" not in request.files:
         return jsonify({"error": "No file uploaded"}), 400
 
@@ -49,23 +50,23 @@ def upload_document():
     if file.filename == "":
         return jsonify({"error": "Empty filename"}), 400
 
-    # ---- SAVE FILE ----
+    # ---------- SAVE FILE ----------
     filename = f"{uuid.uuid4()}_{file.filename}"
-    path = os.path.join(UPLOAD_FOLDER, filename)
-    file.save(path)
+    file_path = os.path.join(UPLOAD_FOLDER, filename)
+    file.save(file_path)
 
-    print("File saved:", path)
+    print("File saved at:", file_path)
 
-    # ---- EXTRACT TEXT ----
+    # ---------- EXTRACT TEXT ----------
     try:
-        text = extract_text(path)
+        text = extract_text(file_path)
     except Exception as e:
-        print("Text extraction error:", e)
+        print("Text extraction failed:", e)
         text = ""
 
-    # ---- FALLBACK IF NO TEXT ----
+    # ---------- FALLBACK (VERY IMPORTANT) ----------
     if not text or not text.strip():
-        text = "No readable content detected. Proceeding with metadata only."
+        text = "No readable content detected. Metadata-only processing."
 
     print("Extracted text length:", len(text))
 
@@ -87,8 +88,8 @@ def upload_document():
     revenue = [{"year": "Detected", "amount": f"₹{amt}"} for amt in revenue_matches] or []
     profit = [{"year": "Detected", "amount": f"₹{amt}"} for amt in profit_matches] or []
 
-    print("Revenue detected:", revenue)
-    print("Profit detected:", profit)
+    print("Revenue:", revenue)
+    print("Profit:", profit)
 
     # ===============================
     # FINANCIAL EVENTS
@@ -111,7 +112,7 @@ def upload_document():
                 "impact": "Medium"
             })
 
-    print("Events detected:", events)
+    print("Events:", events)
 
     # ===============================
     # REGIONAL INSIGHTS
@@ -128,7 +129,7 @@ def upload_document():
                 "impact": "Medium"
             })
 
-    print("Regions detected:", regions)
+    print("Regions:", regions)
 
     # ===============================
     # FINAL RESPONSE (ALWAYS RETURNS)
@@ -151,3 +152,6 @@ def upload_document():
         "key_events": events,
         "regional_insights": regions
     })
+if __name__ == "__main__":
+    app.run(debug=True)
+

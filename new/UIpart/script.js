@@ -1,7 +1,8 @@
 /* ===============================
    BACKEND CONFIG
 ================================ */
-const API_BASE = "https://financeinsight-backend.onrender.com";
+const API_BASE = "http://127.0.0.1:5000";
+
 
 /* Wake up backend (Render cold start fix) */
 fetch(`${API_BASE}/`).catch(() => {});
