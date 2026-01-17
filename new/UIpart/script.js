@@ -5,12 +5,16 @@
 const API_BASE = "https://financeinsight-backend.onrender.com";
 
 
+
 /* Wake up backend (Render cold start fix) */
-fetch(`${API_BASE}/`).catch(() => {});
+fetch(`${API_BASE}/`)
+  .then(() => console.log("Backend wake-up ping sent"))
+  .catch(() => console.log("Backend still waking up"));
 
 /* ===============================
    LOADING UI HELPERS
 ================================ */
+
 function showLoading(message) {
   let loader = document.getElementById("global-loader");
 
@@ -38,6 +42,7 @@ function hideLoading() {
 /* ===============================
    UPLOAD DOCUMENT
 ================================ */
+
 function uploadDocument(retry = false) {
   const fileInput = document.getElementById("fileInput");
 
@@ -48,9 +53,9 @@ function uploadDocument(retry = false) {
 
   const file = fileInput.files[0];
 
-  /* File size limit (2MB) */
+  /* File size limit: 2MB */
   if (file.size > 2 * 1024 * 1024) {
-    alert("Please upload a file smaller than 2MB for faster analysis");
+    alert("Please upload a file smaller than 2MB");
     return;
   }
 
@@ -59,13 +64,24 @@ function uploadDocument(retry = false) {
 
   showLoading("Uploading document...");
 
+  /* ---- FETCH TIMEOUT SETUP ---- */
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => {
+    controller.abort();
+  }, 20000); // 20 seconds
+
   fetch(`${API_BASE}/api/upload`, {
     method: "POST",
-    body: formData
+    body: formData,
+    signal: controller.signal
   })
     .then(res => {
+      clearTimeout(timeoutId);
       showLoading("Extracting financial data...");
-      if (!res.ok) throw new Error("Server error");
+
+      if (!res.ok) {
+        throw new Error("Backend error");
+      }
       return res.json();
     })
     .then(data => {
@@ -75,14 +91,20 @@ function uploadDocument(retry = false) {
       window.location.href = "dashboard.html";
     })
     .catch(err => {
-      console.error("Upload error:", err);
+      clearTimeout(timeoutId);
       hideLoading();
+      console.error("Upload error:", err);
+
+      if (err.name === "AbortError") {
+        alert("Server is taking too long. Please try again.");
+        return;
+      }
 
       if (!retry) {
         alert("Backend is waking up. Retrying once...");
         setTimeout(() => uploadDocument(true), 3000);
       } else {
-        alert("Upload failed. Please try again.");
+        alert("Upload failed. Please try again later.");
       }
     });
 }
@@ -90,6 +112,7 @@ function uploadDocument(retry = false) {
 /* ===============================
    LOAD DATA ON DASHBOARD
 ================================ */
+
 document.addEventListener("DOMContentLoaded", () => {
   const storedData = sessionStorage.getItem("financeData");
   if (storedData) {
@@ -100,6 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
 /* ===============================
    RENDER DASHBOARD
 ================================ */
+
 function renderDashboard(data) {
   renderSummary(data.document_metadata, data.dashboard_summary);
   renderMetrics(data.financial_metrics);
@@ -110,6 +134,7 @@ function renderDashboard(data) {
 /* ===============================
    SUMMARY
 ================================ */
+
 function renderSummary(meta, summary) {
   const box = document.getElementById("summary");
   if (!box) return;
@@ -127,6 +152,7 @@ function renderSummary(meta, summary) {
 /* ===============================
    METRICS
 ================================ */
+
 function renderMetrics(metrics) {
   const container = document.getElementById("metricsContainer");
   if (!container) return;
@@ -138,12 +164,16 @@ function renderMetrics(metrics) {
     if (!rows || rows.length === 0) return;
 
     let html = `<h3>${type.toUpperCase()}</h3><table><tr>`;
-    Object.keys(rows[0]).forEach(col => html += `<th>${col}</th>`);
+    Object.keys(rows[0]).forEach(col => {
+      html += `<th>${col}</th>`;
+    });
     html += "</tr>";
 
     rows.forEach(row => {
       html += "<tr>";
-      Object.values(row).forEach(v => html += `<td>${v}</td>`);
+      Object.values(row).forEach(value => {
+        html += `<td>${value}</td>`;
+      });
       html += "</tr>";
     });
 
@@ -155,6 +185,7 @@ function renderMetrics(metrics) {
 /* ===============================
    EVENTS
 ================================ */
+
 function renderEvents(events) {
   const list = document.getElementById("eventsList");
   if (!list) return;
@@ -166,9 +197,9 @@ function renderEvents(events) {
     return;
   }
 
-  events.forEach(e => {
+  events.forEach(event => {
     const li = document.createElement("li");
-    li.innerHTML = `<b>${e.event_type}</b> – ${e.description}`;
+    li.innerHTML = `<b>${event.event_type}</b> – ${event.description}`;
     list.appendChild(li);
   });
 }
@@ -176,6 +207,7 @@ function renderEvents(events) {
 /* ===============================
    REGIONS
 ================================ */
+
 function renderRegions(regions) {
   const list = document.getElementById("regionsList");
   if (!list) return;
@@ -187,9 +219,9 @@ function renderRegions(regions) {
     return;
   }
 
-  regions.forEach(r => {
+  regions.forEach(region => {
     const li = document.createElement("li");
-    li.innerHTML = `<b>${r.region}</b> – ${r.details}`;
+    li.innerHTML = `<b>${region.region}</b> – ${region.details}`;
     list.appendChild(li);
   });
 }
@@ -197,9 +229,13 @@ function renderRegions(regions) {
 /* ===============================
    DOWNLOAD JSON
 ================================ */
+
 function downloadJSON() {
   const data = sessionStorage.getItem("financeData");
-  if (!data) return alert("No data available");
+  if (!data) {
+    alert("No data available");
+    return;
+  }
 
   const blob = new Blob([data], { type: "application/json" });
   const url = URL.createObjectURL(blob);
@@ -213,11 +249,15 @@ function downloadJSON() {
 }
 
 /* ===============================
-   DOWNLOAD TEXT
+   DOWNLOAD TEXT REPORT
 ================================ */
+
 function downloadText() {
   const raw = sessionStorage.getItem("financeData");
-  if (!raw) return alert("No data available");
+  if (!raw) {
+    alert("No data available");
+    return;
+  }
 
   const data = JSON.parse(raw);
 
@@ -228,8 +268,8 @@ function downloadText() {
 
   report += "FINANCIAL METRICS:\n";
   Object.keys(data.financial_metrics).forEach(type => {
-    data.financial_metrics[type].forEach(r => {
-      report += `- ${type}: ${r.amount}\n`;
+    data.financial_metrics[type].forEach(row => {
+      report += `- ${type}: ${row.amount}\n`;
     });
   });
 
