@@ -10,7 +10,7 @@ services:
         value: 3.10.0
 
   # Frontend Web App
-  - type: static_site
+  - type: static
     name: financeinsight-frontend
     env: static
     buildCommand: cd frontend && npm install && npm run build
