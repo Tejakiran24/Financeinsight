@@ -1,92 +1,76 @@
-# 📊 FinanceInsight  
-### Financial Named Entity Recognition (NER) for Intelligent Data Extraction
+# FinanceInsight
 
-## 📌 Project Overview
-FinanceInsight is a Natural Language Processing (NLP) project focused on developing Named Entity Recognition (NER) models to extract key financial information from unstructured text such as financial reports, news articles, SEC filings, and analyst reports. The system is designed to help financial analysts, investors, and data scientists efficiently analyze large-scale financial text data.
+FinanceInsight is an AI-powered financial document analysis platform designed to extract structured financial data from unstructured text such as earnings reports, financial news, analyst reports, and SEC filings.
 
-## 🎯 Objectives
-- Extract financial entities such as company names, stock prices, revenue, earnings, market capitalization, and dates
-- Identify financial ratios like P/E ratio, EPS, ROE, and dividend yield
-- Detect financial events such as mergers, acquisitions, IPOs, earnings calls, and stock splits
-- Allow users to define custom financial entities for extraction
-- Segment and parse financial documents and tables for structured data extraction
+## Features
+- **Document Upload**: Support for plain text and raw file processing.
+- **Financial Entity Extraction**: Powered by spaCy and Transformers (BERT). Extracts companies, monetary values, and specialized financial metrics.
+- **Results Dashboard**: View extracted entities across documents with responsive charting via Recharts.
+- **Modern UI**: Built with React, TailwindCSS, and Framer Motion.
 
-## 🧠 Key Features
-- Financial Named Entity Recognition using domain-trained models
-- Custom user-defined financial entity extraction
-- Financial event detection and timeline filtering
-- Financial document segmentation (MD&A, Risk Factors, Financial Statements)
-- Financial table parsing for balance sheets and income statements
-- Model evaluation using precision, recall, and F1-score
+## Local Environment Setup
 
-## 🏗️ High-Level Architecture
-Financial Documents → Data Preprocessing → NER Model (CRF / BiLSTM / BERT / FinBERT) →  
-Custom Entity & Event Extraction → Document Segmentation & Table Parsing → Financial Insights
+### 1. Backend Setup
 
-## 🛠️ Tools & Technologies
-- Programming Language: Python
-- NLP Models: CRF, BiLSTM-CRF, BERT, FinBERT
-- Libraries: Hugging Face Transformers, spaCy, PyTorch, scikit-learn, pandas, NumPy
-- Data Sources: SEC filings, financial news, earnings reports
-- APIs: Yahoo Finance, Bloomberg (optional)
-- Version Control: Git, Git LFS
+The backend uses Python and FastAPI.
 
-## 📅 Week-wise Milestones
+```bash
+# Navigate to project root
+cd financeinsight
 
-### Milestone 1: Weeks 1–2 (Data Preparation)
-- Collect financial text data from multiple sources
-- Perform tokenization, normalization, lemmatization
-- Handle financial jargon, symbols, and abbreviations
-- Conduct Exploratory Data Analysis (EDA)
-- Apply data augmentation techniques
+# Create and activate virtual environment
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On Mac/Linux:
+source venv/bin/activate
 
-### Milestone 2: Weeks 3–4 (Financial NER Model)
-- Select and evaluate NER models (CRF, BiLSTM, BERT, FinBERT)
-- Fine-tune selected model on financial data
-- Evaluate using precision, recall, and F1-score
-- Perform error analysis and model refinement
+# Install requirements
+cd backend
+pip install -r requirements.txt
 
-### Milestone 3: Weeks 5–6 (Custom Financial Data Extraction)
-- Implement user-defined financial entity extraction
-- Detect financial events (M&A, IPOs, earnings calls)
-- Integrate extracted data with financial databases
+# Run the backend server
+uvicorn app:app --reload
+```
+The application will be accessible at http://127.0.0.1:8000.
 
-### Milestone 4: Weeks 7–8 (Document Segmentation and Parsing)
-- Segment financial documents into meaningful sections
-- Parse structured and semi-structured financial tables
-- Perform final system evaluation and optimization
-- Deploy system with user-friendly interface
+### 2. Frontend Setup
 
-## 📈 Evaluation Metrics
-- Precision
-- Recall
-- F1-Score
-- Domain-specific accuracy
-- Error analysis for complex financial terms
+The frontend uses React and Vite.
 
-## 📦 Expected Deliverables
-- Trained Financial NER model
-- Custom financial entity extraction system
-- Financial event detection module
-- Document segmentation and table parsing system
-- Model evaluation and comparison report
-- Complete project documentation
+```bash
+# Navigate to the frontend directory
+cd frontend
 
-## 🚀 Use Cases
-- Financial analysis and investment research
-- Automated financial report processing
-- Market trend analysis
-- Risk assessment and decision support systems
+# Install dependencies
+npm install
 
-## 🛡️ Large File Handling
-- Model files handled using Git LFS
-- Training checkpoints excluded using .gitignore
-- Recommended to store trained models on Hugging Face Hub
+# Start the dev server
+npm run dev
+```
 
-## 👨‍💻 Author
-Teja  
-B.Tech Student | NLP & Data Engineering  
-Project: FinanceInsight
+The app will typically be accessible at http://localhost:5173.
 
-## 📄 License
-This project is developed for academic and educational purposes.
+## Project Structure
+```
+financeinsight/
+│
+├── backend/
+│   ├── app.py
+│   ├── ner_model.py
+│   ├── utils.py
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── App.jsx
+│   │   └── index.css
+│   ├── package.json
+│   └── tailwind.config.js
+│
+├── data/
+├── models/
+└── README.md
+```

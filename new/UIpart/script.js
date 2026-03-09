@@ -1,15 +1,11 @@
 /* ===============================
-   BACKEND CONFIG
+   BACKEND CONFIG (AUTO ENV)
 ================================ */
 
-const API_BASE = "https://financeinsight-backend.onrender.com";
-
-
-
-/* Wake up backend (Render cold start fix) */
-fetch(`${API_BASE}/`)
-  .then(() => console.log("Backend wake-up ping sent"))
-  .catch(() => console.log("Backend still waking up"));
+const API_BASE =
+  window.location.hostname === "localhost"
+    ? "http://127.0.0.1:5000"
+    : "https://financeinsight-backend.onrender.com";
 
 /* ===============================
    LOADING UI HELPERS
@@ -40,10 +36,10 @@ function hideLoading() {
 }
 
 /* ===============================
-   UPLOAD DOCUMENT
+   UPLOAD DOCUMENT (NO ABORT)
 ================================ */
 
-function uploadDocument(retry = false) {
+function uploadDocument() {
   const fileInput = document.getElementById("fileInput");
 
   if (!fileInput || !fileInput.files.length) {
@@ -62,50 +58,34 @@ function uploadDocument(retry = false) {
   const formData = new FormData();
   formData.append("document", file);
 
-  showLoading("Uploading document...");
-
-  /* ---- FETCH TIMEOUT SETUP ---- */
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => {
-    controller.abort();
-  }, 20000); // 20 seconds
+  showLoading(
+    "Uploading and analyzing document...\n" +
+    "Please wait (this may take 1–2 minutes on first request)"
+  );
 
   fetch(`${API_BASE}/api/upload`, {
     method: "POST",
-    body: formData,
-    signal: controller.signal
+    body: formData
   })
     .then(res => {
-      clearTimeout(timeoutId);
-      showLoading("Extracting financial data...");
-
       if (!res.ok) {
         throw new Error("Backend error");
       }
       return res.json();
     })
     .then(data => {
-      showLoading("Generating insights...");
-      sessionStorage.setItem("financeData", JSON.stringify(data));
       hideLoading();
+      sessionStorage.setItem("financeData", JSON.stringify(data));
       window.location.href = "dashboard.html";
     })
     .catch(err => {
-      clearTimeout(timeoutId);
       hideLoading();
       console.error("Upload error:", err);
-
-      if (err.name === "AbortError") {
-        alert("Server is taking too long. Please try again.");
-        return;
-      }
-
-      if (!retry) {
-        alert("Backend is waking up. Retrying once...");
-        setTimeout(() => uploadDocument(true), 3000);
-      } else {
-        alert("Upload failed. Please try again later.");
-      }
+      alert(
+        "The server is taking longer than usual.\n\n" +
+        "Please refresh the page and try again.\n" +
+        "(Render free-tier cold start)"
+      );
     });
 }
 
