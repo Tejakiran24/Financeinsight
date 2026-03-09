@@ -3,7 +3,8 @@ import axios from 'axios';
 import { motion } from 'framer-motion';
 import { UploadCloud, FileText, Loader2, Play } from 'lucide-react';
 
-const API_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8001";
+const rawApiUrl = import.meta.env.VITE_API_URL || "http://127.0.0.1:8001";
+const API_URL = rawApiUrl.startsWith('http') ? rawApiUrl : `https://${rawApiUrl}`;
 
 const Analyzer = () => {
     const [text, setText] = useState('');
