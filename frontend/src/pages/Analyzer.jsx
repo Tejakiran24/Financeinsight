@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { motion } from 'framer-motion';
-import { UploadCloud, FileText, Loader2, Play } from 'lucide-react';
+import { UploadCloud, FileText, Loader2, Play, Download, ChevronDown } from 'lucide-react';
 
 const rawApiUrl = import.meta.env.VITE_API_URL || "http://127.0.0.1:8001";
 const API_URL = rawApiUrl.startsWith('http') ? rawApiUrl : `https://${rawApiUrl}`;
@@ -45,6 +45,34 @@ const Analyzer = () => {
         } finally {
             setLoading(false);
         }
+    };
+
+    const downloadData = (format) => {
+        if (!result) return;
+
+        let content = '';
+        let filename = `financeinsight_analysis_${new Date().toISOString().split('T')[0]}_${result.id || Date.now()}`;
+
+        if (format === 'json') {
+            content = JSON.stringify(result, null, 2);
+            filename += '.json';
+        } else if (format === 'csv') {
+            const header = "Text,Entity Type\n";
+            const rows = (result.entities || []).map(ent => 
+                `"${(ent.text || '').replace(/"/g, '""')}","${ent.type || ''}"`
+            ).join("\n");
+            content = header + rows;
+            filename += '.csv';
+        }
+
+        const blob = new Blob([content], { type: format === 'json' ? 'application/json' : 'text/csv' });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = filename;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
     };
 
     return (
@@ -114,10 +142,37 @@ const Analyzer = () => {
                         transition={{ duration: 0.5, delay: 0.2 }}
                         className="glass p-8 md:p-10 rounded-3xl flex flex-col min-h-[600px] shadow-2xl hover:shadow-secondary/10 transition-shadow duration-500"
                     >
-                        <h2 className="text-3xl font-bold mb-6 flex items-center">
-                            <FileText className="w-8 h-8 mr-3 text-primary animate-glow" />
-                            Extraction Results
-                        </h2>
+                        <div className="flex justify-between items-center mb-6">
+                            <h2 className="text-3xl font-bold flex items-center">
+                                <FileText className="w-8 h-8 mr-3 text-primary animate-glow" />
+                                Extraction Results
+                            </h2>
+                            {result && (
+                                <div className="relative group">
+                                    <button className="flex items-center space-x-2 bg-white/10 hover:bg-white/20 border border-white/10 px-4 py-2 rounded-xl transition-all duration-300 text-sm font-semibold">
+                                        <Download className="w-4 h-4" />
+                                        <span>Download</span>
+                                        <ChevronDown className="w-4 h-4 opacity-50" />
+                                    </button>
+                                    <div className="absolute right-0 mt-2 w-40 bg-gray-900/95 backdrop-blur-xl border border-white/10 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50 overflow-hidden">
+                                        <button 
+                                            onClick={() => downloadData('json')}
+                                            className="w-full text-left px-4 py-3 text-sm hover:bg-primary/20 hover:text-primary transition-colors flex items-center"
+                                        >
+                                            <div className="w-2 h-2 rounded-full bg-primary mr-2"></div>
+                                            JSON Format
+                                        </button>
+                                        <button 
+                                            onClick={() => downloadData('csv')}
+                                            className="w-full text-left px-4 py-3 text-sm hover:bg-secondary/20 hover:text-secondary transition-colors flex items-center border-t border-white/5"
+                                        >
+                                            <div className="w-2 h-2 rounded-full bg-secondary mr-2"></div>
+                                            CSV (Excel)
+                                        </button>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
                         
                         {!result ? (
                             <div className="flex-1 flex flex-col items-center justify-center text-gray-500">
