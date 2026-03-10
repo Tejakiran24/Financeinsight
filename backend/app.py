@@ -72,3 +72,9 @@ async def analyze(
 def get_entities():
     """Return stored extracted data."""
     return STORED_ANALYSES
+import os
+import uvicorn
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 10000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
