@@ -27,6 +27,11 @@ STORED_ANALYSES = []
 class AnalyzeRequest(BaseModel):
     text: str
 
+@app.get("/")
+def read_root():
+    """Root endpoint to show API is running."""
+    return {"message": "Welcome to FinanceInsight API, running successfully!"}
+
 @app.get("/health")
 def health_check():
     """Check API status."""
