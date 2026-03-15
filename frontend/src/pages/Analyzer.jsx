@@ -3,7 +3,7 @@ import axios from 'axios';
 import { motion } from 'framer-motion';
 import { UploadCloud, FileText, Loader2, Play, Download, ChevronDown } from 'lucide-react';
 
-const rawApiUrl = import.meta.env.VITE_API_URL || "https://financeinsight-a001.onrender.com";
+const rawApiUrl = import.meta.env.VITE_API_URL || "https://financeinsight-ao0l.onrender.com";
 const API_URL = rawApiUrl.startsWith('http') ? rawApiUrl : `https://${rawApiUrl}`;
 
 const Analyzer = () => {
