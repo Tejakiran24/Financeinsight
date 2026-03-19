@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend, BarChart, Bar, XAxis, YAxis } from 'recharts';
 import { Loader2, LayoutDashboard, Database } from 'lucide-react';
 
-const rawApiUrl = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000";
+const rawApiUrl = import.meta.env.VITE_API_URL || "https://financeinsight-ao0l.onrender.com";
 const API_URL = rawApiUrl.startsWith('http') ? rawApiUrl : `https://${rawApiUrl}`;
 const COLORS = ['#06B6D4', '#7C3AED', '#1E3A8A', '#3B82F6', '#8B5CF6', '#10B981'];
 
