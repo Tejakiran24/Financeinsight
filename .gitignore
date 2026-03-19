@@ -9,7 +9,7 @@ outputs/
 new/outputs/
 
 # Ignore generated json files
-*.json
+data/**/*.json
 
 # Ignore model / large files
 *.pt
