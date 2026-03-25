@@ -3,8 +3,9 @@ import axios from 'axios';
 import { motion } from 'framer-motion';
 import { UploadCloud, FileText, Loader2, Play, Download, ChevronDown } from 'lucide-react';
 
-const rawApiUrl = import.meta.env.VITE_API_URL || "https://financeinsight-ao0l.onrender.com";
-const API_URL = rawApiUrl.startsWith('http') ? rawApiUrl : `https://${rawApiUrl}`;
+const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
+    ? (import.meta.env.VITE_API_URL || "http://127.0.0.1:8000") 
+    : "https://financeinsight-ao0l.onrender.com";
 
 const Analyzer = () => {
     const [text, setText] = useState('');
